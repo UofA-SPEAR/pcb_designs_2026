@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Motor Controller Carrier Board.kicad_pro",
+    "filename": "Motor_Controller_Carrier_Board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -609,6 +609,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "f3c97344-c35a-4a43-a333-44ea37de3455",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
