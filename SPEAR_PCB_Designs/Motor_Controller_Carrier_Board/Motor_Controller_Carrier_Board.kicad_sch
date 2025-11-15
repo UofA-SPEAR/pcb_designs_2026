@@ -168,7 +168,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Fuse"
+		(symbol "Fuse_1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -178,8 +178,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
+			(property "Reference" "F2"
+				(at 6.35 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -187,14 +187,188 @@
 				)
 			)
 			(property "Value" "Fuse"
-				(at -1.905 0 90)
+				(at 3.81 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Motor_Controller_Carrier_Board:Fuse"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_1_0_1"
+				(rectangle
+					(start -1.778 2.54)
+					(end 1.778 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1_1"
+				(pin passive line
+					(at -1.27 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Motor_Controller_Carrier_Board:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F1"
+				(at 2.54 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Fuse"
+				(at 2.54 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Motor_Controller_Carrier_Board:Fuse"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -241,8 +415,8 @@
 			)
 			(symbol "Fuse_0_1"
 				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
+					(start -1.778 2.54)
+					(end 1.778 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -266,7 +440,7 @@
 			)
 			(symbol "Fuse_1_1"
 				(pin passive line
-					(at 0 3.81 270)
+					(at -1.27 3.81 270)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -284,7 +458,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
+					(at -1.27 -3.81 90)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -294,6 +468,248 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Motor_Controller_Carrier_Board:Micro_Controller_Board"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MiCB"
+				(at 10.16 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Micro_Controller_Board"
+				(at 10.16 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Motor_Controller_Carrier_Board:Micro_Controller_Board"
+				(at 10.16 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Micro_Controller_Board_1_1"
+				(rectangle
+					(start 0 0)
+					(end 20.32 -20.32)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -6.35 0)
+					(length 2.54)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -8.89 0)
+					(length 2.54)
+					(name "SLP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 -11.43 0)
+					(length 2.54)
+					(name "FLT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 -13.97 0)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 -16.51 0)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 -19.05 0)
+					(length 2.54)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -656,25 +1072,37 @@
 		)
 	)
 	(junction
-		(at 106.68 111.76)
+		(at 106.68 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f763af1-1916-4962-a1ec-39b9d981f915")
+		(uuid "08d7200d-f1d2-40b0-8a95-03b7f6be9031")
 	)
 	(junction
-		(at 156.21 90.17)
+		(at 148.59 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ca7e979-2329-4e78-a718-da89d80f8b66")
+	)
+	(junction
+		(at 179.07 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62955aa8-70ee-4bcf-aae2-7a49ef2725a6")
 	)
 	(junction
-		(at 156.21 95.25)
+		(at 179.07 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6dd901f4-8eb5-4529-9e2f-87ef4689931f")
 	)
 	(junction
-		(at 156.21 105.41)
+		(at 106.68 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71283e94-8ffb-479d-91af-058d75f9d0c7")
+	)
+	(junction
+		(at 179.07 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "886fa5fd-218f-48e4-a4ff-b54c09ba910c")
@@ -686,20 +1114,38 @@
 		(uuid "98c5e888-ae36-4ac4-b57b-dc4a192598df")
 	)
 	(junction
-		(at 121.92 114.3)
+		(at 124.46 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cbf95286-6001-413c-bf0a-1ee97376bce3")
+		(uuid "aa2ba0e4-b300-4650-8f1c-b1c603b1c208")
 	)
 	(junction
-		(at 156.21 100.33)
+		(at 148.59 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc054772-47f3-43c7-88c2-b864ed0b414c")
+	)
+	(junction
+		(at 111.76 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc34e075-204e-4472-9370-5692180acbf4")
+	)
+	(junction
+		(at 179.07 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbad16bf-a3c4-44ef-bbdb-bb9a47b4b59f")
 	)
+	(junction
+		(at 109.22 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e23db14e-d7cc-4f96-be6d-5232d948aa49")
+	)
 	(wire
 		(pts
-			(xy 156.21 92.71) (xy 156.21 95.25)
+			(xy 179.07 92.71) (xy 179.07 95.25)
 		)
 		(stroke
 			(width 0)
@@ -709,13 +1155,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 111.76) (xy 110.49 111.76)
+			(xy 144.78 87.63) (xy 148.59 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18903a6d-8dc6-445d-866f-aee7951fb6b6")
+		(uuid "163c50f4-51f0-428e-9097-c52243dbe765")
 	)
 	(wire
 		(pts
@@ -729,7 +1175,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 99.06) (xy 167.64 100.33)
+			(xy 109.22 106.68) (xy 109.22 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21404d31-f0b5-4572-af94-987864e8fddc")
+	)
+	(wire
+		(pts
+			(xy 190.5 99.06) (xy 190.5 100.33)
 		)
 		(stroke
 			(width 0)
@@ -739,7 +1195,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 95.25) (xy 167.64 96.52)
+			(xy 190.5 95.25) (xy 190.5 96.52)
 		)
 		(stroke
 			(width 0)
@@ -749,7 +1205,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 92.71) (xy 156.21 92.71)
+			(xy 177.8 92.71) (xy 179.07 92.71)
 		)
 		(stroke
 			(width 0)
@@ -759,7 +1215,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 114.3) (xy 163.83 114.3)
+			(xy 104.14 114.3) (xy 148.59 114.3)
 		)
 		(stroke
 			(width 0)
@@ -779,13 +1235,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 95.25) (xy 156.21 95.25)
+			(xy 177.8 95.25) (xy 179.07 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2fcb840a-8d23-42a0-b6e8-238b04653390")
+	)
+	(wire
+		(pts
+			(xy 106.68 106.68) (xy 106.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3330c71a-cfba-4ca2-b684-fae548667172")
 	)
 	(wire
 		(pts
@@ -799,23 +1265,53 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 114.3) (xy 121.92 114.3)
+			(xy 109.22 95.25) (xy 109.22 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54b12696-eec0-439c-aef9-7b24ccda6f9b")
+		(uuid "39c33e80-80ec-42a6-8d2a-34469a5d3059")
 	)
 	(wire
 		(pts
-			(xy 106.68 95.25) (xy 106.68 86.36)
+			(xy 106.68 111.76) (xy 109.22 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58feb3a6-b623-4e8b-95b4-3d6a22a0cb3b")
+		(uuid "3d4c3eee-cc60-42ab-9fda-26cc560ca7e3")
+	)
+	(wire
+		(pts
+			(xy 124.46 111.76) (xy 179.07 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f56f15a-3c8a-4a99-8dae-90a338ebfbaa")
+	)
+	(wire
+		(pts
+			(xy 111.76 111.76) (xy 114.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa5ad30-4362-43e4-aed2-6b66aff9b5d1")
+	)
+	(wire
+		(pts
+			(xy 144.78 90.17) (xy 152.4 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b4b70f7-efdb-4f29-a5e4-ab1cd5b4bf4d")
 	)
 	(wire
 		(pts
@@ -829,7 +1325,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 95.25) (xy 167.64 95.25)
+			(xy 179.07 95.25) (xy 190.5 95.25)
 		)
 		(stroke
 			(width 0)
@@ -839,7 +1335,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 97.79) (xy 156.21 97.79)
+			(xy 177.8 97.79) (xy 179.07 97.79)
 		)
 		(stroke
 			(width 0)
@@ -849,7 +1345,37 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 114.3) (xy 163.83 90.17)
+			(xy 144.78 97.79) (xy 152.4 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6763d23e-83f0-4ce3-b310-ab84a59f811d")
+	)
+	(wire
+		(pts
+			(xy 144.78 105.41) (xy 152.4 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "693b129d-a3f1-4fa1-8508-da4e5ff5a39d")
+	)
+	(wire
+		(pts
+			(xy 106.68 95.25) (xy 109.22 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c1f075-beec-41a2-8916-12575bcc0e7d")
+	)
+	(wire
+		(pts
+			(xy 186.69 114.3) (xy 186.69 90.17)
 		)
 		(stroke
 			(width 0)
@@ -859,7 +1385,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 87.63) (xy 156.21 90.17)
+			(xy 179.07 87.63) (xy 179.07 90.17)
 		)
 		(stroke
 			(width 0)
@@ -869,27 +1395,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 111.76) (xy 106.68 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e7794b9-5cd6-43bd-a97e-f545623640b2")
-	)
-	(wire
-		(pts
-			(xy 118.11 111.76) (xy 156.21 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8526ed55-d0c3-45e9-8032-ae31b3377877")
-	)
-	(wire
-		(pts
-			(xy 156.21 97.79) (xy 156.21 100.33)
+			(xy 179.07 97.79) (xy 179.07 100.33)
 		)
 		(stroke
 			(width 0)
@@ -899,7 +1405,37 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 100.33) (xy 156.21 100.33)
+			(xy 148.59 114.3) (xy 186.69 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89072294-dcfc-416c-b5df-33aed0579051")
+	)
+	(wire
+		(pts
+			(xy 114.3 109.22) (xy 111.76 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e27f396-a7ad-4cd0-905e-1ee00b01a2ef")
+	)
+	(wire
+		(pts
+			(xy 109.22 111.76) (xy 111.76 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b0aea5-8ea7-4322-ae32-b8b724b9c5cd")
+	)
+	(wire
+		(pts
+			(xy 177.8 100.33) (xy 179.07 100.33)
 		)
 		(stroke
 			(width 0)
@@ -909,7 +1445,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 111.76) (xy 156.21 105.41)
+			(xy 106.68 86.36) (xy 106.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "964a0223-dad1-4554-89d1-4d67c16aafba")
+	)
+	(wire
+		(pts
+			(xy 179.07 111.76) (xy 179.07 105.41)
 		)
 		(stroke
 			(width 0)
@@ -919,7 +1465,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 105.41) (xy 156.21 105.41)
+			(xy 177.8 105.41) (xy 179.07 105.41)
 		)
 		(stroke
 			(width 0)
@@ -929,23 +1475,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 87.63) (xy 129.54 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a80c6903-907e-417f-bca2-7abdf0fb7117")
-	)
-	(wire
-		(pts
-			(xy 154.94 87.63) (xy 156.21 87.63)
+			(xy 177.8 87.63) (xy 179.07 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ac91672e-9f4c-4d7b-8dec-e2677a8e2380")
+	)
+	(wire
+		(pts
+			(xy 148.59 87.63) (xy 148.59 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae36b06a-c4cf-4117-aa2b-c2d48e300abb")
 	)
 	(wire
 		(pts
@@ -959,7 +1505,37 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 96.52) (xy 171.45 96.52)
+			(xy 144.78 92.71) (xy 152.4 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b25a34c6-f209-4872-8fc9-8923d976cbf8")
+	)
+	(wire
+		(pts
+			(xy 121.92 111.76) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e01a97-8f80-4ce3-8bae-a35d1bc7e3a5")
+	)
+	(wire
+		(pts
+			(xy 144.78 95.25) (xy 152.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b69cebfc-aa26-43f0-8de9-55293457e8e0")
+	)
+	(wire
+		(pts
+			(xy 190.5 96.52) (xy 194.31 96.52)
 		)
 		(stroke
 			(width 0)
@@ -969,7 +1545,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 102.87) (xy 154.94 102.87)
+			(xy 152.4 87.63) (xy 148.59 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02c9fcb-0617-4f77-b176-f0728da198a7")
+	)
+	(wire
+		(pts
+			(xy 179.07 102.87) (xy 177.8 102.87)
 		)
 		(stroke
 			(width 0)
@@ -979,7 +1565,27 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 100.33) (xy 167.64 100.33)
+			(xy 144.78 102.87) (xy 152.4 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7df143-9a55-4358-b842-5fdfe5392174")
+	)
+	(wire
+		(pts
+			(xy 106.68 95.25) (xy 106.68 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d431a0be-d57a-43e9-ad69-e976418d9d42")
+	)
+	(wire
+		(pts
+			(xy 179.07 100.33) (xy 190.5 100.33)
 		)
 		(stroke
 			(width 0)
@@ -989,17 +1595,27 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 114.3) (xy 121.92 87.63)
+			(xy 121.92 109.22) (xy 124.46 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e065d437-b58d-4e98-a634-5af87b1ce455")
+		(uuid "d6d4914f-ac46-43eb-8757-73cc55d1fe64")
 	)
 	(wire
 		(pts
-			(xy 154.94 90.17) (xy 156.21 90.17)
+			(xy 111.76 109.22) (xy 111.76 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba09414-15c3-4dd8-93aa-e4ed714d5074")
+	)
+	(wire
+		(pts
+			(xy 177.8 90.17) (xy 179.07 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1009,7 +1625,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 90.17) (xy 163.83 90.17)
+			(xy 144.78 100.33) (xy 152.4 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f3fea1-c0c1-4a36-be56-cc615d33a879")
+	)
+	(wire
+		(pts
+			(xy 179.07 90.17) (xy 186.69 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1019,7 +1645,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 99.06) (xy 171.45 99.06)
+			(xy 124.46 109.22) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8210a13-eb82-4712-9f74-f5b8e2296d00")
+	)
+	(wire
+		(pts
+			(xy 190.5 99.06) (xy 194.31 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1029,7 +1665,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 105.41) (xy 156.21 102.87)
+			(xy 179.07 105.41) (xy 179.07 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1039,7 +1675,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 176.53 99.06 180)
+		(at 199.39 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1047,7 +1683,7 @@
 		(dnp no)
 		(uuid "1376fd5a-5912-4487-9b0e-8d38ced64ea3")
 		(property "Reference" "J2"
-			(at 177.8 96.5199 0)
+			(at 200.66 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1056,7 +1692,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 177.8 99.0599 0)
+			(at 200.66 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1064,8 +1700,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 176.53 99.06 0)
+		(property "Footprint" "XT30:AMASS_XT30PW-M"
+			(at 199.39 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1074,7 +1710,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 99.06 0)
+			(at 199.39 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1083,7 +1719,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 176.53 99.06 0)
+			(at 199.39 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1101,6 +1737,94 @@
 			(project ""
 				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor_Controller_Carrier_Board:Micro_Controller_Board")
+		(at 142.24 86.36 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d0bc1ff-399c-425b-bba4-b7284823b5c7")
+		(property "Reference" "MiCB1"
+			(at 135.89 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Micro_Controller_Board"
+			(at 143.256 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Controller_Carrier_Board:Micro_Controller_Board"
+			(at 132.08 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9d89cb65-e7be-4db0-be01-c479891c2227")
+		)
+		(pin "2"
+			(uuid "5e6bc62a-cc4d-449e-ab9e-bf7a135f8913")
+		)
+		(pin "3"
+			(uuid "bf9fa6e6-6ca3-459c-9f49-bf14611b2efb")
+		)
+		(pin "1"
+			(uuid "f198e508-db83-4974-a3e5-ca2443427cc5")
+		)
+		(pin "4"
+			(uuid "3b46218b-874b-4faa-82e5-a4214f6ae6ec")
+		)
+		(pin "6"
+			(uuid "7cd54090-eb56-496b-838a-6329c3a31548")
+		)
+		(pin "8"
+			(uuid "223d6ef9-d313-4759-81e2-e35dcc82158e")
+		)
+		(pin "7"
+			(uuid "1a0cd302-cceb-4e0e-8762-1b83d06a8a25")
+		)
+		(instances
+			(project ""
+				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
+					(reference "MiCB1")
 					(unit 1)
 				)
 			)
@@ -1132,7 +1856,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "XT30:AMASS_XT30PW-M"
 			(at 96.52 114.3 0)
 			(effects
 				(font
@@ -1175,33 +1899,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 114.3 111.76 90)
+		(lib_id "Motor_Controller_Carrier_Board:Fuse")
+		(at 107.95 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "60c98e5a-344a-4e4e-8607-82a637280036")
-		(property "Reference" "F2"
-			(at 114.3 105.41 90)
+		(uuid "64ef35d1-de64-4cbd-becb-c26d24577d78")
+		(property "Reference" "F1"
+			(at 110.49 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Fuse"
-			(at 114.3 107.95 90)
+			(at 110.49 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 113.538 90)
+		(property "Footprint" "Motor_Controller_Carrier_Board:Fuse"
+			(at 106.172 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1210,7 +1936,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 111.76 0)
+			(at 107.95 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,7 +1945,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 114.3 111.76 0)
+			(at 107.95 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1227,16 +1953,22 @@
 				(hide yes)
 			)
 		)
+		(pin "3"
+			(uuid "93970ae5-f351-43b8-b198-112c9a5ebb9b")
+		)
 		(pin "2"
-			(uuid "5bb0281d-f9de-4b65-a85d-cb5d78841df2")
+			(uuid "d06f39e0-ba1d-4695-8ac1-50a57ce02b9b")
+		)
+		(pin "4"
+			(uuid "cfdfbed8-414d-4b37-938a-e637d12726f0")
 		)
 		(pin "1"
-			(uuid "8ddd8136-a903-4d73-b1e8-082805ad115f")
+			(uuid "8ddab03d-f776-461b-bb44-6f681a6da4a9")
 		)
 		(instances
-			(project "Motor_Controller_Carrier_Board"
+			(project ""
 				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
-					(reference "F2")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -1244,7 +1976,7 @@
 	)
 	(symbol
 		(lib_id "Motor_Controller_Carrier_Board:Motor_Driver_Board")
-		(at 132.08 86.36 0)
+		(at 154.94 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1253,7 +1985,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1ac1385-eb94-418c-bb9e-1c9edbbe1b83")
 		(property "Reference" "MDB1"
-			(at 142.24 81.28 0)
+			(at 165.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1261,7 +1993,7 @@
 			)
 		)
 		(property "Value" "Motor_Driver_Board"
-			(at 142.24 83.82 0)
+			(at 165.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,7 +2001,7 @@
 			)
 		)
 		(property "Footprint" "Motor_Controller_Carrier_Board:Motor_Driver_Board"
-			(at 142.24 74.168 0)
+			(at 165.1 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,7 +2010,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.pololu.com/product/2992"
-			(at 142.24 77.47 0)
+			(at 165.1 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1287,7 +2019,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 86.36 0)
+			(at 154.94 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1353,76 +2085,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 106.68 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6efb871-33c2-40ee-9bd5-033ce5ea4321")
-		(property "Reference" "F1"
-			(at 109.22 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 109.22 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.902 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 106.68 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c06ef8f2-0f8f-452b-9223-ebc4260d4d80")
-		)
-		(pin "1"
-			(uuid "5ffcefd0-9dd5-42bb-bfe0-161e0a563ce8")
-		)
-		(instances
-			(project ""
-				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 95.25 88.9 0)
 		(mirror x)
@@ -1448,7 +2110,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "XT30:AMASS_XT30PW-M"
 			(at 95.25 88.9 0)
 			(effects
 				(font
@@ -1485,6 +2147,81 @@
 			(project "Motor_Controller_Carrier_Board"
 				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Fuse_1")
+		(lib_id "Motor_Controller_Carrier_Board:Fuse")
+		(at 118.11 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efaf9df2-bca0-413e-988f-65847f404e42")
+		(property "Reference" "F2"
+			(at 118.11 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 118.11 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Motor_Controller_Carrier_Board:Fuse"
+			(at 118.11 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 118.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8d5aae7-4df2-48da-a059-dd30d3381ae3")
+		)
+		(pin "3"
+			(uuid "810a7254-abaa-481d-962e-70c7a91bcb8a")
+		)
+		(pin "2"
+			(uuid "e2fce115-d215-4f9c-a8f4-d1b7a615206c")
+		)
+		(pin "4"
+			(uuid "26d41074-47a0-4fb6-a51c-925a27038b19")
+		)
+		(instances
+			(project "Motor_Controller_Carrier_Board"
+				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
+					(reference "F2")
 					(unit 1)
 				)
 			)
