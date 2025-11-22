@@ -1,5 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Footprints SPEAR")(type "KiCad")(uri "C:/Users/sheeb/OneDrive/Documents/Footprints SPEAR.pretty")(options "")(descr ""))
-  (lib (name "footprints")(type "KiCad")(uri "C:/Users/sheeb/OneDrive/Documents/Footprints SPEAR.pretty/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "SPEAR Footprints")(type "KiCad")(uri "${SPEAR_PCB_2026_DIR}/SPEAR_Footprints/SPEAR_LAN9252_Footprints.pretty")(options "")(descr ""))
 )
