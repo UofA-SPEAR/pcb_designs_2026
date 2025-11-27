@@ -686,6 +686,10 @@
     [
       "2d8407d1-c129-4aa5-b34c-a9c040e1c063",
       "LAN9252 Ports"
+    ],
+    [
+      "1c94a75b-0f5e-4404-94ad-67cfa0a522c0",
+      "EtherCAT"
     ]
   ],
   "text_variables": {}

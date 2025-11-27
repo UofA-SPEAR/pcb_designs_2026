@@ -6013,7 +6013,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 60.96) (xy 172.72 60.96)
+			(xy 162.56 60.96) (xy 175.26 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6833,7 +6833,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 58.42) (xy 172.72 58.42)
+			(xy 162.56 58.42) (xy 175.26 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7093,7 +7093,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 55.88) (xy 172.72 55.88)
+			(xy 162.56 55.88) (xy 175.26 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7971,71 +7971,38 @@
 		)
 		(uuid "f051fa65-777d-463e-b07b-3224cfb42dfb")
 	)
-	(global_label "SPI1_MISO"
+	(hierarchical_label "SPI1_MISO"
 		(shape input)
-		(at 172.72 58.42 0)
-		(fields_autoplaced yes)
+		(at 175.26 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "3e46d0fb-02ae-4c13-9713-ab0e0163ac98")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.5628 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "1c3d0c8f-1a10-492f-a922-549a504a3cd4")
 	)
-	(global_label "SPI1_MOSI"
+	(hierarchical_label "SPI1_SCK"
 		(shape input)
-		(at 172.72 60.96 0)
-		(fields_autoplaced yes)
+		(at 175.26 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "ae8a765b-9387-4748-b28b-c069be1989e6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.5628 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "a539462a-0899-43c5-af7d-99c69a092fb4")
 	)
-	(global_label "SPI1_SCK"
+	(hierarchical_label "SPI1_MOSI"
 		(shape input)
-		(at 172.72 55.88 0)
-		(fields_autoplaced yes)
+		(at 175.26 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d4439b98-f305-4d78-8b95-6b506d2f0f43")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.7161 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "e1480bf0-ea3f-4d03-b8f5-1d7c96161cb9")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -8094,6 +8061,12 @@
 			(uuid "2f63de07-c1fb-45ae-b8e6-e57cc0bf00e9")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR032")
@@ -8164,6 +8137,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "C8")
 					(unit 1)
@@ -8228,6 +8207,12 @@
 			(uuid "64b89780-6840-4325-b52c-58656d1d5883")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR016")
@@ -8294,6 +8279,12 @@
 			(uuid "9c413637-0d96-4247-94cf-b39bf75239c2")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR019")
@@ -8362,6 +8353,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "R16")
 					(unit 1)
@@ -8426,6 +8423,12 @@
 			(uuid "e5a07b17-4196-484d-9e13-9d750be41ff9")
 		)
 		(instances
+			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR01")
@@ -8496,6 +8499,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "C11")
 					(unit 1)
@@ -8563,6 +8572,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "R13")
 					(unit 1)
@@ -8629,6 +8644,12 @@
 			(uuid "c1867576-8337-4711-baad-167da1fda380")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "R7")
@@ -8698,6 +8719,12 @@
 			(uuid "d6d75d2a-4205-43a0-b1c7-0194229a32c9")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "C14")
@@ -8769,6 +8796,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "C5")
 					(unit 1)
@@ -8838,6 +8871,12 @@
 			(uuid "ddb9f009-ccae-43d2-931d-3f0a6e68929a")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "C2")
@@ -8920,6 +8959,12 @@
 		)
 		(instances
 			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "J1")
 					(unit 1)
@@ -8985,6 +9030,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR018")
 					(unit 1)
@@ -9049,6 +9100,12 @@
 			(uuid "55c43660-9e60-468f-8d45-43908a6e8195")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR010")
@@ -9117,6 +9174,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "R11")
 					(unit 1)
@@ -9182,6 +9245,12 @@
 			(uuid "31d010f3-9207-4f97-8388-97f8c59ff38c")
 		)
 		(instances
+			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR04")
@@ -9250,6 +9319,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "R4")
 					(unit 1)
@@ -9314,6 +9389,12 @@
 			(uuid "a8cc4812-7d3c-4b74-acf2-1424e2e57030")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR014")
@@ -9382,6 +9463,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "R3")
 					(unit 1)
@@ -9448,6 +9535,12 @@
 			(uuid "39abfd23-2f08-4384-a161-73366f0de6c8")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "R15")
@@ -9516,6 +9609,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "R8")
 					(unit 1)
@@ -9580,6 +9679,12 @@
 			(uuid "67aa4446-903f-43eb-9a4f-380245e34617")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR028")
@@ -9648,6 +9753,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "R5")
 					(unit 1)
@@ -9713,6 +9824,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR024")
 					(unit 1)
@@ -9777,6 +9894,12 @@
 			(uuid "64176285-8fb3-4164-9e85-50d2954096c2")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR013")
@@ -10034,6 +10157,12 @@
 		)
 		(instances
 			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "U1")
 					(unit 1)
@@ -10104,6 +10233,12 @@
 		)
 		(instances
 			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "C1")
 					(unit 1)
@@ -10169,6 +10304,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR021")
 					(unit 1)
@@ -10233,6 +10374,12 @@
 			(uuid "0eba16fb-bf1d-4c8f-8d43-d125f49699d7")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR03")
@@ -10300,6 +10447,12 @@
 			(uuid "178d3c32-031b-47da-9eb0-1bab42f751ef")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "R10")
@@ -10371,6 +10524,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "C12")
 					(unit 1)
@@ -10441,6 +10600,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "C9")
 					(unit 1)
@@ -10505,6 +10670,12 @@
 			(uuid "17dfed45-19b3-48ed-8a5a-63863974d904")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR011")
@@ -10571,6 +10742,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR031")
 					(unit 1)
@@ -10635,6 +10812,12 @@
 			(uuid "821d7d0e-91eb-4bfc-bc34-eee4fd0c2234")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR025")
@@ -10701,6 +10884,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR07")
 					(unit 1)
@@ -10765,6 +10954,12 @@
 			(uuid "afa9053d-689f-48ef-943a-38cc0cce12e5")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR023")
@@ -10831,6 +11026,12 @@
 		)
 		(instances
 			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#FLG01")
 					(unit 1)
@@ -10895,6 +11096,12 @@
 			(uuid "aad713b1-8a69-4851-9699-b038eddf223a")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR08")
@@ -10965,6 +11172,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "C13")
 					(unit 1)
@@ -11030,6 +11243,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR033")
 					(unit 1)
@@ -11094,6 +11313,12 @@
 			(uuid "be88a252-a630-45f0-a8b7-05f4e478dd6f")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR029")
@@ -11165,6 +11390,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "C3")
 					(unit 1)
@@ -11232,6 +11463,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "R17")
 					(unit 1)
@@ -11297,6 +11534,12 @@
 			(uuid "d34daa57-c455-4056-ad90-14ef397d5750")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR05")
@@ -11365,6 +11608,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "R6")
 					(unit 1)
@@ -11432,6 +11681,12 @@
 		)
 		(instances
 			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "SW1")
 					(unit 1)
@@ -11496,6 +11751,12 @@
 			(uuid "2b1d4485-7dca-4238-bd13-9e5d6b236d74")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR022")
@@ -11562,6 +11823,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR026")
 					(unit 1)
@@ -11626,6 +11893,12 @@
 			(uuid "e5dd1c63-609f-4c9e-ad7b-728ae57b7e05")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR030")
@@ -11693,6 +11966,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR015")
 					(unit 1)
@@ -11759,6 +12038,12 @@
 			(uuid "976b62ab-7ab9-4cca-92cb-be4e9f2e3738")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "R12")
@@ -11829,6 +12114,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "C7")
 					(unit 1)
@@ -11893,6 +12184,12 @@
 			(uuid "c6994866-018b-431e-b869-05dff7199919")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR034")
@@ -11969,6 +12266,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "J3")
 					(unit 1)
@@ -12033,6 +12336,12 @@
 			(uuid "a5311f12-aa00-480e-aeca-6ea4bf259f15")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR06")
@@ -12101,6 +12410,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "R14")
 					(unit 1)
@@ -12166,6 +12481,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR020")
 					(unit 1)
@@ -12230,6 +12551,12 @@
 			(uuid "37b739ca-c2e0-4aeb-94db-f8df3c7e8bc1")
 		)
 		(instances
+			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR017")
@@ -12302,6 +12629,12 @@
 		)
 		(instances
 			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "U3")
 					(unit 1)
@@ -12366,6 +12699,12 @@
 			(uuid "fc86634d-25d8-4f71-b96a-a3160c6cf7ac")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR09")
@@ -12433,6 +12772,12 @@
 			(uuid "1e7fa04f-9574-4a33-96b3-2beee8d9b563")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "R9")
@@ -12519,6 +12864,12 @@
 		)
 		(instances
 			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "U2")
 					(unit 1)
@@ -12594,6 +12945,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "J8")
 					(unit 1)
@@ -12660,6 +13017,12 @@
 			(uuid "6f1ba660-96fb-47b2-bfb0-585ebf731cd3")
 		)
 		(instances
+			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "R1")
@@ -12730,6 +13093,12 @@
 			(uuid "bfc1fd7b-6e1e-4b23-9131-728ab3c7c4fe")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "C4")
@@ -12806,6 +13175,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "J4")
 					(unit 1)
@@ -12876,6 +13251,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "C15")
 					(unit 1)
@@ -12942,6 +13323,12 @@
 			(uuid "eeee8dca-db53-405a-a543-aee157373d84")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "SW2")
@@ -13011,6 +13398,12 @@
 		)
 		(instances
 			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "FB1")
 					(unit 1)
@@ -13077,6 +13470,12 @@
 			(uuid "78950d16-0ae1-4a7c-9477-e916d2112da1")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "R2")
@@ -13191,6 +13590,12 @@
 		)
 		(instances
 			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "J2")
 					(unit 1)
@@ -13261,6 +13666,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "C6")
 					(unit 1)
@@ -13326,6 +13737,12 @@
 			(uuid "70f31f0a-dffd-4a3e-9748-e374d9baa1ee")
 		)
 		(instances
+			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR02")
@@ -13405,6 +13822,12 @@
 		)
 		(instances
 			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "J6")
 					(unit 1)
@@ -13469,6 +13892,12 @@
 			(uuid "b0cdfc47-3b41-4481-8dbf-4397ecfa5028")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR027")
@@ -13545,6 +13974,12 @@
 		)
 		(instances
 			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "J7")
 					(unit 1)
@@ -13609,6 +14044,12 @@
 			(uuid "b613a13e-5507-4cbe-8a3c-5b9ab8df0e46")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "#PWR012")
@@ -13685,6 +14126,12 @@
 		)
 		(instances
 			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "J5")
 					(unit 1)
@@ -13753,6 +14200,12 @@
 			(uuid "a8381a84-dab3-45b7-830c-5f7537eae07e")
 		)
 		(instances
+			(project "SPEAR_V1"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "C10")
+					(unit 1)
+				)
+			)
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "C10")
@@ -13827,6 +14280,12 @@
 		)
 		(instances
 			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/1c94a75b-0f5e-4404-94ad-67cfa0a522c0"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(reference "Y1")
 					(unit 1)
@@ -13834,10 +14293,4 @@
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
