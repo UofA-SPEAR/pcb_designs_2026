@@ -51,13 +51,7 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -186,9 +180,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -215,12 +207,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -464,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LAN9252.kicad_pro",
+    "filename": "LAN9252_Junction.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -658,15 +645,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
-    "page_layout_descr_file": "LAN9252",
+    "page_layout_descr_file": "LAN9252_Junction",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -684,7 +663,19 @@
       "Root"
     ],
     [
-      "2d8407d1-c129-4aa5-b34c-a9c040e1c063",
+      "51ada2c8-3854-4465-9d64-3e8aa0c5daf2",
+      "LAN9252 System 1"
+    ],
+    [
+      "f667b54f-017a-4684-a15d-f096825077ef",
+      "LAN9252 Ports"
+    ],
+    [
+      "52e6a653-4436-4d7a-ae83-cfeea5b0a028",
+      "LAN9252 System 2"
+    ],
+    [
+      "f667b54f-017a-4684-a15d-f096825077ef",
       "LAN9252 Ports"
     ]
   ],

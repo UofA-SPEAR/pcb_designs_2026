@@ -320,207 +320,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at 2.286 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FerriteBead"
-				(at 3.556 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite bead"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FerriteBead_0_1"
-				(arc
-					(start 0 1.27)
-					(mid 0 1.27)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0 1.27)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_1_1"
-				(rectangle
-					(start 0 2.54)
-					(end 5.08 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type color)
-						(color 255 247 10 1)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.635 0.635)
-					(end 1.27 0)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 69 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 0)
-					(mid 1.905 0.635)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 69 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 3.175 0.635)
-					(end 3.81 0)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 69 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 4.445 0.635)
-					(end 5.08 0)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 69 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -1.27 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -694,32 +493,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LAN9252_ML:LAN9252_ML"
+		(symbol "LAN9252 Symbols:FerrriteBead"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -30.48 59.69 0)
+			(property "Reference" "FL"
+				(at -12.7044 5.0815 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
+					(hide yes)
 				)
 			)
-			(property "Value" "LAN9252_ML"
-				(at -30.48 -76.2 0)
+			(property "Value" "FerrriteBead"
+				(at -12.71 -5.0866 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "LAN9252_ML:QFN50P900X900X100-65N"
+			(property "Footprint" "BLM18EG221SN1D:BEADC1608X95N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -747,50 +548,187 @@
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "DS00001909B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "FerrriteBead_0_1"
+				(arc
+					(start -2.54 1.27)
+					(mid -2.54 1.27)
+					(end -2.54 1.27)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(justify bottom)
-					(hide yes)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 1.27)
+					(mid -2.54 1.27)
+					(end -2.54 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
 				)
 			)
-			(property "STANDARD" "IPC-7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Microchip"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "LAN9252_ML_0_0"
+			(symbol "FerrriteBead_1_1"
 				(rectangle
-					(start -30.48 -73.66)
-					(end 30.48 58.42)
+					(start -2.54 2.54)
+					(end 2.54 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 247 10 1)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.905 0.635)
+					(end -1.27 0)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 69 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 0)
+					(mid -0.635 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 69 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.635 0.635)
+					(end 1.27 0)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 69 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0)
+					(mid 1.905 0.635)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 69 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LAN9252 Symbols:LAN9252"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LAN9252_0_0"
+				(rectangle
+					(start -31.75 -69.85)
+					(end 29.21 62.23)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -800,7 +738,7 @@
 					)
 				)
 				(pin input line
-					(at -35.56 30.48 0)
+					(at -36.83 34.29 0)
 					(length 5.08)
 					(name "~{RST}"
 						(effects
@@ -818,7 +756,7 @@
 					)
 				)
 				(pin input line
-					(at -35.56 25.4 0)
+					(at -36.83 29.21 0)
 					(length 5.08)
 					(name "REG_EN"
 						(effects
@@ -836,7 +774,7 @@
 					)
 				)
 				(pin input line
-					(at -35.56 22.86 0)
+					(at -36.83 26.67 0)
 					(length 5.08)
 					(name "TESTMODE"
 						(effects
@@ -854,7 +792,7 @@
 					)
 				)
 				(pin input line
-					(at -35.56 17.78 0)
+					(at -36.83 21.59 0)
 					(length 5.08)
 					(name "~{FXLOSEN}"
 						(effects
@@ -872,7 +810,7 @@
 					)
 				)
 				(pin input line
-					(at -35.56 15.24 0)
+					(at -36.83 19.05 0)
 					(length 5.08)
 					(name "FXSDA/FXLOSA/~{FXSDENA}"
 						(effects
@@ -890,7 +828,7 @@
 					)
 				)
 				(pin input line
-					(at -35.56 12.7 0)
+					(at -36.83 16.51 0)
 					(length 5.08)
 					(name "FXSDB/FXLOSB/~{FXSDENB}"
 						(effects
@@ -908,7 +846,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -35.56 5.08 0)
+					(at -36.83 8.89 0)
 					(length 5.08)
 					(name "EESDA/TMS"
 						(effects
@@ -926,7 +864,7 @@
 					)
 				)
 				(pin output clock
-					(at -35.56 2.54 0)
+					(at -36.83 6.35 0)
 					(length 5.08)
 					(name "EESCL/TCK"
 						(effects
@@ -944,7 +882,7 @@
 					)
 				)
 				(pin input line
-					(at -35.56 -2.54 0)
+					(at -36.83 1.27 0)
 					(length 5.08)
 					(name "OSCI"
 						(effects
@@ -962,7 +900,7 @@
 					)
 				)
 				(pin output line
-					(at -35.56 -5.08 0)
+					(at -36.83 -1.27 0)
 					(length 5.08)
 					(name "OSCO"
 						(effects
@@ -980,7 +918,7 @@
 					)
 				)
 				(pin output line
-					(at -35.56 -10.16 0)
+					(at -36.83 -6.35 0)
 					(length 5.08)
 					(name "LINKACTLED0/TDO/~{CHIP_MODE0}"
 						(effects
@@ -998,7 +936,7 @@
 					)
 				)
 				(pin input line
-					(at -35.56 -12.7 0)
+					(at -36.83 -8.89 0)
 					(length 5.08)
 					(name "LINKACTLED1/TDI/~{CHIP_MODE1}"
 						(effects
@@ -1016,7 +954,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -35.56 -17.78 0)
+					(at -36.83 -13.97 0)
 					(length 5.08)
 					(name "RUNLED/~{E2PSIZE}"
 						(effects
@@ -1034,7 +972,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -35.56 -22.86 0)
+					(at -36.83 -19.05 0)
 					(length 5.08)
 					(name "SYNC0/LATCH0"
 						(effects
@@ -1052,7 +990,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -35.56 -25.4 0)
+					(at -36.83 -21.59 0)
 					(length 5.08)
 					(name "SYNC1/LATCH1"
 						(effects
@@ -1070,7 +1008,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -35.56 -30.48 0)
+					(at -36.83 -26.67 0)
 					(length 5.08)
 					(name "CS/GPI13/GPO13"
 						(effects
@@ -1088,7 +1026,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -35.56 -35.56 0)
+					(at -36.83 -31.75 0)
 					(length 5.08)
 					(name "A1/ALELO"
 						(effects
@@ -1106,7 +1044,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -35.56 -38.1 0)
+					(at -36.83 -34.29 0)
 					(length 5.08)
 					(name "A2/ALEHI/GPI10/GPO10"
 						(effects
@@ -1124,7 +1062,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -35.56 -40.64 0)
+					(at -36.83 -36.83 0)
 					(length 5.08)
 					(name "A3/GPI11/GPO11"
 						(effects
@@ -1142,7 +1080,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -35.56 -43.18 0)
+					(at -36.83 -39.37 0)
 					(length 5.08)
 					(name "A4/GPI12/GPO12"
 						(effects
@@ -1160,7 +1098,7 @@
 					)
 				)
 				(pin passive line
-					(at -35.56 -48.26 0)
+					(at -36.83 -44.45 0)
 					(length 5.08)
 					(name "RBIAS"
 						(effects
@@ -1178,7 +1116,7 @@
 					)
 				)
 				(pin power_in line
-					(at 35.56 55.88 180)
+					(at 34.29 59.69 180)
 					(length 5.08)
 					(name "VDDIO"
 						(effects
@@ -1196,7 +1134,7 @@
 					)
 				)
 				(pin power_in line
-					(at 35.56 53.34 180)
+					(at 34.29 57.15 180)
 					(length 5.08)
 					(name "VDDIO__1"
 						(effects
@@ -1214,7 +1152,7 @@
 					)
 				)
 				(pin power_in line
-					(at 35.56 50.8 180)
+					(at 34.29 54.61 180)
 					(length 5.08)
 					(name "VDDIO__2"
 						(effects
@@ -1232,7 +1170,7 @@
 					)
 				)
 				(pin power_in line
-					(at 35.56 48.26 180)
+					(at 34.29 52.07 180)
 					(length 5.08)
 					(name "VDDIO__3"
 						(effects
@@ -1250,7 +1188,7 @@
 					)
 				)
 				(pin power_in line
-					(at 35.56 45.72 180)
+					(at 34.29 49.53 180)
 					(length 5.08)
 					(name "VDDIO__4"
 						(effects
@@ -1268,7 +1206,7 @@
 					)
 				)
 				(pin power_in line
-					(at 35.56 43.18 180)
+					(at 34.29 46.99 180)
 					(length 5.08)
 					(name "VDDCR"
 						(effects
@@ -1286,7 +1224,7 @@
 					)
 				)
 				(pin power_in line
-					(at 35.56 40.64 180)
+					(at 34.29 44.45 180)
 					(length 5.08)
 					(name "VDDCR__1"
 						(effects
@@ -1304,7 +1242,7 @@
 					)
 				)
 				(pin power_in line
-					(at 35.56 38.1 180)
+					(at 34.29 41.91 180)
 					(length 5.08)
 					(name "VDDCR__2"
 						(effects
@@ -1322,7 +1260,7 @@
 					)
 				)
 				(pin power_in line
-					(at 35.56 35.56 180)
+					(at 34.29 39.37 180)
 					(length 5.08)
 					(name "VDD33"
 						(effects
@@ -1340,7 +1278,7 @@
 					)
 				)
 				(pin power_in line
-					(at 35.56 33.02 180)
+					(at 34.29 36.83 180)
 					(length 5.08)
 					(name "OSCVDD12"
 						(effects
@@ -1358,7 +1296,7 @@
 					)
 				)
 				(pin power_in line
-					(at 35.56 30.48 180)
+					(at 34.29 34.29 180)
 					(length 5.08)
 					(name "VDD12TX1"
 						(effects
@@ -1376,7 +1314,7 @@
 					)
 				)
 				(pin power_in line
-					(at 35.56 27.94 180)
+					(at 34.29 31.75 180)
 					(length 5.08)
 					(name "VDD12TX2"
 						(effects
@@ -1394,7 +1332,7 @@
 					)
 				)
 				(pin power_in line
-					(at 35.56 25.4 180)
+					(at 34.29 29.21 180)
 					(length 5.08)
 					(name "VDD33BIAS"
 						(effects
@@ -1412,7 +1350,7 @@
 					)
 				)
 				(pin power_in line
-					(at 35.56 22.86 180)
+					(at 34.29 26.67 180)
 					(length 5.08)
 					(name "VDD33TXRX1"
 						(effects
@@ -1430,7 +1368,7 @@
 					)
 				)
 				(pin power_in line
-					(at 35.56 20.32 180)
+					(at 34.29 24.13 180)
 					(length 5.08)
 					(name "VDD33TXRX2"
 						(effects
@@ -1448,7 +1386,7 @@
 					)
 				)
 				(pin output line
-					(at 35.56 15.24 180)
+					(at 34.29 19.05 180)
 					(length 5.08)
 					(name "IRQ"
 						(effects
@@ -1466,7 +1404,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 10.16 180)
+					(at 34.29 13.97 180)
 					(length 5.08)
 					(name "TXPA"
 						(effects
@@ -1484,7 +1422,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 7.62 180)
+					(at 34.29 11.43 180)
 					(length 5.08)
 					(name "TXNA"
 						(effects
@@ -1502,7 +1440,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 5.08 180)
+					(at 34.29 8.89 180)
 					(length 5.08)
 					(name "RXPA"
 						(effects
@@ -1520,7 +1458,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 2.54 180)
+					(at 34.29 6.35 180)
 					(length 5.08)
 					(name "RXNA"
 						(effects
@@ -1538,7 +1476,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 0 180)
+					(at 34.29 3.81 180)
 					(length 5.08)
 					(name "TXPB"
 						(effects
@@ -1556,7 +1494,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -2.54 180)
+					(at 34.29 1.27 180)
 					(length 5.08)
 					(name "TXNB"
 						(effects
@@ -1574,7 +1512,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -5.08 180)
+					(at 34.29 -1.27 180)
 					(length 5.08)
 					(name "RXPB"
 						(effects
@@ -1592,7 +1530,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -7.62 180)
+					(at 34.29 -3.81 180)
 					(length 5.08)
 					(name "RXNB"
 						(effects
@@ -1610,7 +1548,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -12.7 180)
+					(at 34.29 -8.89 180)
 					(length 5.08)
 					(name "WR/GPI14/GPO14"
 						(effects
@@ -1628,7 +1566,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -15.24 180)
+					(at 34.29 -11.43 180)
 					(length 5.08)
 					(name "RD/GPI15/GPO15"
 						(effects
@@ -1646,7 +1584,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -20.32 180)
+					(at 34.29 -16.51 180)
 					(length 5.08)
 					(name "D0/SIO0"
 						(effects
@@ -1664,7 +1602,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -22.86 180)
+					(at 34.29 -19.05 180)
 					(length 5.08)
 					(name "D1/SIO1"
 						(effects
@@ -1682,7 +1620,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -25.4 180)
+					(at 34.29 -21.59 180)
 					(length 5.08)
 					(name "D2/SIO2"
 						(effects
@@ -1700,7 +1638,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -27.94 180)
+					(at 34.29 -24.13 180)
 					(length 5.08)
 					(name "D3/SIO3"
 						(effects
@@ -1718,7 +1656,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -30.48 180)
+					(at 34.29 -26.67 180)
 					(length 5.08)
 					(name "D4/GPI3/GPO3"
 						(effects
@@ -1736,7 +1674,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -33.02 180)
+					(at 34.29 -29.21 180)
 					(length 5.08)
 					(name "D5/OUTVALID/~{SCS}"
 						(effects
@@ -1754,7 +1692,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -35.56 180)
+					(at 34.29 -31.75 180)
 					(length 5.08)
 					(name "D6/GPI0/GPO0"
 						(effects
@@ -1772,7 +1710,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -38.1 180)
+					(at 34.29 -34.29 180)
 					(length 5.08)
 					(name "D7/GPI1/GPO1"
 						(effects
@@ -1790,7 +1728,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -40.64 180)
+					(at 34.29 -36.83 180)
 					(length 5.08)
 					(name "D8/GPI2/GPO2"
 						(effects
@@ -1808,7 +1746,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -43.18 180)
+					(at 34.29 -39.37 180)
 					(length 5.08)
 					(name "D9/LATCH_IN/SCK"
 						(effects
@@ -1826,7 +1764,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -45.72 180)
+					(at 34.29 -41.91 180)
 					(length 5.08)
 					(name "D10/GPI4/GPO4"
 						(effects
@@ -1844,7 +1782,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -48.26 180)
+					(at 34.29 -44.45 180)
 					(length 5.08)
 					(name "D11/GPI5/GPO5"
 						(effects
@@ -1862,7 +1800,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -50.8 180)
+					(at 34.29 -46.99 180)
 					(length 5.08)
 					(name "D12/GPI6/GPO6"
 						(effects
@@ -1880,7 +1818,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -53.34 180)
+					(at 34.29 -49.53 180)
 					(length 5.08)
 					(name "D13/GPI7/GPO7/~{TX_SHIFT0}"
 						(effects
@@ -1898,7 +1836,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -55.88 180)
+					(at 34.29 -52.07 180)
 					(length 5.08)
 					(name "D14/GPI8/GPO8/~{TX_SHIFT1}"
 						(effects
@@ -1916,7 +1854,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -58.42 180)
+					(at 34.29 -54.61 180)
 					(length 5.08)
 					(name "A0/D15/GPI9/GPO9"
 						(effects
@@ -1934,7 +1872,7 @@
 					)
 				)
 				(pin power_in line
-					(at 35.56 -68.58 180)
+					(at 34.29 -64.77 180)
 					(length 5.08)
 					(name "VSS"
 						(effects
@@ -1952,7 +1890,7 @@
 					)
 				)
 				(pin power_in line
-					(at 35.56 -71.12 180)
+					(at 34.29 -67.31 180)
 					(length 5.08)
 					(name "OSCVSS"
 						(effects
@@ -3739,7 +3677,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 49.53) (xy 24.13 49.53)
+			(xy 19.05 49.53) (xy 25.4 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3869,7 +3807,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 49.53) (xy 36.83 49.53)
+			(xy 33.02 49.53) (xy 36.83 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5947,74 +5885,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 172.72 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "096f62e8-dff2-45b9-94c2-2ef21dd100d7")
-		(property "Reference" "FB3"
-			(at 175.006 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BLM18EG221SN1D"
-			(at 175.2599 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Footprints SPEAR:Ferrite_bead"
-			(at 170.942 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 172.72 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c429110-5624-4ba8-abb9-243ff32e391a")
-		)
-		(pin "2"
-			(uuid "3ec82f59-dfaf-45fb-b715-939a86f8fff8")
-		)
-		(instances
-			(project "LAN9252"
-				(path "/16d72164-3a84-4f74-a868-383d0ad57128"
-					(reference "FB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 40.64 38.1 180)
 		(unit 1)
@@ -6828,6 +6698,77 @@
 		)
 	)
 	(symbol
+		(lib_id "LAN9252 Symbols:FerrriteBead")
+		(at 175.26 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45345a89-e88f-4824-a5d9-0a3f9301d928")
+		(property "Reference" "FB3"
+			(at 173.482 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FerrriteBead"
+			(at 162.55 66.0466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SPEAR Footprints:Ferrite_bead"
+			(at 175.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4fc5bc0-a799-4cc1-b838-8ae7635e8787")
+		)
+		(pin "1"
+			(uuid "bc4a6b26-fcf4-401d-8c53-cbd7d67cd07f")
+		)
+		(instances
+			(project "LAN9252"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128"
+					(reference "FB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 208.28 64.77 0)
 		(unit 1)
@@ -7097,74 +7038,6 @@
 			(project "LAN9252"
 				(path "/16d72164-3a84-4f74-a868-383d0ad57128"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 25.4 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "550ee4ec-8033-4f4b-8d8d-02887b21e0da")
-		(property "Reference" "FB1"
-			(at 27.686 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BLM18EG221SN1D"
-			(at 27.9399 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Footprints SPEAR:Ferrite_bead"
-			(at 23.622 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 25.4 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91b43dd6-56fd-4c33-9584-935a927508fb")
-		)
-		(pin "2"
-			(uuid "46004763-cfa6-446b-876e-24a3499b194f")
-		)
-		(instances
-			(project ""
-				(path "/16d72164-3a84-4f74-a868-383d0ad57128"
-					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -8850,6 +8723,77 @@
 		)
 	)
 	(symbol
+		(lib_id "LAN9252 Symbols:FerrriteBead")
+		(at 29.21 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6d229f1-a1f5-403d-8e2b-6882e70541ff")
+		(property "Reference" "FB2"
+			(at 27.432 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FerrriteBead"
+			(at 16.5 54.6166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SPEAR Footprints:Ferrite_bead"
+			(at 29.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b43c03a-1acf-436a-8eb7-d2bd33dc391c")
+		)
+		(pin "1"
+			(uuid "23ba8b28-47d1-4b9c-816f-85d4a5dfd080")
+		)
+		(instances
+			(project "LAN9252"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128"
+					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 229.87 95.25 0)
 		(unit 1)
@@ -9054,304 +8998,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LAN9252_ML:LAN9252_ML")
-		(at 120.65 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4ac3119-b979-4228-bc66-ec102b7b8bd4")
-		(property "Reference" "U1"
-			(at 120.65 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LAN9252_ML"
-			(at 120.65 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints SPEAR:QFP50P1200X1200X120-65N"
-			(at 120.65 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "DS00001909B"
-			(at 120.65 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 120.65 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1 mm"
-			(at 120.65 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Microchip"
-			(at 120.65 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "34"
-			(uuid "049edcbc-deff-45e3-932b-216f5e934f0a")
-		)
-		(pin "46"
-			(uuid "beedcf4d-0068-4e25-8dc3-350f640659a6")
-		)
-		(pin "18"
-			(uuid "b84e3128-592b-46b2-a998-bf58f860416f")
-		)
-		(pin "7"
-			(uuid "b2a33acc-c886-4d91-960f-678aff223fbe")
-		)
-		(pin "10"
-			(uuid "040a2e10-f585-4cb9-890c-3eaff825ac7f")
-		)
-		(pin "43"
-			(uuid "6d675d47-287a-49d0-881b-bb44d8e09316")
-		)
-		(pin "2"
-			(uuid "d8f4c6da-a672-4449-8b56-c5bb989aea76")
-		)
-		(pin "11"
-			(uuid "06fa079f-8108-43e6-b575-a2a76dc6aa61")
-		)
-		(pin "48"
-			(uuid "e997d13e-f251-4334-8821-3bd2b7158639")
-		)
-		(pin "41"
-			(uuid "3daea6d1-97e8-4c49-95d4-a4a21b89a53f")
-		)
-		(pin "42"
-			(uuid "5425e189-6018-4db5-bcb7-37bd0c8b6206")
-		)
-		(pin "45"
-			(uuid "49d8cd00-e5aa-45bf-bc9b-d86f5414513c")
-		)
-		(pin "25"
-			(uuid "76e500ed-90b8-4a1f-a1cb-570eef2ba810")
-		)
-		(pin "29"
-			(uuid "2f826016-ddfe-4e89-98b4-70995badacae")
-		)
-		(pin "26"
-			(uuid "c042742a-ac2a-4000-a6b0-a3f24be1ada3")
-		)
-		(pin "9"
-			(uuid "386ad36f-18cd-4175-b389-21f99bf89dde")
-		)
-		(pin "1"
-			(uuid "34a0860e-32e7-44bf-94e3-3e02c3ee86a4")
-		)
-		(pin "8"
-			(uuid "552e6c7d-1c40-4625-a273-f053e7814c1c")
-		)
-		(pin "27"
-			(uuid "73adac4f-f409-4b5b-8435-98f4be7d7b36")
-		)
-		(pin "57"
-			(uuid "d745e2fd-4588-49f4-a19c-1f4187d1d76d")
-		)
-		(pin "14"
-			(uuid "4c1f5b8e-761b-45bb-8271-73127a5e2e23")
-		)
-		(pin "20"
-			(uuid "d32625b3-2f69-4c4e-a1e5-6c4f5a635f1d")
-		)
-		(pin "28"
-			(uuid "8f9a3d49-2c18-4ece-8254-588629fec52a")
-		)
-		(pin "3"
-			(uuid "8acbafc8-c131-4267-a73d-fba3b11f0558")
-		)
-		(pin "51"
-			(uuid "fcbcbf64-0794-487a-b399-0fb76d5119c9")
-		)
-		(pin "54"
-			(uuid "a24ed3bb-c1cf-4869-a90e-35216d386d9c")
-		)
-		(pin "63"
-			(uuid "2e689f89-6854-4f10-99b5-ce9fa39915d4")
-		)
-		(pin "5"
-			(uuid "45c1f594-16d4-4dea-87b7-19f9ef860fc4")
-		)
-		(pin "58"
-			(uuid "bf8723e9-9356-4434-ad7b-d1995b6fa96b")
-		)
-		(pin "55"
-			(uuid "365d284e-0402-4e21-a4c7-8be1c85d2b05")
-		)
-		(pin "64"
-			(uuid "903bdcb2-372d-424c-9df4-7eefee6276a7")
-		)
-		(pin "62"
-			(uuid "18ced06f-7258-4624-8474-7359b291c79a")
-		)
-		(pin "60"
-			(uuid "d005f8c0-b0e6-4b12-8f52-94b8c7263703")
-		)
-		(pin "24"
-			(uuid "d0c3a2df-813d-42fd-93d8-b97008141533")
-		)
-		(pin "38"
-			(uuid "e53a7c79-11fc-454c-9a6a-c4171ee8de63")
-		)
-		(pin "59"
-			(uuid "b15965f4-dedc-4a04-96dc-85207d053ce2")
-		)
-		(pin "37"
-			(uuid "f0912226-4afb-4778-94f5-6c4e8a25281f")
-		)
-		(pin "47"
-			(uuid "c52f9c9c-6cff-4712-aeb4-3e1d9fde1871")
-		)
-		(pin "56"
-			(uuid "a47fa77f-21f5-4879-880e-99c8e925ad34")
-		)
-		(pin "53"
-			(uuid "9d15398b-7761-4317-8d54-864cc4f519a6")
-		)
-		(pin "52"
-			(uuid "2d7627ff-8e29-4f9e-b0f9-d75933a9ccce")
-		)
-		(pin "44"
-			(uuid "0cd1f658-0c9c-4879-9524-1ef99635fbac")
-		)
-		(pin "6"
-			(uuid "4dc1c43a-f55c-4c70-9b4d-a6d8d099a3cb")
-		)
-		(pin "32"
-			(uuid "7caf15b4-b0da-41aa-8044-a4e373272cb6")
-		)
-		(pin "4"
-			(uuid "c9aeb81e-632d-4bb4-8b97-716d234ddaf5")
-		)
-		(pin "49"
-			(uuid "903c5261-54d3-409a-8a8f-2bd5e5886456")
-		)
-		(pin "40"
-			(uuid "8ce849ae-eaee-4dfa-b958-6b699a2b6951")
-		)
-		(pin "19"
-			(uuid "73cd75fb-3944-4458-8d9b-6607a0d2ad27")
-		)
-		(pin "17"
-			(uuid "bef1ddfa-953b-4df2-aaea-4fdc1472aec9")
-		)
-		(pin "30"
-			(uuid "55d5476a-8430-47ab-9cbb-4ea640295a51")
-		)
-		(pin "13"
-			(uuid "c84a48b9-b589-4e67-a9a9-2f1aa6a1a85e")
-		)
-		(pin "50"
-			(uuid "235137f8-5a09-4228-83dd-ec2044104873")
-		)
-		(pin "23"
-			(uuid "d1631f37-5417-4e01-bac1-7c9411cfe31f")
-		)
-		(pin "35"
-			(uuid "17672c2c-53fc-4640-990b-5de36c92572f")
-		)
-		(pin "16"
-			(uuid "1bb25a35-427b-4fab-a323-94f72ac876f6")
-		)
-		(pin "33"
-			(uuid "e14eb8a0-2575-4a6b-8504-75023a8415da")
-		)
-		(pin "36"
-			(uuid "697f7d96-6961-4004-af5b-e182660f730a")
-		)
-		(pin "65"
-			(uuid "a91a91aa-5860-42a0-9728-b97c1050ed57")
-		)
-		(pin "22"
-			(uuid "dd54a524-aef3-4945-8241-b632521ca086")
-		)
-		(pin "61"
-			(uuid "b7076c3a-974e-4aa0-b5ec-7574003a3742")
-		)
-		(pin "12"
-			(uuid "555b337f-d1e0-4b02-9b54-aa3c1315bcdc")
-		)
-		(pin "31"
-			(uuid "6f1a6571-15c9-436a-a0b2-c789002d89ac")
-		)
-		(pin "15"
-			(uuid "aadeee29-1dd5-4f18-9da0-15984fac7528")
-		)
-		(pin "21"
-			(uuid "05d37c05-e699-4c19-b340-f4c2829bd1b8")
-		)
-		(pin "39"
-			(uuid "c3626429-63dd-47e2-b482-838e117e154a")
-		)
-		(instances
-			(project ""
-				(path "/16d72164-3a84-4f74-a868-383d0ad57128"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 67.31 137.16 0)
 		(unit 1)
@@ -9546,74 +9192,6 @@
 			(project "LAN9252"
 				(path "/16d72164-3a84-4f74-a868-383d0ad57128"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 241.3 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dbb4cb34-ab3f-403a-8ef9-a5a68cd0afa5")
-		(property "Reference" "FB4"
-			(at 243.586 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BLM18EG221SN1D"
-			(at 243.8399 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Footprints SPEAR:Ferrite_bead"
-			(at 239.522 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 241.3 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e630bf8-866b-4dff-8e63-487500915743")
-		)
-		(pin "2"
-			(uuid "6cdc60c5-987c-4177-924d-9a7f94a79e78")
-		)
-		(instances
-			(project "LAN9252"
-				(path "/16d72164-3a84-4f74-a868-383d0ad57128"
-					(reference "FB4")
 					(unit 1)
 				)
 			)
@@ -9968,6 +9546,77 @@
 		)
 	)
 	(symbol
+		(lib_id "LAN9252 Symbols:FerrriteBead")
+		(at 27.94 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebb9bc33-7461-48be-a5b2-7100691dd773")
+		(property "Reference" "FB1"
+			(at 26.162 21.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FerrriteBead"
+			(at 15.23 29.2166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SPEAR Footprints:Ferrite_bead"
+			(at 27.94 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2630cca9-9abb-4864-a8d4-07889ddbf807")
+		)
+		(pin "1"
+			(uuid "d3004eb9-0d99-4b7e-8e52-39746f74f856")
+		)
+		(instances
+			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 40.64 179.07 0)
 		(unit 1)
@@ -10170,6 +9819,262 @@
 		)
 	)
 	(symbol
+		(lib_id "LAN9252 Symbols:LAN9252")
+		(at 121.92 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3232d9b-7046-484f-bb8a-557a32ca20c8")
+		(property "Reference" "LAN9252"
+			(at 121.158 26.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 120.65 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SPEAR Footprints:LAN9252"
+			(at 121.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "9950d39a-254a-49a4-82c0-c340dd595c8f")
+		)
+		(pin "27"
+			(uuid "37280dbb-2d95-4370-b295-46d14b3d0483")
+		)
+		(pin "7"
+			(uuid "fb14f6e7-aa8a-46bc-8654-343404da4065")
+		)
+		(pin "11"
+			(uuid "518a7e84-3b0d-4a2a-aee7-ea8455b6591b")
+		)
+		(pin "43"
+			(uuid "302d7eab-d7af-4000-9b11-b1359ea744b2")
+		)
+		(pin "1"
+			(uuid "18f1c783-a299-4d67-b058-bd8bb5d77a2f")
+		)
+		(pin "18"
+			(uuid "4420d175-9fe0-49d2-abd6-dddfc1bbd065")
+		)
+		(pin "34"
+			(uuid "1732dc50-de64-4e93-a3a2-dfc393ea4d8a")
+		)
+		(pin "9"
+			(uuid "ca5655c7-76ce-4a8e-977c-e3f58b78aefa")
+		)
+		(pin "10"
+			(uuid "d2a4d50e-9733-4997-8647-a505bb491e54")
+		)
+		(pin "28"
+			(uuid "a677a84f-a1da-4a01-9165-6db64d52cd1a")
+		)
+		(pin "58"
+			(uuid "51986ce6-4287-4632-96ea-9f0d247647a1")
+		)
+		(pin "45"
+			(uuid "2093712c-b20f-477e-834d-727503db7637")
+		)
+		(pin "29"
+			(uuid "a97d39be-17b8-42c9-b9b6-79f29b6286fe")
+		)
+		(pin "44"
+			(uuid "c63ff502-fddb-41b4-9cc0-c89128a5accb")
+		)
+		(pin "42"
+			(uuid "d750716e-3ac1-4eb6-8f16-50d753023a82")
+		)
+		(pin "2"
+			(uuid "7210ae98-b604-4970-b5ea-7bd679d718ba")
+		)
+		(pin "32"
+			(uuid "e57eec76-d767-4352-bc84-4da5a0bebcc0")
+		)
+		(pin "25"
+			(uuid "de44c6e4-4dbe-4995-a875-8394228f88b4")
+		)
+		(pin "5"
+			(uuid "a31d5787-0312-4ea6-be97-0339ceeac470")
+		)
+		(pin "56"
+			(uuid "4680a59f-e553-475b-bbcb-39520a64cd01")
+		)
+		(pin "41"
+			(uuid "1f2d973c-e7eb-4233-956f-2f5c52b95ca7")
+		)
+		(pin "14"
+			(uuid "f090facc-3061-4e6c-a32e-013d3d1df2b2")
+		)
+		(pin "48"
+			(uuid "648faf9d-6b98-426d-9050-609457e2656c")
+		)
+		(pin "46"
+			(uuid "f5f3fe23-d1be-4058-b0b4-9414b5b2505d")
+		)
+		(pin "26"
+			(uuid "221b48c8-9288-49c2-9982-2da932df9475")
+		)
+		(pin "57"
+			(uuid "8eb62555-fe18-4c5b-8098-8c0714486448")
+		)
+		(pin "20"
+			(uuid "81be7dff-c526-4fc3-8409-b51ee487ab28")
+		)
+		(pin "47"
+			(uuid "b21866d0-3919-4438-8ee5-2c71724577ae")
+		)
+		(pin "3"
+			(uuid "9d0920db-247c-49ea-9c44-637097f520a4")
+		)
+		(pin "6"
+			(uuid "e9a040bf-bf07-441b-bad7-fd759f18dec9")
+		)
+		(pin "37"
+			(uuid "e45ae1ef-89eb-4d02-94b0-771dd54713e7")
+		)
+		(pin "24"
+			(uuid "018de3ca-9682-499d-b5de-b17145d4a1b6")
+		)
+		(pin "38"
+			(uuid "187af7aa-110e-4ee9-bc2a-627ce9a14942")
+		)
+		(pin "59"
+			(uuid "fcead993-4d87-4ec2-8d9c-841f77313e6b")
+		)
+		(pin "51"
+			(uuid "fc9858a3-d58a-456d-90dc-01a4e408b24e")
+		)
+		(pin "64"
+			(uuid "cf0d14ef-2c79-4ff7-bafe-30ef302da4e7")
+		)
+		(pin "60"
+			(uuid "9de83ff5-3895-443e-8382-1325827753fd")
+		)
+		(pin "17"
+			(uuid "c62b58c8-b859-4034-afa0-b38639467ff2")
+		)
+		(pin "35"
+			(uuid "38a50666-7ce5-4081-a759-28678bd194e8")
+		)
+		(pin "12"
+			(uuid "f3454ed8-f2d6-497d-9433-4dda2d4f2cc7")
+		)
+		(pin "13"
+			(uuid "2459c9d1-956d-4d67-aa55-ec31da0dd8b3")
+		)
+		(pin "52"
+			(uuid "9fe11d93-ff34-4382-8e92-32653d986786")
+		)
+		(pin "54"
+			(uuid "d6e7ebba-317f-4319-b148-445779e12d7f")
+		)
+		(pin "49"
+			(uuid "9304a064-9cf2-4abf-9254-bf4fbd0df3dc")
+		)
+		(pin "50"
+			(uuid "c9f82205-b660-4988-bbf6-77d009ba9504")
+		)
+		(pin "62"
+			(uuid "e9c55b9a-50f9-4b0a-98a3-55d36c6b0fe0")
+		)
+		(pin "36"
+			(uuid "1e7bf2d6-a7cc-4074-9de3-edb3fa08f088")
+		)
+		(pin "39"
+			(uuid "fa839027-3d38-41ab-ae56-a7b31421b9e7")
+		)
+		(pin "40"
+			(uuid "be57be38-dbd5-4be6-8aa5-5abd79ba293b")
+		)
+		(pin "55"
+			(uuid "7b8bc65c-a0b0-4c9c-8ddb-9e61b3101e56")
+		)
+		(pin "63"
+			(uuid "139f5efb-598f-46ce-913b-96b665068e8e")
+		)
+		(pin "61"
+			(uuid "c6e482d9-1960-4740-9b93-cb17a865f108")
+		)
+		(pin "30"
+			(uuid "2c649e57-5297-4f76-b983-0533f21985a2")
+		)
+		(pin "53"
+			(uuid "6a4eca72-72d4-48db-b5af-b04575f2998e")
+		)
+		(pin "31"
+			(uuid "713d2624-ef86-4397-ae52-c79b1c4941af")
+		)
+		(pin "19"
+			(uuid "27165fd2-1d15-43eb-9efc-5613b7c45883")
+		)
+		(pin "21"
+			(uuid "d0196761-4bcd-42e4-94c2-093f49825903")
+		)
+		(pin "15"
+			(uuid "1afb99c2-41e1-46f0-9a4f-b49ea472b308")
+		)
+		(pin "23"
+			(uuid "08798d69-3552-4bc3-923a-e7b9db4340f5")
+		)
+		(pin "4"
+			(uuid "2af96893-0504-4a8f-832f-d8dd12d8a03d")
+		)
+		(pin "33"
+			(uuid "9ec7c212-7c04-40f5-b6ef-a83a580fddbd")
+		)
+		(pin "22"
+			(uuid "8865d9db-9fd4-4afd-b5ef-4aaa5884f84f")
+		)
+		(pin "16"
+			(uuid "c366d23c-34ba-4642-a6ed-47074d409ac4")
+		)
+		(pin "65"
+			(uuid "4fb65dce-423b-410e-84d8-434a8801b92c")
+		)
+		(instances
+			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128"
+					(reference "LAN9252")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 223.52 64.77 0)
 		(unit 1)
@@ -10239,24 +10144,45 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 25.4 49.53 0)
+		(lib_id "LAN9252 Symbols:FerrriteBead")
+		(at 243.84 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fa1a72c0-0eed-400a-829f-9265c64c242e")
-		(property "Reference" "FB2"
-			(at 27.686 45.466 0)
+		(uuid "f9ad815a-4172-4a38-9fce-068104fbbac1")
+		(property "Reference" "FB4"
+			(at 242.062 18.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "FerriteBead"
-			(at 27.432 51.562 0)
+		(property "Value" "FerrriteBead"
+			(at 231.13 26.6766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SPEAR Footprints:Ferrite_bead"
+			(at 243.84 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10264,43 +10190,25 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints SPEAR:Ferrite_bead"
-			(at 23.622 49.53 90)
+		(property "Description" ""
+			(at 243.84 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 25.4 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8d292a6-f6f1-4dfa-a658-5bc02a038388")
 		)
 		(pin "2"
-			(uuid "892374b8-39e5-49ce-9547-1defccb0111a")
+			(uuid "94b44e33-897d-40a4-ba1e-bde5663d5c43")
+		)
+		(pin "1"
+			(uuid "170002a4-e963-4420-962c-ebd35e45bdda")
 		)
 		(instances
 			(project "LAN9252"
 				(path "/16d72164-3a84-4f74-a868-383d0ad57128"
-					(reference "FB2")
+					(reference "FB4")
 					(unit 1)
 				)
 			)

@@ -6,6 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "LAN9252 Ports")
+		(date "2025-11-08")
+		(company "Space Exploration Alberta Robotics")
 	)
 	(lib_symbols
 		(symbol "Conn_01x04_MountingPin_1"
@@ -905,34 +907,30 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LAN9252 Symbols:H1102NLT"
+		(symbol "H1102NLT_2"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "T"
-				(at -12.7096 10.4854 0)
+			(property "Reference" "T2"
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "Value" "H1102NLT"
-				(at -12.8763 -12.2404 0)
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
-					(hide yes)
 				)
 			)
-			(property "Footprint" "H1102NLT:XFMR_H1102NLT"
+			(property "Footprint" "Transformer_SMD:Transformer_Pulse_H1100NL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -990,10 +988,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "H1102NLT_0_0"
+			(symbol "H1102NLT_2_0_0"
 				(rectangle
-					(start -12.7 11.43)
-					(end 12.7 -11.43)
+					(start -12.7 10.16)
+					(end 12.7 -10.16)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -2146,24 +2144,6 @@
 						(type none)
 					)
 				)
-				(text "TRANSMIT"
-					(at -8.2613 9.5313 0)
-					(effects
-						(font
-							(size 1.0168 1.0168)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "RECEIVE"
-					(at -8.128 -2.794 0)
-					(effects
-						(font
-							(size 1.0178 1.0178)
-						)
-						(justify left bottom)
-					)
-				)
 				(pin passive line
 					(at -17.78 8.89 0)
 					(length 5.08)
@@ -2381,14 +2361,32 @@
 					)
 				)
 			)
-			(symbol "H1102NLT_1_1"
-				(pin passive line
+			(symbol "H1102NLT_2_1_1"
+				(text "TRANSMIT"
+					(at -8.128 9.144 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "RECEIVE"
+					(at -8.128 -3.302 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin input line
 					(at -17.78 1.27 0)
 					(length 5.08)
-					(name ""
+					(name "NC_1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -2400,13 +2398,13 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at -17.78 -1.27 0)
 					(length 5.08)
-					(name ""
+					(name "NC_2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -2418,13 +2416,13 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at 17.78 1.27 180)
 					(length 5.08)
-					(name ""
+					(name "NC_5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -2436,13 +2434,13 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at 17.78 -1.27 180)
 					(length 5.08)
-					(name ""
+					(name "NC_4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -3267,6 +3265,12 @@
 		(uuid "cc7547bd-a34e-487f-b478-5ee71c06eef0")
 	)
 	(junction
+		(at 142.24 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd184bc3-1756-495a-bcfc-15d9aaad4932")
+	)
+	(junction
 		(at 44.45 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3834,7 +3838,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 53.34) (xy 143.51 53.34)
+			(xy 124.46 53.34) (xy 142.24 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3914,7 +3918,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 48.26) (xy 143.51 48.26)
+			(xy 138.43 48.26) (xy 142.24 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4084,7 +4088,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 55.88) (xy 143.51 55.88)
+			(xy 138.43 55.88) (xy 142.24 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4334,7 +4338,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 50.8) (xy 143.51 50.8)
+			(xy 125.73 50.8) (xy 142.24 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb0e3e20-c00b-4607-bc88-aedec6fda156")
+	)
+	(wire
+		(pts
+			(xy 147.32 50.8) (xy 142.24 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5227,298 +5241,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LAN9252 Symbols:H1102NLT")
-		(at 102.87 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26d79043-58b2-4189-8cfb-9eaa9e23c5c8")
-		(property "Reference" "T1"
-			(at 90.1604 42.8546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "H1102NLT"
-			(at 89.9937 65.5804 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SPEAR Footprints:XFMR_H1102NLT"
-			(at 102.87 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 102.87 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "NA"
-			(at 102.87 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STNADARD" "Manufacturer Recommendation"
-			(at 102.87 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Pulse Electronics"
-			(at 102.87 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a8367a78-cf66-443f-881f-bd2f20bb178d")
-		)
-		(pin "3"
-			(uuid "928e1ce3-aa43-4fe5-b512-1e60d7e91785")
-		)
-		(pin "7"
-			(uuid "7514b611-5ac0-4e7e-bc6b-ecfd9ef8dc34")
-		)
-		(pin "16"
-			(uuid "11119a9a-1240-4633-af4d-14d7b66c4359")
-		)
-		(pin "15"
-			(uuid "81887394-83d9-481a-abeb-9ab3b299fa8b")
-		)
-		(pin "14"
-			(uuid "01ea1d0a-8e53-4a9d-a521-96b55ba757ee")
-		)
-		(pin "8"
-			(uuid "c5dd57a0-b6a4-487f-99b9-f4cd90cc9ab7")
-		)
-		(pin "11"
-			(uuid "05982d79-1519-498f-9e48-8899b966b12d")
-		)
-		(pin "1"
-			(uuid "afa008e1-e6ec-44ca-9665-b46869c9ad53")
-		)
-		(pin "6"
-			(uuid "7d81b3a3-cfc5-4e00-a876-7c2dfd71585f")
-		)
-		(pin "9"
-			(uuid "5157ff6b-2fa4-4a37-8955-5ac91ffdc312")
-		)
-		(pin "13"
-			(uuid "f977d6bb-22bd-42d4-84e9-15bc47af764a")
-		)
-		(pin "5"
-			(uuid "80b9c6e6-ecf9-4a8e-b4f2-610407edc80f")
-		)
-		(pin "12"
-			(uuid "0765544c-2607-4c9c-9a72-97e70a95c763")
-		)
-		(pin "4"
-			(uuid "6291d2ca-3ce7-4a4f-9fe3-1fbd3da105a2")
-		)
-		(pin "10"
-			(uuid "d48414de-c73d-46b2-b742-1c17dcfdbf55")
-		)
-		(instances
-			(project ""
-				(path "/16d72164-3a84-4f74-a868-383d0ad57128/2d8407d1-c129-4aa5-b34c-a9c040e1c063"
-					(reference "T1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LAN9252 Symbols:H1102NLT")
-		(at 106.68 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2aacf0a3-487f-46cf-83a5-de866803988d")
-		(property "Reference" "T2"
-			(at 93.9704 119.0546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "H1102NLT"
-			(at 93.8037 141.7804 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SPEAR Footprints:XFMR_H1102NLT"
-			(at 106.68 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "NA"
-			(at 106.68 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STNADARD" "Manufacturer Recommendation"
-			(at 106.68 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Pulse Electronics"
-			(at 106.68 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "b65a1b8b-87e8-4a6a-a2b1-27beeac3a5d4")
-		)
-		(pin "14"
-			(uuid "c889cb82-e91d-48aa-b3f1-7e6fb6fab321")
-		)
-		(pin "15"
-			(uuid "be415049-66e0-4a65-a78f-b783bec1d4e3")
-		)
-		(pin "1"
-			(uuid "f5e9c801-1a59-4803-9988-9561a2a3f425")
-		)
-		(pin "5"
-			(uuid "6e744906-a512-4c01-a004-bc385ed7050f")
-		)
-		(pin "2"
-			(uuid "edd90f8b-192d-4251-9b35-dd4bdb0fc356")
-		)
-		(pin "8"
-			(uuid "57c5236f-4a46-42f0-a895-d4e7d6f1ae57")
-		)
-		(pin "7"
-			(uuid "f62e0a32-74b2-49eb-b898-55309562e11b")
-		)
-		(pin "6"
-			(uuid "7a989fbf-df1c-4daa-8247-695d8a1d48d4")
-		)
-		(pin "4"
-			(uuid "3c498434-434e-44ac-862c-775dd448a777")
-		)
-		(pin "12"
-			(uuid "cd5c3de5-3386-4086-8c08-ecf9a66728a7")
-		)
-		(pin "11"
-			(uuid "8fe51586-0f85-4508-a3a5-d7ab9765d332")
-		)
-		(pin "16"
-			(uuid "f77cbfac-5ea2-48c4-904e-479cf8ea04f2")
-		)
-		(pin "9"
-			(uuid "45f08db9-fe0e-40cf-8864-aaea82d0b3ea")
-		)
-		(pin "10"
-			(uuid "e0aaf987-8729-4075-a48e-40860cd375f4")
-		)
-		(pin "3"
-			(uuid "6e8e2ce0-c737-4c10-a4c9-eeff50bbd897")
-		)
-		(instances
-			(project ""
-				(path "/16d72164-3a84-4f74-a868-383d0ad57128/2d8407d1-c129-4aa5-b34c-a9c040e1c063"
-					(reference "T2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
-		(at 121.92 110.49 0)
+		(at 121.92 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5527,7 +5251,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d02a7d5-02ed-48b7-b744-0c4d92bb9180")
 		(property "Reference" "D2"
-			(at 120.3325 104.14 0)
+			(at 123.5075 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,7 +5259,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 120.3325 106.68 0)
+			(at 123.5075 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6140,6 +5864,148 @@
 		)
 	)
 	(symbol
+		(lib_name "H1102NLT_2")
+		(lib_id "H1102NLT:H1102NLT")
+		(at 106.68 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "585d4a8c-9772-4a83-b4e0-5c7be2c723e9")
+		(property "Reference" "T1"
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H1102NLT"
+			(at 106.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Transformer_SMD:Transformer_Pulse_H1100NL"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "NA"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STNADARD" "Manufacturer Recommendation"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Pulse Electronics"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e7ba7758-8679-444c-8287-cbef400204d1")
+		)
+		(pin "1"
+			(uuid "8db1cc3c-e592-4ceb-a087-12299a640caf")
+		)
+		(pin "14"
+			(uuid "5d155592-26b3-46c2-85aa-913b531a1ac9")
+		)
+		(pin "6"
+			(uuid "6c8ab70f-19eb-4793-9b33-22ef40108cda")
+		)
+		(pin "11"
+			(uuid "59b80499-0af2-4094-bdf0-698602794dff")
+		)
+		(pin "16"
+			(uuid "57e861de-a00d-4d41-9b57-cde532c1cb19")
+		)
+		(pin "7"
+			(uuid "4c87d922-dafe-4e6b-aee2-a22b73a2b738")
+		)
+		(pin "8"
+			(uuid "37fbb3d5-a2b8-483b-adf4-1802fb41837b")
+		)
+		(pin "15"
+			(uuid "8f019202-ea8f-4956-91c7-5af4309ba3ea")
+		)
+		(pin "3"
+			(uuid "de0cf11c-39b9-4fb4-8ef3-873a2817f139")
+		)
+		(pin "9"
+			(uuid "78d54960-6785-4200-8d37-5a7fffbee92f")
+		)
+		(pin "10"
+			(uuid "957780e9-fdb7-4a1e-95f7-bacdce8b5dcf")
+		)
+		(pin "12"
+			(uuid "3afebebb-5ec0-4a5d-b26a-b94cef632422")
+		)
+		(pin "5"
+			(uuid "7a8d3b99-f5bc-4660-926b-f6bd62dfe628")
+		)
+		(pin "4"
+			(uuid "fd6341de-7ce8-4c57-9fba-5dd9b200aa30")
+		)
+		(pin "13"
+			(uuid "6d759291-2379-470e-b982-eb008ea05ae3")
+		)
+		(instances
+			(project "LAN9252"
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/2d8407d1-c129-4aa5-b34c-a9c040e1c063"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 220.98 40.64 270)
 		(unit 1)
@@ -6561,7 +6427,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 123.19 33.02 0)
+		(at 123.19 33.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6570,7 +6436,7 @@
 		(fields_autoplaced yes)
 		(uuid "77aaf240-0a6a-443e-ad44-589979ed5980")
 		(property "Reference" "D3"
-			(at 121.6025 26.67 0)
+			(at 124.7775 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6578,7 +6444,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 121.6025 29.21 0)
+			(at 124.7775 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7387,7 +7253,7 @@
 	(symbol
 		(lib_name "Conn_01x04_MountingPin_1")
 		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
-		(at 148.59 54.61 180)
+		(at 147.32 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7396,7 +7262,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd85e1d0-ac3d-4bca-8c22-6d8ec88cff24")
 		(property "Reference" "J1"
-			(at 151.13 50.7999 0)
+			(at 149.86 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,7 +7271,7 @@
 			)
 		)
 		(property "Value" "SM04B-GHS-TB"
-			(at 151.13 53.3399 0)
+			(at 149.86 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7414,7 +7280,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
-			(at 148.59 54.61 0)
+			(at 147.32 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7423,7 +7289,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 54.61 0)
+			(at 147.32 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7432,7 +7298,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 148.59 54.61 0)
+			(at 147.32 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8069,6 +7935,148 @@
 			(project "LAN9252"
 				(path "/16d72164-3a84-4f74-a868-383d0ad57128/2d8407d1-c129-4aa5-b34c-a9c040e1c063"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "H1102NLT_2")
+		(lib_id "H1102NLT:H1102NLT")
+		(at 102.87 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7bceb14-bae3-44b3-9320-971e93465ef7")
+		(property "Reference" "T2"
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H1102NLT"
+			(at 102.87 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Transformer_SMD:Transformer_Pulse_H1100NL"
+			(at 102.87 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "NA"
+			(at 102.87 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STNADARD" "Manufacturer Recommendation"
+			(at 102.87 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Pulse Electronics"
+			(at 102.87 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84b8d01b-6695-4eed-a407-cb584eadd90d")
+		)
+		(pin "1"
+			(uuid "bf38ef03-a78c-4627-844d-ffa503cefd79")
+		)
+		(pin "14"
+			(uuid "e689c47e-2aed-4e9d-8e5e-df6d8233bb3d")
+		)
+		(pin "6"
+			(uuid "17d46d0e-a7fb-47c0-a6dd-e1ca2c019109")
+		)
+		(pin "11"
+			(uuid "96a4dd2e-c221-4e49-bfcd-c3a4a01efc08")
+		)
+		(pin "16"
+			(uuid "4e436c30-9cde-4793-b884-c6ff2e43a2ae")
+		)
+		(pin "7"
+			(uuid "b5884b05-b034-4d35-a140-8cbba6a278e8")
+		)
+		(pin "8"
+			(uuid "b131fd3a-785c-4817-a2b6-5f7c07fc9668")
+		)
+		(pin "15"
+			(uuid "eacd67ad-c62f-4297-9e43-bfbecbabade6")
+		)
+		(pin "3"
+			(uuid "be8f0dc6-6f0e-4fc8-a0a4-07720c1a525a")
+		)
+		(pin "9"
+			(uuid "a58a13fb-124d-4b4a-9bb0-a084c3b1ef19")
+		)
+		(pin "10"
+			(uuid "beae0c16-3fad-4737-99c6-4426bea2b722")
+		)
+		(pin "12"
+			(uuid "f1d23925-6443-410d-84b3-c535aa6555ae")
+		)
+		(pin "5"
+			(uuid "8c23e18e-d095-43a0-ad9b-c52b4c9eaf41")
+		)
+		(pin "4"
+			(uuid "b5bbe395-7d4f-40b6-9f15-d6963fe330e9")
+		)
+		(pin "13"
+			(uuid "52a2e9b8-cb06-46ea-a9a8-faecc5f91c55")
+		)
+		(instances
+			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/2d8407d1-c129-4aa5-b34c-a9c040e1c063"
+					(reference "T2")
 					(unit 1)
 				)
 			)
