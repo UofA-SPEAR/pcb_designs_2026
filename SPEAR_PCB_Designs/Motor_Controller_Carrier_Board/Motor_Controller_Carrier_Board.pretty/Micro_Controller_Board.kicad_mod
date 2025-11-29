@@ -105,6 +105,19 @@
 			(justify left)
 		)
 	)
+	(fp_text user "EB"
+		(at 1 3.76 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7474d2e9-e10b-41f3-ac8f-24809a00924e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
 	(fp_text user "PWM"
 		(at 29 6.3 0)
 		(unlocked yes)
@@ -157,11 +170,11 @@
 			(justify left)
 		)
 	)
-	(fp_text user "3V3"
-		(at 29 16.46 0)
+	(fp_text user "EA"
+		(at 1 1.22 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "fdec55f6-eb0f-40c2-84f9-01384c82b36a")
+		(uuid "ed96b0c4-1381-446d-9a9b-7013c844ce2e")
 		(effects
 			(font
 				(size 1 1)
@@ -219,20 +232,28 @@
 		(uuid "faeae9cf-b409-4726-a81a-a579653dbe41")
 	)
 	(pad "7" thru_hole circle
-		(at 28 16.46 90)
-		(size 1.5 1.5)
-		(drill 1.02)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "82bc21cc-ec48-4734-a2bd-4ee76ba3cdd9")
-	)
-	(pad "8" thru_hole circle
 		(at 28 19 90)
 		(size 1.5 1.5)
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "1ee85ed7-80ce-4f29-b1ad-6cbfeaef330e")
+	)
+	(pad "8" thru_hole circle
+		(at 5 1.22 90)
+		(size 1.5 1.5)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "136b1757-d14c-4645-a94f-938909396425")
+	)
+	(pad "9" thru_hole circle
+		(at 5 3.76 90)
+		(size 1.5 1.5)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c483d816-7fbb-471f-bcea-f8d3c47021a0")
 	)
 	(embedded_fonts no)
 )
