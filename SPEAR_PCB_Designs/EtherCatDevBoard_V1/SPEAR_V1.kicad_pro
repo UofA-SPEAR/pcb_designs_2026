@@ -226,20 +226,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "label_dangling|1752600|558800|a539462a-0899-43c5-af7d-99c69a092fb4|00000000-0000-0000-0000-000000000000|/6af343d7-7346-4b6a-90ee-eb113982f4e5||",
-        ""
-      ],
-      [
-        "label_dangling|1752600|584200|1c3d0c8f-1a10-492f-a922-549a504a3cd4|00000000-0000-0000-0000-000000000000|/6af343d7-7346-4b6a-90ee-eb113982f4e5||",
-        ""
-      ],
-      [
-        "label_dangling|1752600|609600|e1480bf0-ea3f-4d03-b8f5-1d7c96161cb9|00000000-0000-0000-0000-000000000000|/6af343d7-7346-4b6a-90ee-eb113982f4e5||",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -453,6 +440,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
