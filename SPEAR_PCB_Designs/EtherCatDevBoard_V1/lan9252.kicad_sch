@@ -2779,7 +2779,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 63.5) (xy 41.91 59.69)
+			(xy 41.91 62.23) (xy 41.91 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6316,73 +6316,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 40.64 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "582634ed-5753-4584-9c04-d522c17c30b2")
-		(property "Reference" "#FLG06"
-			(at 40.64 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 40.64 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 40.64 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c376f6d7-0def-41ff-8e63-c3ef273f4a51")
-		)
-		(instances
-			(project "SPEAR_V1"
-				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5/d630782a-bbb8-450e-a52a-35375a587c4e"
-					(reference "#FLG06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 231.14 63.5 0)
 		(unit 1)
@@ -6775,17 +6708,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 41.91 63.5 180)
+		(lib_id "power:GND")
+		(at 40.64 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "69308311-42ca-4a87-9323-918fe5235402")
-		(property "Reference" "#FLG010"
-			(at 41.91 65.405 0)
+		(uuid "6beb34ed-bb1e-4d04-be18-a4a63178498f")
+		(property "Reference" "#PWR059"
+			(at 40.64 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6793,17 +6726,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 41.91 68.58 0)
+		(property "Value" "GND"
+			(at 40.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 63.5 0)
+			(at 40.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6811,8 +6743,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 41.91 63.5 0)
+		(property "Datasheet" ""
+			(at 40.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6820,8 +6752,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 41.91 63.5 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6830,12 +6762,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5304694c-50cb-4e85-a761-2ef7aba387aa")
+			(uuid "bfbd8fe2-7fa5-4af5-b2f7-2a3fab1ea5d9")
 		)
 		(instances
-			(project "SPEAR_V1"
+			(project ""
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5/d630782a-bbb8-450e-a52a-35375a587c4e"
-					(reference "#FLG010")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -8778,6 +8710,72 @@
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5/d630782a-bbb8-450e-a52a-35375a587c4e"
 					(reference "FB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d12a8176-dacf-4dd8-9cf1-0714d81d5ed9")
+		(property "Reference" "#PWR060"
+			(at 41.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30854424-8603-4fa0-bb86-e055ca2721a0")
+		)
+		(instances
+			(project "SPEAR_V1"
+				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5/d630782a-bbb8-450e-a52a-35375a587c4e"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)

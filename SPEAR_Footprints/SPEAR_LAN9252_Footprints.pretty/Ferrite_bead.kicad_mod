@@ -10,7 +10,7 @@
 		(effects
 			(font
 				(size 0.393701 0.393701)
-				(thickness 0.15)
+				(thickness 0.098425)
 			)
 		)
 	)
@@ -21,7 +21,7 @@
 		(effects
 			(font
 				(size 0.393701 0.393701)
-				(thickness 0.15)
+				(thickness 0.098425)
 			)
 		)
 	)
@@ -145,4 +145,15 @@
 		(uuid "ea837a64-0e12-4f2a-80aa-d4416737f6c4")
 	)
 	(embedded_fonts no)
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_LAN9252_3D_Models/IND_BLM18_0603_MUR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
