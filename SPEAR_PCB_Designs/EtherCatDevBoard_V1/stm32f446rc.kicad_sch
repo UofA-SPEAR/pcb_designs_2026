@@ -6101,9 +6101,9 @@
 		)
 		(uuid "1f5f7372-eb90-49e7-b723-e9a38bc6700c")
 	)
-	(text "VIN1 when PR1>1V, else VIN2"
+	(text "VIN1 as VOUT when PR1>1V, else VIN2.\nEquivalently, VIN1 when VIN1 > 2.47V else VIN2.\n2.47V chosen since is inbetween 3.3V and 1.8V\n(max and min) required for the Lan9252."
 		(exclude_from_sim no)
-		(at 239.522 162.306 0)
+		(at 240.284 159.004 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6279,12 +6279,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40133f01-b248-445b-a3b7-88c02a23fa4b")
-	)
-	(junction
-		(at 255.27 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45e6748d-d1ed-4062-887c-58ce452fe3d0")
 	)
 	(junction
 		(at 208.28 121.92)
@@ -6680,16 +6674,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 127) (xy 255.27 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "171f0d0d-3bd8-462b-b979-3bca2b62d4c3")
-	)
-	(wire
-		(pts
 			(xy 190.5 21.59) (xy 190.5 22.86)
 		)
 		(stroke
@@ -6710,7 +6694,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 76.2) (xy 123.19 76.2)
+			(xy 109.22 76.2) (xy 123.19 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7040,7 +7024,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 125.73) (xy 255.27 127)
+			(xy 255.27 125.73) (xy 255.27 132.08)
 		)
 		(stroke
 			(width 0)
@@ -9038,16 +9022,6 @@
 		)
 		(uuid "4f7183ed-f3ee-41fb-819b-a2ca70e4fd83")
 	)
-	(label "PC4"
-		(at 114.3 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "50e7f440-c706-4bc4-9465-a2590becb72b")
-	)
 	(label "PB0"
 		(at 172.72 86.36 0)
 		(effects
@@ -9127,16 +9101,6 @@
 			(justify right bottom)
 		)
 		(uuid "60430af9-8367-4cb8-8e30-53a9695c9e3e")
-	)
-	(label "PC4"
-		(at 34.29 158.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "61def30c-13bb-47b6-9e58-5f87c9879ab8")
 	)
 	(label "USBC_D-"
 		(at 226.06 76.2 0)
@@ -9811,6 +9775,17 @@
 		)
 		(uuid "b6ef37b8-98fe-4ad9-bad0-e49c2e6e271f")
 	)
+	(hierarchical_label "SPI1_CS"
+		(shape output)
+		(at 109.22 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d40cf317-da09-478e-a7d2-9c3b51b8d19a")
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 167.64 26.67 0)
@@ -9875,71 +9850,6 @@
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5/ad078953-06c7-4dc0-a658-e8fb86486200"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 147.32 172.72 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b347ca7-db80-48dc-8cf4-d9e37429ba44")
-		(property "Reference" "#FLG010"
-			(at 149.225 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 150.876 172.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 147.32 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dafd01b2-23b1-4c72-9760-ba5bbf4082b4")
-		)
-		(instances
-			(project "SPEAR_V1"
-				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5/ad078953-06c7-4dc0-a658-e8fb86486200"
-					(reference "#FLG010")
 					(unit 1)
 				)
 			)
@@ -10839,7 +10749,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "1k"
 			(at 277.876 138.684 90)
 			(effects
 				(font
@@ -12241,71 +12151,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 255.27 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6d6d920e-b24a-4a23-811e-7b52550d5e69")
-		(property "Reference" "#FLG01"
-			(at 257.175 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 258.826 127.254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 255.27 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2109b49-4666-4980-b309-b5de04d88260")
-		)
-		(instances
-			(project "SPEAR_V1"
-				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5/ad078953-06c7-4dc0-a658-e8fb86486200"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 217.17 137.16 0)
 		(unit 1)
@@ -13294,6 +13139,71 @@
 			(project "SPEAR_V1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5/ad078953-06c7-4dc0-a658-e8fb86486200"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 167.64 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2b9594f-3ef7-479c-9c8b-e8923600190a")
+		(property "Reference" "#FLG01"
+			(at 167.64 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 167.894 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 167.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "033d137e-d0c9-454e-86b6-1c852956f223")
+		)
+		(instances
+			(project "SPEAR_V1"
+				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5/ad078953-06c7-4dc0-a658-e8fb86486200"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)

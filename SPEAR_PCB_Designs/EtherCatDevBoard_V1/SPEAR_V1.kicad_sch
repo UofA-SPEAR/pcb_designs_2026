@@ -38,6 +38,16 @@
 		)
 		(uuid "ba6594d1-aa77-4b1c-9e4c-a8b5814fc44c")
 	)
+	(wire
+		(pts
+			(xy 57.15 59.69) (xy 71.12 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2674fc2-1572-4623-a98f-8061c4188382")
+	)
 	(sheet
 		(at 29.21 45.72)
 		(size 27.94 25.4)
@@ -95,6 +105,16 @@
 		(pin "SPI1_SCK" output
 			(at 57.15 55.88 0)
 			(uuid "a1a2d8c7-9581-40c8-ab16-8e68a74abbf0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_CS" output
+			(at 57.15 59.69 0)
+			(uuid "c6c5de79-8571-4ccc-80c9-f4edec005f45")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -167,6 +187,16 @@
 		(pin "SCK" input
 			(at 71.12 55.88 180)
 			(uuid "c87a702d-23cd-4f3b-97e8-e4b9f1e0d0e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS" input
+			(at 71.12 59.69 180)
+			(uuid "a16fb189-2405-4409-9953-82d0c8c2d112")
 			(effects
 				(font
 					(size 1.27 1.27)

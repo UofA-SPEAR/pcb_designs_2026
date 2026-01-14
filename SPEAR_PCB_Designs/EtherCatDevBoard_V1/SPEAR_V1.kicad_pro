@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.4
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -497,14 +497,21 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6
+      },
+      {
+        "name": "+3.3V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25
       },
       {
         "name": "+5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5
       },
@@ -512,16 +519,23 @@
         "bus_width": 12,
         "name": "BOOT",
         "pcb_color": "rgb(255, 163, 10)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgb(255, 163, 10)",
         "wire_width": 6
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25
       },
       {
         "bus_width": 12,
         "line_style": 0,
         "name": "HEADER_PIN",
         "pcb_color": "rgb(12, 211, 209)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgb(12, 211, 209)",
         "wire_width": 6
       },
@@ -530,7 +544,7 @@
         "line_style": 0,
         "name": "PWR",
         "pcb_color": "rgb(193, 11, 13)",
-        "priority": 5,
+        "priority": 7,
         "schematic_color": "rgb(193, 11, 13)",
         "wire_width": 6
       },
@@ -539,7 +553,7 @@
         "line_style": 0,
         "name": "PWR_GND",
         "pcb_color": "rgb(134, 134, 134)",
-        "priority": 4,
+        "priority": 6,
         "schematic_color": "rgb(134, 134, 134)",
         "wire_width": 6
       },
@@ -548,7 +562,7 @@
         "line_style": 0,
         "name": "SWD",
         "pcb_color": "rgb(0, 109, 255)",
-        "priority": 6,
+        "priority": 8,
         "schematic_color": "rgb(0, 109, 255)",
         "wire_width": 6
       },
@@ -557,7 +571,7 @@
         "line_style": 0,
         "name": "USB",
         "pcb_color": "rgb(23, 193, 0)",
-        "priority": 7,
+        "priority": 9,
         "schematic_color": "rgb(23, 193, 0)",
         "wire_width": 6
       },
@@ -566,7 +580,7 @@
         "line_style": 0,
         "name": "XTAL",
         "pcb_color": "rgb(201, 88, 179)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgb(201, 88, 179)",
         "wire_width": 6
       }
@@ -586,7 +600,7 @@
         "pattern": "+*"
       },
       {
-        "netclass": "PWR_GND",
+        "netclass": "GND",
         "pattern": "GND"
       },
       {
@@ -628,6 +642,10 @@
       {
         "netclass": "+5V",
         "pattern": "+5V"
+      },
+      {
+        "netclass": "+3.3V",
+        "pattern": "+3.3V"
       }
     ]
   },

@@ -2866,6 +2866,16 @@
 		)
 		(uuid d74276bf-7bb3-47da-8b27-dbfa30528c78)
 	)
+	(text "Polarity, and transmit and receive were\nswapped for routing purposes.\nAuto-MDIX and polarity detection \nwill correct for this."
+		(exclude_from_sim no)
+		(at 113.538 154.686 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "51aeeca1-b8d1-41f6-a5c3-37631c41510f")
+	)
 	(text "GRN"
 		(exclude_from_sim no)
 		(at 139.446 47.752 0)
@@ -2905,6 +2915,16 @@
 			)
 		)
 		(uuid "e1c6e413-f54a-4c0f-a930-af27985163be")
+	)
+	(text "Polarity, and transmit and receive were\nswapped for routing purposes.\nAuto-MDIX and polarity detection \nwill correct for this."
+		(exclude_from_sim no)
+		(at 114.554 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e42a26ca-f547-4728-a37c-fff5c6a8771f")
 	)
 	(junction
 		(at 68.58 143.51)
