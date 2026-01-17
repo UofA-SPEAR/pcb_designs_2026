@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SPEAR_Boards")(type "KiCad")(uri "C:/Users/Ammar/Spear/pcb_designs_2026/SPEAR_Footprints/SPEAR_Boards.pretty")(options "")(descr ""))
+)
