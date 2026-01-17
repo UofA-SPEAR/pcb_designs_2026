@@ -4995,7 +4995,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 208.026 66.04 0)
 			(effects
 				(font
@@ -5049,6 +5049,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "131123f0-232e-474d-847d-4258c9c434b4")
 		)
@@ -5082,7 +5091,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 215.9 66.04 0)
 			(effects
 				(font
@@ -5128,6 +5137,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 215.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
 			(at 215.9 63.5 0)
 			(effects
 				(font
@@ -5235,7 +5253,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 246.38 67.31 0)
 			(effects
 				(font
@@ -5289,6 +5307,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
+			(at 246.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "04fcaaa1-f96b-46cf-b156-791ff78908fb")
 		)
@@ -5322,7 +5349,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 223.52 65.786 0)
 			(effects
 				(font
@@ -5368,6 +5395,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 223.52 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
 			(at 223.52 63.5 0)
 			(effects
 				(font
@@ -5530,6 +5566,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "1276-1067-1-ND"
+			(at 222.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8f578a47-a431-4d2a-a343-59e52dd5dd8a")
 		)
@@ -5683,6 +5728,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "1276-6612-1-ND"
+			(at 40.64 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "513d72e2-f3d9-48c2-a27c-f1fb646e6017")
 		)
@@ -5782,7 +5836,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 176.53 73.914 0)
 			(effects
 				(font
@@ -5828,6 +5882,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 173.99 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
 			(at 173.99 72.39 0)
 			(effects
 				(font
@@ -6023,7 +6086,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 261.366 67.056 0)
 			(effects
 				(font
@@ -6069,6 +6132,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 261.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
 			(at 261.62 64.77 0)
 			(effects
 				(font
@@ -6176,7 +6248,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 244.856 96.266 0)
 			(effects
 				(font
@@ -6230,6 +6302,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
+			(at 245.11 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cabd9d8e-e6ac-4730-80e6-4c37e1b1ee24")
 		)
@@ -6263,7 +6344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 230.886 65.786 0)
 			(effects
 				(font
@@ -6309,6 +6390,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 231.14 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
 			(at 231.14 63.5 0)
 			(effects
 				(font
@@ -6483,7 +6573,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 237.49 96.266 0)
 			(effects
 				(font
@@ -6537,6 +6627,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
+			(at 237.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "be18bec6-7e24-4606-89f4-bd47a1b978db")
 		)
@@ -6569,7 +6668,7 @@
 				)
 			)
 		)
-		(property "Value" "12.1k 1%"
+		(property "Value" "12.1kR 1%"
 			(at 76.454 135.636 90)
 			(effects
 				(font
@@ -6614,6 +6713,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 76.2 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "311-12.1KLRCT-ND"
 			(at 76.2 133.35 90)
 			(effects
 				(font
@@ -7244,7 +7352,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 254 67.056 0)
 			(effects
 				(font
@@ -7298,6 +7406,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
+			(at 254 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "439cf9f4-41b1-427e-b336-1eaaf29d10b2")
 		)
@@ -7331,7 +7448,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 275.336 67.056 0)
 			(effects
 				(font
@@ -7377,6 +7494,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 275.59 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
 			(at 275.59 64.77 0)
 			(effects
 				(font
@@ -7551,7 +7677,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 49.784 29.972 0)
 			(effects
 				(font
@@ -7597,6 +7723,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 46.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
 			(at 46.99 27.94 0)
 			(effects
 				(font
@@ -7692,6 +7827,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "1276-6612-1-ND"
+			(at 40.64 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ccb749ae-a289-4f90-9dfb-97c87eeceb5d")
 		)
@@ -7725,7 +7869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 49.53 55.88 0)
 			(effects
 				(font
@@ -7771,6 +7915,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 46.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
 			(at 46.99 53.34 0)
 			(effects
 				(font
@@ -7922,6 +8075,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 67.31 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "311-0.0JRCT-ND"
 			(at 67.31 87.63 90)
 			(effects
 				(font
@@ -8142,6 +8304,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 36.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1067-1-ND"
 			(at 36.83 53.34 0)
 			(effects
 				(font
@@ -8448,6 +8619,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 229.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1566-1-ND"
 			(at 229.87 93.98 0)
 			(effects
 				(font
@@ -9042,7 +9222,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 238.506 68.58 0)
 			(effects
 				(font
@@ -9088,6 +9268,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 238.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
 			(at 238.76 64.77 0)
 			(effects
 				(font
@@ -9195,7 +9384,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 267.97 67.056 0)
 			(effects
 				(font
@@ -9241,6 +9430,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 267.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
 			(at 267.97 64.77 0)
 			(effects
 				(font
@@ -9416,6 +9614,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 36.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1067-1-ND"
 			(at 36.83 27.94 0)
 			(effects
 				(font
