@@ -1,5 +1,5 @@
 (fp_lib_table
   (version 7)
-  (lib (name "SPEAR_Boards")(type "KiCad")(uri "${KIPRJMOD}/../../SPEAR_Footprints/SPEAR_Boards.pretty")(options "")(descr ""))
+  (lib (name "SPEAR_Boards")(type "KiCad")(uri "${SPEAR_PCB_2026_DIR}/SPEAR_Footprints/SPEAR_Boards.pretty")(options "")(descr ""))
   (lib (name "Motor_Controller_Carrier_Board")(type "KiCad")(uri "${KIPRJMOD}/Motor_Controller_Carrier_Board.pretty")(options "")(descr ""))
 )
