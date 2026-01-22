@@ -5987,6 +5987,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "490-3992-1-ND"
+			(at 180.34 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f4fc5bc0-a799-4cc1-b838-8ae7635e8787")
 		)
@@ -6467,6 +6476,15 @@
 		)
 		(property "Description" "Two pin crystal"
 			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "732-830056463CT-ND"
+			(at 49.53 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7122,6 +7140,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "LAN9252I/ML-ND"
 			(at 121.92 88.9 0)
 			(effects
 				(font
@@ -8540,6 +8567,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "490-3992-1-ND"
+			(at 29.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8b43c03a-1acf-436a-8eb7-d2bd33dc391c")
 		)
@@ -8782,6 +8818,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 27.94 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "490-3992-1-ND"
 			(at 27.94 22.86 0)
 			(effects
 				(font
@@ -9527,6 +9572,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 243.84 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "490-3992-1-ND"
 			(at 243.84 20.32 0)
 			(effects
 				(font

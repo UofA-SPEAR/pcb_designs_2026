@@ -6076,6 +6076,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "553-1532-1-ND"
+			(at 111.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a8367a78-cf66-443f-881f-bd2f20bb178d")
 		)
@@ -6228,6 +6237,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 109.22 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "553-1532-1-ND"
 			(at 109.22 134.62 0)
 			(effects
 				(font
@@ -9126,6 +9144,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "455-1566-1-ND"
+			(at 170.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7afb1c8-e1dc-4923-97b7-3357b3ab79ab")
 		)
@@ -9506,6 +9533,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "24FC512-I/SN-ND"
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "be32fb0c-e794-4f6c-ac95-af0c04d63a8f")
 		)
@@ -9604,6 +9640,15 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "455-1566-1-ND"
 			(at 165.1 135.89 0)
 			(effects
 				(font

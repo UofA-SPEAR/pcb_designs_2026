@@ -11353,6 +11353,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "497-17472-ND"
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55bf74f4-6515-46a4-b7f8-ca0ddd44998c")
 		)
@@ -12117,6 +12126,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "296-TPS2116DRLRCT-ND"
+			(at 242.57 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "e5072631-7ab5-493c-b7b0-bb8fc6af1fd4")
 		)
@@ -12327,6 +12345,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x20, script generated"
+			(at 39.37 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "2057-PH1-20-UA-ND"
 			(at 39.37 163.83 0)
 			(effects
 				(font
@@ -13773,7 +13800,7 @@
 				)
 			)
 		)
-		(property "Value" "AMS1117-3.3"
+		(property "Value" "AMS1117-3.3 SOT-223"
 			(at 134.62 168.91 0)
 			(effects
 				(font
@@ -13800,6 +13827,15 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 134.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "5399-AMS1117-3.3SOT-223CT-ND"
 			(at 134.62 172.72 0)
 			(effects
 				(font
@@ -13951,6 +13987,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "497-5235-1-ND"
+			(at 219.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6f1ccef7-a1ed-440a-ba71-95a8a6bd89f9")
 		)
@@ -14089,6 +14134,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x20, script generated"
+			(at 49.53 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "2057-PH1-20-UA-ND"
 			(at 49.53 163.83 0)
 			(effects
 				(font
@@ -14364,6 +14418,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "CKN12322-1-ND"
+			(at 60.96 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "40b3d4e2-14eb-40f6-916a-9c252ca2bafd")
 		)
@@ -14542,7 +14605,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "120R"
 			(at 180.2892 17.78 90)
 			(effects
 				(font
@@ -14570,6 +14633,15 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 180.34 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "490-5254-1-ND"
+			(at 180.34 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14713,6 +14785,15 @@
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 250.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "2073-USB4105-GF-A-120CT-ND"
+			(at 250.19 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15306,6 +15387,15 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 85.09 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "2151-R2520-16.000-10-1020-EXT-TRCT-ND"
 			(at 85.09 68.58 0)
 			(effects
 				(font
