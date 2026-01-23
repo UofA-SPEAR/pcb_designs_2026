@@ -9744,7 +9744,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 170.18 27.94 0)
 			(effects
 				(font
@@ -9772,6 +9772,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1067-1-ND"
 			(at 167.64 26.67 0)
 			(effects
 				(font
@@ -9877,7 +9886,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kR"
 			(at 257.556 136.906 90)
 			(effects
 				(font
@@ -9905,6 +9914,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 255.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "311-10KJRCT-ND"
+			(at 255.27 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9945,7 +9963,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "10pF"
 			(at 69.342 80.772 0)
 			(effects
 				(font
@@ -9973,6 +9991,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1139-1-ND"
 			(at 76.2 81.28 0)
 			(effects
 				(font
@@ -10013,7 +10040,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_RED"
 			(at 267.208 128.778 0)
 			(effects
 				(font
@@ -10057,6 +10084,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "732-12015-1-ND"
+			(at 266.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a62fdc6c-06a4-451f-baeb-3746dccfc3a3")
 		)
@@ -10091,7 +10127,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 115.57 27.9399 0)
 			(effects
 				(font
@@ -10119,6 +10155,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 111.76 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
 			(at 111.76 26.67 0)
 			(effects
 				(font
@@ -10689,7 +10734,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1kR"
 			(at 277.876 138.684 90)
 			(effects
 				(font
@@ -10717,6 +10762,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 275.59 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "311-1.0KJRCT-ND"
+			(at 275.59 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10757,7 +10811,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 210.82 127 0)
 			(effects
 				(font
@@ -10785,6 +10839,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 208.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1067-1-ND"
 			(at 208.28 125.73 0)
 			(effects
 				(font
@@ -10891,7 +10954,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5.1kR"
 			(at 235.966 102.616 90)
 			(effects
 				(font
@@ -10919,6 +10982,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 233.68 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "311-5.10KLRCT-ND"
+			(at 233.68 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11025,7 +11097,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 121.412 181.864 0)
 			(effects
 				(font
@@ -11053,6 +11125,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 119.38 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1192-1-ND"
 			(at 119.38 181.61 0)
 			(effects
 				(font
@@ -11121,6 +11202,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "311-100LRCT-ND"
+			(at 73.66 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11255,6 +11345,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 128KB RAM, 180 MHz, 1.8-3.6V, 50 GPIO, LQFP64"
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "497-17472-ND"
 			(at 143.51 83.82 0)
 			(effects
 				(font
@@ -11483,7 +11582,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 128.27 27.9399 0)
 			(effects
 				(font
@@ -11511,6 +11610,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 124.46 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
 			(at 124.46 26.67 0)
 			(effects
 				(font
@@ -11618,7 +11726,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "10pF"
 			(at 96.52 81.2799 0)
 			(effects
 				(font
@@ -11646,6 +11754,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 92.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1139-1-ND"
 			(at 92.71 80.01 0)
 			(effects
 				(font
@@ -11688,7 +11805,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 194.31 27.9399 0)
 			(effects
 				(font
@@ -11716,6 +11833,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 190.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1067-1-ND"
 			(at 190.5 26.67 0)
 			(effects
 				(font
@@ -11757,7 +11883,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 263.652 137.414 0)
 			(effects
 				(font
@@ -11785,6 +11911,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 261.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1192-1-ND"
 			(at 261.62 137.16 0)
 			(effects
 				(font
@@ -11984,6 +12119,15 @@
 		)
 		(property "Description" "2 Channnels Power Mux with Manual and Priority Switchover, 1.6-5.5V Input Voltage, 2.5A Output Current, Ron 40 mOhm, SOT-583-8"
 			(at 242.57 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "296-TPS2116DRLRCT-ND"
+			(at 242.57 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12209,6 +12353,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "2057-PH1-20-UA-ND"
+			(at 39.37 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "2cf61287-1edf-4b95-a203-a914714d9eb0")
 		)
@@ -12296,7 +12449,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 213.36 149.86 0)
 			(effects
 				(font
@@ -12324,6 +12477,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 210.82 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1067-1-ND"
 			(at 210.82 148.59 0)
 			(effects
 				(font
@@ -12392,6 +12554,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 83.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "311-100LRCT-ND"
+			(at 83.82 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12697,7 +12868,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 104.14 27.9399 0)
 			(effects
 				(font
@@ -12725,6 +12896,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 100.33 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
 			(at 100.33 26.67 0)
 			(effects
 				(font
@@ -12962,7 +13142,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5k"
+		(property "Value" "7.5kR"
 			(at 219.456 125.476 90)
 			(effects
 				(font
@@ -12990,6 +13170,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 217.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "311-7.50KLRCT-ND"
+			(at 217.17 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13030,7 +13219,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2uF"
 			(at 109.22 114.3 0)
 			(effects
 				(font
@@ -13058,6 +13247,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 116.84 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1108-1-ND"
 			(at 116.84 113.03 0)
 			(effects
 				(font
@@ -13164,7 +13362,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 78.74 27.686 0)
 			(effects
 				(font
@@ -13192,6 +13390,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 76.2 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
 			(at 76.2 26.67 0)
 			(effects
 				(font
@@ -13232,7 +13439,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5.1kR"
 			(at 219.456 133.096 90)
 			(effects
 				(font
@@ -13260,6 +13467,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 217.17 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "311-5.10KLRCT-ND"
+			(at 217.17 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13300,7 +13516,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 155.702 27.686 0)
 			(effects
 				(font
@@ -13328,6 +13544,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 161.29 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1051-1-ND"
 			(at 161.29 26.67 0)
 			(effects
 				(font
@@ -13498,7 +13723,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kR"
 			(at 108.966 45.974 90)
 			(effects
 				(font
@@ -13526,6 +13751,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 109.22 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "311-10KJRCT-ND"
+			(at 109.22 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13566,7 +13800,7 @@
 				)
 			)
 		)
-		(property "Value" "AMS1117-3.3"
+		(property "Value" "AMS1117-3.3 SOT-223"
 			(at 134.62 168.91 0)
 			(effects
 				(font
@@ -13593,6 +13827,15 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 134.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "5399-AMS1117-3.3SOT-223CT-ND"
 			(at 134.62 172.72 0)
 			(effects
 				(font
@@ -13736,6 +13979,15 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 219.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "497-5235-1-ND"
 			(at 219.71 76.2 0)
 			(effects
 				(font
@@ -13890,6 +14142,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "2057-PH1-20-UA-ND"
+			(at 49.53 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "b8540acf-0c7a-479d-8773-f2dd2fb4cb82")
 		)
@@ -13978,7 +14239,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 92.71 27.9399 0)
 			(effects
 				(font
@@ -14006,6 +14267,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 88.9 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
 			(at 88.9 26.67 0)
 			(effects
 				(font
@@ -14148,6 +14418,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "CKN12322-1-ND"
+			(at 60.96 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "40b3d4e2-14eb-40f6-916a-9c252ca2bafd")
 		)
@@ -14182,7 +14461,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 151.13 182.8799 0)
 			(effects
 				(font
@@ -14210,6 +14489,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 147.32 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-CL21A226MAYNNNECT-ND"
 			(at 147.32 181.61 0)
 			(effects
 				(font
@@ -14352,6 +14640,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "490-5254-1-ND"
+			(at 180.34 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2c258a79-1013-4082-b4eb-6c11af4e305b")
 		)
@@ -14384,7 +14681,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5.1kR"
 			(at 229.616 102.616 90)
 			(effects
 				(font
@@ -14412,6 +14709,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 227.33 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "311-5.10KLRCT-ND"
+			(at 227.33 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14479,6 +14785,15 @@
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 250.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "2073-USB4105-GF-A-120CT-ND"
+			(at 250.19 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14564,7 +14879,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 68.072 26.924 0)
 			(effects
 				(font
@@ -14592,6 +14907,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 66.04 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1192-1-ND"
 			(at 66.04 26.67 0)
 			(effects
 				(font
@@ -14959,7 +15283,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 82.042 46.99 0)
 			(effects
 				(font
@@ -14987,6 +15311,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 88.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1043-1-ND"
 			(at 88.9 46.99 0)
 			(effects
 				(font
@@ -15054,6 +15387,15 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 85.09 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "2151-R2520-16.000-10-1020-EXT-TRCT-ND"
 			(at 85.09 68.58 0)
 			(effects
 				(font
