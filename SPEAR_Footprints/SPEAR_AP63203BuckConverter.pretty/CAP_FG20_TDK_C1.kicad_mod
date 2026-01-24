@@ -233,4 +233,15 @@
 		(uuid "81af8434-96d4-493b-9926-8444b48aa346")
 	)
 	(embedded_fonts no)
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/FG20X7R1H106KRT06.step"
+		(offset
+			(xyz 2.5 0 -2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

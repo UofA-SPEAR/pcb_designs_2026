@@ -67,15 +67,26 @@
 		(uuid "33cc7e06-77b6-4e7e-9442-b64a0c490c18")
 	)
 	(fp_rect
-		(start -0.7 -0.7)
-		(end 33.7 21)
+		(start -0.01 -0.01)
+		(end 2.55 20.29)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "bb9377a0-7b08-4483-a4e3-ef6d2f727e6d")
+		(uuid "88f7eb48-189f-426d-9084-62e0a62eecd7")
+	)
+	(fp_rect
+		(start 27.91 -0.01)
+		(end 30.47 20.29)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "48efc250-0d2e-423c-ab28-9e787c85e7fe")
 	)
 	(fp_rect
 		(start 0 0)
@@ -245,4 +256,15 @@
 		(uuid "c37af6c9-c71b-448e-9dd4-666c44363cc6")
 	)
 	(embedded_fonts no)
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/g2-high-power-motor-driver-md31a.step"
+		(offset
+			(xyz 0 -20.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
