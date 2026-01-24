@@ -56,6 +56,28 @@
 	)
 	(attr through_hole)
 	(fp_rect
+		(start -0.11 -0.11)
+		(end 33.11 20.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "33cc7e06-77b6-4e7e-9442-b64a0c490c18")
+	)
+	(fp_rect
+		(start -0.7 -0.7)
+		(end 33.7 21)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bb9377a0-7b08-4483-a4e3-ef6d2f727e6d")
+	)
+	(fp_rect
 		(start 0 0)
 		(end 33 20.3)
 		(stroke

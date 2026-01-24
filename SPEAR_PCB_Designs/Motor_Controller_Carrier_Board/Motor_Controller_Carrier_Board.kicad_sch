@@ -5782,7 +5782,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3557-10"
+		(property "Value" "3557-15"
 			(at 93.98 129.5399 90)
 			(effects
 				(font
@@ -5791,7 +5791,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Motor_Controller_Carrier_Board:FUSE_3557-10"
+		(property "Footprint" "Motor_Controller_Carrier_Board:FUSE_3557-15"
 			(at 82.042 128.27 0)
 			(effects
 				(font
