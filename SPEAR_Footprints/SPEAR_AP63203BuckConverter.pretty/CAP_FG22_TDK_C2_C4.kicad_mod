@@ -213,4 +213,15 @@
 		(uuid "53ee85ec-0485-4893-bac9-dbed4cf0de84")
 	)
 	(embedded_fonts no)
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/CAP_FG22_TDK.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
