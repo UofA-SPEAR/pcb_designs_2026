@@ -311,6 +311,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -2394,131 +2530,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+BATT"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+BATT"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+BATT\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+BATT_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+BATT_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2735,6 +2746,12 @@
 		(uuid "27672c60-9390-42dd-bb95-5f8f191e1785")
 	)
 	(junction
+		(at 100.33 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2abfe2d6-04fc-490d-aa89-881b3362b2ae")
+	)
+	(junction
 		(at 90.17 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2931,6 +2948,16 @@
 			(type default)
 		)
 		(uuid "04543abe-0bfd-4eea-af5e-7c0a13b3659f")
+	)
+	(wire
+		(pts
+			(xy 100.33 137.16) (xy 100.33 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d086f6-ab7c-418c-aeb6-a52daa2c021a")
 	)
 	(wire
 		(pts
@@ -3154,6 +3181,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 124.46) (xy 100.33 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b81d7e-909c-40d8-8496-b378a5d02212")
+	)
+	(wire
+		(pts
 			(xy 114.3 82.55) (xy 107.95 82.55)
 		)
 		(stroke
@@ -3191,6 +3228,26 @@
 			(type default)
 		)
 		(uuid "54b867c3-3096-43d1-9315-0ed8f956ca59")
+	)
+	(wire
+		(pts
+			(xy 90.17 142.24) (xy 100.33 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c02a97-62ca-4139-9dd7-13b4cfec6fde")
+	)
+	(wire
+		(pts
+			(xy 100.33 142.24) (xy 105.41 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ffda7c2-04ad-4106-bc7b-588a8b370f7a")
 	)
 	(wire
 		(pts
@@ -3301,16 +3358,6 @@
 			(type default)
 		)
 		(uuid "84a2e48f-d2f0-4ee4-9c9d-a152e46be0da")
-	)
-	(wire
-		(pts
-			(xy 90.17 142.24) (xy 96.52 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84f6871e-591b-4e9a-94e3-84a6a3edabc4")
 	)
 	(wire
 		(pts
@@ -3464,7 +3511,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 142.24) (xy 118.11 142.24)
+			(xy 120.65 142.24) (xy 127 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3534,7 +3581,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 71.12) (xy 44.45 71.12)
+			(xy 34.29 71.12) (xy 44.45 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3652,6 +3699,16 @@
 		)
 		(uuid "79488f19-ed4c-4ac6-b1e6-9c765e383d94")
 	)
+	(label "DRIVER_PWR"
+		(at 127 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cd1bf63-a5ff-496c-840b-363c3363a8ca")
+	)
 	(label "CS"
 		(at 200.66 73.66 0)
 		(effects
@@ -3662,6 +3719,16 @@
 		)
 		(uuid "902a69bc-2b87-428e-bb6b-826d3d201011")
 	)
+	(label "BUCK_PWR"
+		(at 34.29 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9762f53c-f157-403f-b0b6-d5781b178a4d")
+	)
 	(label "ENC_A"
 		(at 229.87 77.47 180)
 		(effects
@@ -3671,6 +3738,26 @@
 			(justify right top)
 		)
 		(uuid "9d170aa0-3ff3-4bb4-bc93-244da7d4aede")
+	)
+	(label "BUCK_PWR"
+		(at 100.33 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a26ac960-2142-4bc6-acbf-81910003b361")
+	)
+	(label "DRIVER_PWR"
+		(at 205.74 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c560ea9a-68a2-4b79-8975-52e2d1e4b368")
 	)
 	(label "PWM"
 		(at 200.66 50.8 0)
@@ -4816,71 +4903,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 118.11 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6af027d4-79ea-4206-8b46-d1c56efcfd18")
-		(property "Reference" "#PWR08"
-			(at 118.11 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 117.602 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 118.11 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e88bb08c-31d3-4f33-b245-182d347d76b5")
-		)
-		(instances
-			(project "Motor_Controller_Carrier_Board"
-				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 96.52 144.78 0)
 		(unit 1)
@@ -4941,71 +4963,6 @@
 			(project "Motor_Controller_Carrier_Board"
 				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 205.74 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e66c508-d805-42eb-89ba-8addecaa9add")
-		(property "Reference" "#PWR09"
-			(at 205.74 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 205.232 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 205.74 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e8636ae-6e77-46e6-bcdf-9527d669931c")
-		)
-		(instances
-			(project "Motor_Controller_Carrier_Board"
-				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5222,16 +5179,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 31.75 71.12 0)
+		(lib_id "Device:Fuse")
+		(at 100.33 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "90e55eea-eadd-4202-ad5d-077eba8dcf02")
-		(property "Reference" "#PWR04"
-			(at 31.75 74.93 0)
+		(fields_autoplaced yes)
+		(uuid "844c7a31-49aa-411d-8f72-24652acffe4f")
+		(property "Reference" "F3"
+			(at 102.87 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 102.87 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Motor_Controller_Carrier_Board:FUS_LITTELFUSE_392_LTF"
+			(at 98.552 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5239,16 +5215,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 31.242 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 71.12 0)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-fuse-392-datasheet?assetguid=3d41d6b7-af0b-41bc-bce0-d5b1432b6058"
+			(at 100.33 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5256,17 +5224,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 31.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 31.75 71.12 0)
+		(property "Description" "Fuse"
+			(at 100.33 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,12 +5234,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "12ed2c56-352e-4a5e-b4aa-872fbb24c48d")
+			(uuid "73f0dd10-61d7-4fb1-8a33-8d471934536f")
+		)
+		(pin "2"
+			(uuid "92d66472-3c6b-4617-b358-3f2439c5ac87")
 		)
 		(instances
-			(project "Motor_Controller_Carrier_Board"
+			(project ""
 				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
-					(reference "#PWR04")
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -5771,24 +5733,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ce6c1759-95f6-4805-863c-2f9973fe333f")
 		(property "Reference" "F2"
-			(at 93.98 126.9999 90)
+			(at 86.614 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "3557-15"
-			(at 93.98 129.5399 90)
+			(at 86.614 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Motor_Controller_Carrier_Board:FUSE_3557-15"
@@ -5892,7 +5853,7 @@
 	)
 	(symbol
 		(lib_id "Motor_Controller_Carrier_Board:3557-10")
-		(at 104.14 142.24 0)
+		(at 113.03 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5901,7 +5862,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5ed77a1-bbbf-4c6d-ad2c-a354550fb573")
 		(property "Reference" "F1"
-			(at 104.14 135.89 0)
+			(at 113.03 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5909,7 +5870,7 @@
 			)
 		)
 		(property "Value" "3557-10"
-			(at 104.14 138.43 0)
+			(at 113.03 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,7 +5878,7 @@
 			)
 		)
 		(property "Footprint" "Motor_Controller_Carrier_Board:FUSE_3557-10"
-			(at 104.14 134.112 0)
+			(at 113.03 134.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5927,7 +5888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 142.24 0)
+			(at 113.03 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5936,7 +5897,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 142.24 0)
+			(at 113.03 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5945,7 +5906,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 104.14 134.112 0)
+			(at 113.03 134.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5955,7 +5916,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendation"
-			(at 104.14 134.112 0)
+			(at 113.03 134.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5965,7 +5926,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "3557-2"
-			(at 104.14 134.112 0)
+			(at 113.03 134.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5975,7 +5936,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "7.37mm"
-			(at 104.14 134.112 0)
+			(at 113.03 134.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5985,7 +5946,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone"
-			(at 104.14 134.112 0)
+			(at 113.03 134.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
