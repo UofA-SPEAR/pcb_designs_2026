@@ -2272,6 +2272,44 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 22.86 -3.81 180)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -3.81 180)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 22.86 -3.81 180)
 					(length 2.54)
@@ -2282,7 +2320,26 @@
 							)
 						)
 					)
-					(number "11"
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -3.81 180)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2320,25 +2377,6 @@
 							)
 						)
 					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -3.81 180)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "9"
 						(effects
 							(font
@@ -2357,7 +2395,45 @@
 							)
 						)
 					)
-					(number "12"
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -8.89 180)
+					(length 2.54)
+					(hide yes)
+					(name "OUTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -8.89 180)
+					(length 2.54)
+					(hide yes)
+					(name "OUTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2375,7 +2451,45 @@
 							)
 						)
 					)
-					(number "13"
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -13.97 180)
+					(length 2.54)
+					(hide yes)
+					(name "OUTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -13.97 180)
+					(length 2.54)
+					(hide yes)
+					(name "OUTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2393,7 +2507,45 @@
 							)
 						)
 					)
-					(number "14"
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -19.05 180)
+					(length 2.54)
+					(hide yes)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -19.05 180)
+					(length 2.54)
+					(hide yes)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3920,7 +4072,7 @@
 		(at 213.36 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1376fd5a-5912-4487-9b0e-8d38ced64ea3")
@@ -3942,7 +4094,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "SPEAR_Connectors:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal_1"
 			(at 213.36 130.81 0)
 			(effects
 				(font
@@ -4102,6 +4254,30 @@
 		)
 		(pin "16"
 			(uuid "7ee0d437-2ef3-4ebe-a509-e8a42f8b54ef")
+		)
+		(pin "17"
+			(uuid "2c9c0f57-8185-4b24-a190-79ba154e779e")
+		)
+		(pin "19"
+			(uuid "3792299e-4fd7-43f3-9751-f7b4a86e8998")
+		)
+		(pin "22"
+			(uuid "23064a72-c889-4b9e-876d-d2d359f430b9")
+		)
+		(pin "24"
+			(uuid "17ac8181-ede6-4d78-87f5-9d2fa6ab5c95")
+		)
+		(pin "21"
+			(uuid "ee97fa19-09e0-4a97-82de-40f46cd993a5")
+		)
+		(pin "18"
+			(uuid "a838893f-a46f-43af-b037-b7e89ac8bcf5")
+		)
+		(pin "20"
+			(uuid "307de76c-e797-4f52-a9ae-5babc94ea962")
+		)
+		(pin "23"
+			(uuid "9e20a5e5-b75f-4014-837a-3c5cc7b07b88")
 		)
 		(instances
 			(project ""
@@ -4480,7 +4656,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+		(property "Footprint" "Motor_Controller_Carrier_Board:TSOT-23-6"
 			(at 64.77 96.52 0)
 			(effects
 				(font
@@ -4747,7 +4923,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6005a3ea-e17c-48b5-929c-991c7a9f4e99")
@@ -4767,7 +4943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "SPEAR_Connectors:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal_1"
 			(at 77.47 144.78 0)
 			(effects
 				(font
@@ -4933,7 +5109,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Motor_Controller_Carrier_Board:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 80.9752 73.66 0)
 			(effects
 				(font
@@ -5650,7 +5826,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "bc8ec69b-3c33-4131-b8fb-add6d95681f7")
@@ -5670,7 +5846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "SPEAR_Connectors:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal_1"
 			(at 77.47 116.84 0)
 			(effects
 				(font
@@ -6147,7 +6323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal"
+		(property "Footprint" "SPEAR_Connectors:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal"
 			(at 238.76 74.93 0)
 			(effects
 				(font

@@ -1,0 +1,19 @@
+- Base Material: FR-4
+- Layers: 2
+- Dimensions: 104 x 47
+- Product Type: Industrial/Consumer electronics
+
+- Different Design: 1
+- Delivery Format: Single PCB
+- PCB Thickness: 1.6mm
+- PCB Color: Green
+- Silkscreen: White
+- Material Type: FR4 TG135
+- Surface Finish: LeadFree HASL
+
+- Outer Copper Weight: 2 oz
+- Via Covering: Tented
+- Via Plating Method: Not Specified
+- Min via hole size/diameter: 0.3mm/(0.4/0.45mm)
+- Board Outline Tolerance: ±0.2mm(Regular)
+- Confirm Production file: 
