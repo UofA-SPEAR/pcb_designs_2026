@@ -167,129 +167,65 @@
 		(uuid "1ee85ed7-80ce-4f29-b1ad-6cbfeaef330e")
 	)
 	(pad "9" thru_hole circle
-		(at 3.81 1.27 90)
-		(size 1.6 1.6)
-		(drill 1.02)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "941ed37a-f430-4278-b85b-28c4508ff4b0")
-	)
-	(pad "10" thru_hole circle
-		(at 6.35 1.27 90)
-		(size 1.6 1.6)
-		(drill 1.02)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "1094b9c7-5bed-4e8c-906f-fd0b66e10927")
-	)
-	(pad "11" thru_hole circle
-		(at 12.32 18.14 90)
-		(size 1.6 1.6)
-		(drill 1.02)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "80037aa8-13cc-456d-8089-82ac3ad7c23e")
-	)
-	(pad "12" thru_hole circle
-		(at 17.3 1.27 90)
-		(size 1.6 1.6)
-		(drill 1.02)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "c0035b19-257a-418d-9d2b-eb01b26465ed")
-	)
-	(pad "13" thru_hole circle
 		(at 29.19 1.25 90)
-		(size 1.6 1.6)
-		(drill 1.02)
+		(size 1.8 1.8)
+		(drill 1.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "097725d5-ea07-466a-bb2b-a26dc65fb2c3")
 	)
-	(pad "14" thru_hole circle
-		(at 30.71 2.64 90)
-		(size 4 4)
-		(drill 2.18)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "85dba733-e5f9-4227-9035-c47ceb719fe6")
-	)
-	(pad "15" thru_hole circle
+	(pad "10" thru_hole circle
 		(at 29.19 3.79 90)
-		(size 1.6 1.6)
-		(drill 1.02)
+		(size 1.8 1.8)
+		(drill 1.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "3a620ad7-a0d0-4d6c-ac09-6054cabdef51")
 	)
-	(pad "16" thru_hole circle
+	(pad "11" thru_hole circle
 		(at 29.19 6.33 90)
-		(size 1.6 1.6)
-		(drill 1.02)
+		(size 1.8 1.8)
+		(drill 1.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "696794df-378d-4e8c-b4da-753716252d5d")
 	)
-	(pad "17" thru_hole circle
-		(at 30.71 7.64 90)
-		(size 4 4)
-		(drill 2.18)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "8bab7f61-3259-4040-89f4-59665f668d83")
-	)
-	(pad "18" thru_hole circle
+	(pad "12" thru_hole circle
 		(at 29.19 8.87 90)
-		(size 1.6 1.6)
-		(drill 1.02)
+		(size 1.8 1.8)
+		(drill 1.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "2aad9055-5ff0-4c30-88f2-4a49fc33b514")
 	)
-	(pad "19" thru_hole circle
+	(pad "13" thru_hole circle
 		(at 29.19 11.41 90)
-		(size 1.6 1.6)
-		(drill 1.02)
+		(size 1.8 1.8)
+		(drill 1.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "49524994-4aa7-4774-bfa7-af0cb81ce523")
 	)
-	(pad "20" thru_hole circle
-		(at 30.71 12.64 90)
-		(size 4 4)
-		(drill 2.18)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "0709ef82-d620-4436-8690-2a2a61b27215")
-	)
-	(pad "21" thru_hole circle
+	(pad "14" thru_hole circle
 		(at 29.19 13.95 90)
-		(size 1.6 1.6)
-		(drill 1.02)
+		(size 1.8 1.8)
+		(drill 1.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "f87b0a4d-dc58-4c2e-bc31-5f95741f16ec")
 	)
-	(pad "22" thru_hole circle
+	(pad "15" thru_hole circle
 		(at 29.19 16.49 90)
-		(size 1.6 1.6)
-		(drill 1.02)
+		(size 1.8 1.8)
+		(drill 1.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "804c0846-2318-4f01-b3cd-e57850b31d7f")
 	)
-	(pad "23" thru_hole circle
-		(at 30.71 17.64 90)
-		(size 4 4)
-		(drill 2.18)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "45ed2680-5e68-4386-a3cf-ec40232f8ee4")
-	)
-	(pad "24" thru_hole circle
+	(pad "16" thru_hole circle
 		(at 29.19 19.03 90)
-		(size 1.6 1.6)
-		(drill 1.02)
+		(size 1.8 1.8)
+		(drill 1.12)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "5909d269-b35b-4254-b1d0-bf5bc6a7c525")
@@ -297,13 +233,123 @@
 	(embedded_fonts no)
 	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/g2-high-power-motor-driver-md31a.step"
 		(offset
-			(xyz 0 -20.3 0)
+			(xyz -0.1 -20.25 11.9)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz -0 -0 -0)
+		)
+	)
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/61300811821.stp"
+		(offset
+			(xyz 1.2 -10.2 4.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/61300811121.stp"
+		(offset
+			(xyz 1.2 -10.1 9.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/mill-max-4637-0-00-15-00-00-03-0.step"
+		(offset
+			(xyz 29.1 -1.2 14.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/mill-max-4637-0-00-15-00-00-03-0.step"
+		(offset
+			(xyz 29.1 -6.3 14.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/mill-max-4637-0-00-15-00-00-03-0.step"
+		(offset
+			(xyz 29.1 -13.9 14.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/mill-max-4637-0-00-15-00-00-03-0.step"
+		(offset
+			(xyz 29.1 -19 14.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/mill-max-0301-1-15-01-47-XX-10-0.step"
+		(offset
+			(xyz 29.18 -1.25 9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/mill-max-0301-1-15-01-47-XX-10-0.step"
+		(offset
+			(xyz 29.18 -6.3 9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/mill-max-0301-1-15-01-47-XX-10-0.step"
+		(offset
+			(xyz 29.18 -13.95 9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/mill-max-0301-1-15-01-47-XX-10-0.step"
+		(offset
+			(xyz 29.18 -19 9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
 		)
 	)
 )
