@@ -16,4 +16,11 @@
 - Via Plating Method: Not Specified
 - Min via hole size/diameter: 0.3mm/(0.4/0.45mm)
 - Board Outline Tolerance: ±0.2mm(Regular)
-- Confirm Production file: 
+- Confirm Production file: No
+- Mark on PCB: Remove Mark
+- Electrical Test: Flying Probe Fully Test
+- Gold Fingers: No
+- Castellated Holes: No
+- Edge Plating: No
+- Blind Slots: No
+- UL Marking: No
