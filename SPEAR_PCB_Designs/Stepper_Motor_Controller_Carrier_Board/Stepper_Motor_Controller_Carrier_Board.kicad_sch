@@ -3024,6 +3024,12 @@
 		(uuid "dd6e2001-0dd9-473e-a849-1e271ff6485d")
 	)
 	(junction
+		(at 35.56 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3eb2a9f-3442-46d8-9ee5-794da640ae28")
+	)
+	(junction
 		(at 260.35 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3393,6 +3399,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 76.2) (xy 35.56 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395db9e0-19f0-4aaa-ac63-3ba82fe56a27")
+	)
+	(wire
+		(pts
 			(xy 54.61 76.2) (xy 49.53 76.2)
 		)
 		(stroke
@@ -3520,6 +3536,16 @@
 			(type default)
 		)
 		(uuid "64aa6e18-24c8-439a-a9ba-8d964ad3f7d2")
+	)
+	(wire
+		(pts
+			(xy 35.56 71.12) (xy 44.45 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7165548a-b9b0-471a-8093-6115c4db9f01")
 	)
 	(wire
 		(pts
@@ -3903,7 +3929,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 71.12) (xy 44.45 71.12)
+			(xy 34.29 71.12) (xy 35.56 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3950,6 +3976,16 @@
 			(type default)
 		)
 		(uuid "fa5eaa47-d21a-4dbd-b1eb-835e87f5501e")
+	)
+	(wire
+		(pts
+			(xy 35.56 87.63) (xy 35.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa86af36-1ba8-4a95-8b7b-16033796e678")
 	)
 	(wire
 		(pts
@@ -6119,6 +6155,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 35.56 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2b69b44-5c64-4f7d-98cb-b2a1ff3afd12")
+		(property "Reference" "#PWR01"
+			(at 35.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.306 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f7b5f87-ec22-4ff6-a133-ca41ea79f2c5")
+		)
+		(instances
+			(project "Stepper_Motor_Controller_Carrier_Board"
+				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 44.45 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6820,6 +6921,94 @@
 			(project "Stepper_Motor_Controller_Carrier_Board"
 				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 35.56 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5f80a2a-d4d5-4c93-ae33-08ab2d192139")
+		(property "Reference" "C6"
+			(at 32.512 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 32.766 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SPEAR_AP63203BuckConverter:CAP_FG20_TDK_C1"
+			(at 34.5948 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 35.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.digikey.ca/en/products/detail/tdk-corporation/FG20X7R1H106KRT06/5802911"
+			(at 35.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "445-173297-1-ND"
+			(at 35.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84fbca89-d64e-47dd-af42-bcacaae5e9da")
+		)
+		(pin "2"
+			(uuid "1d37455b-8be5-4f47-9618-deefaf5d4ab4")
+		)
+		(instances
+			(project "Stepper_Motor_Controller_Carrier_Board"
+				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
+					(reference "C6")
 					(unit 1)
 				)
 			)
