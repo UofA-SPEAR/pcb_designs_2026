@@ -1,0 +1,247 @@
+(footprint "CAP_FG20_TDK_C1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "FG20X7R1H106KRT06 ")
+	(property "Reference" "REF**"
+		(at 2.5 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5cfaaa7f-23c1-4224-975a-efd931a6fd21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAP_FG20_TDK_C1"
+		(at 2.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ee109762-0a8e-4bc7-a878-6133f07d2781")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a85c86f6-c8e3-4b0a-9733-24d6c871af16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca6d289f-b5a2-44af-9235-42ea00e0fb69")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.3829 -2.1209)
+		(end -0.3829 -0.943828)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9c09cb6-d27e-431f-8922-78d319c13e04")
+	)
+	(fp_line
+		(start -0.3829 0.943828)
+		(end -0.3829 2.1209)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5248baf6-f015-447e-9454-55da58ca514f")
+	)
+	(fp_line
+		(start 5.3829 -2.1209)
+		(end -0.3829 -2.1209)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c272d142-aa2f-4d35-8693-507de30e2200")
+	)
+	(fp_line
+		(start 5.3829 -2.1209)
+		(end 5.3829 -0.943828)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2cd11b47-3fe0-4e15-baa7-3dddc21e990d")
+	)
+	(fp_line
+		(start 5.3829 0.943828)
+		(end 5.3829 2.1209)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a0e269d-1c0c-4b1b-88d9-edbb7f4d3611")
+	)
+	(fp_line
+		(start 5.3829 2.1209)
+		(end -0.3829 2.1209)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a4fc0d3-b5a8-441f-a410-527a50c2a5f2")
+	)
+	(fp_line
+		(start -0.5099 -2.2479)
+		(end 5.5099 -2.2479)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "46f6c998-e2a9-41a4-8445-fe7d89077c00")
+	)
+	(fp_line
+		(start -0.5099 2.2479)
+		(end -0.5099 -2.2479)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eb14afe9-2e69-4035-a1f6-51066f86b639")
+	)
+	(fp_line
+		(start 5.5099 -2.2479)
+		(end 5.5099 2.2479)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "773ee556-a95a-4d01-a6b6-d9814911543b")
+	)
+	(fp_line
+		(start 5.5099 2.2479)
+		(end -0.5099 2.2479)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a08649a-2a3e-44b1-ba7d-371004239f5d")
+	)
+	(fp_line
+		(start -0.2559 -1.9939)
+		(end -0.2559 1.9939)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d2ae3353-f29c-4cf7-b860-d1bc8d018873")
+	)
+	(fp_line
+		(start 5.2559 -1.9939)
+		(end -0.2559 -1.9939)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e6f6d45e-7982-496b-baba-42b64e8286a6")
+	)
+	(fp_line
+		(start 5.2559 -1.9939)
+		(end 5.2559 1.9939)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "95be6265-46d5-4147-b46a-efaa0c7d7475")
+	)
+	(fp_line
+		(start 5.2559 1.9939)
+		(end -0.2559 1.9939)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d1a3586-6e80-4f41-9597-d1b2620fa266")
+	)
+	(fp_circle
+		(center 0.2521 0)
+		(end 0.2521 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3f41b535-97e1-4a47-8165-9d58d7023a00")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0ec70bf5-082f-4f01-8212-d6498a9481fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.3716 1.3716)
+		(drill 0.8636)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "10c99889-6a4e-4cb6-87b3-1017ac25991c")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.3716 1.3716)
+		(drill 0.8636)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "81af8434-96d4-493b-9926-8444b48aa346")
+	)
+	(embedded_fonts no)
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/FG20X7R1H106KRT06.step"
+		(offset
+			(xyz 2.5 0 -2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

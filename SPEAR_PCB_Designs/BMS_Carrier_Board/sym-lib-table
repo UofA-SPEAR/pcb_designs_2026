@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SPEAR_Boards")(type "KiCad")(uri "C:/Users/Ammar/Spear/pcb_designs_2026/SPEAR_Symbols/SPEAR_Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "Symbols_LAN9252")(type "KiCad")(uri "C:/Users/Ammar/Spear/pcb_designs_2026/SPEAR_Symbols/SPEAR_LAN9252_symbols/Symbols_LAN9252.kicad_sym")(options "")(descr ""))
+)

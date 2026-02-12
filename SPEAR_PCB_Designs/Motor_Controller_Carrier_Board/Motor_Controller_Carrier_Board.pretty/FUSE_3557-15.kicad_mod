@@ -1,0 +1,221 @@
+(footprint "FUSE_3557-15"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -6.985 -4.445 0)
+		(layer "F.SilkS")
+		(uuid "67b817fa-0b74-4466-aac8-f48426713b1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FUSE_3557-15"
+		(at -2.54 4.445 0)
+		(layer "F.Fab")
+		(uuid "a450ee94-3e08-4d8f-8849-bf04bf283775")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0722d5c7-c4a6-45c3-8f67-6e594326507b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4dd6ce41-69e0-4b6a-bd03-540b5855426f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -10.05 -3.51)
+		(end -10.05 3.51)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d1eb80d-312e-4b20-8c2e-a2e128b4f4d9")
+	)
+	(fp_line
+		(start -10.05 3.51)
+		(end 10.05 3.51)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "111511da-1c19-4d91-960e-c24e80ac819e")
+	)
+	(fp_line
+		(start 10.05 -3.51)
+		(end -10.05 -3.51)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbf2643e-8fd8-4ff6-875d-2717161d70f4")
+	)
+	(fp_line
+		(start 10.05 3.51)
+		(end 10.05 -3.51)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3926d45-ec3c-45bf-ab23-75a75222b26c")
+	)
+	(fp_line
+		(start -10.155 -3.615)
+		(end 10.155 -3.615)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb6255e6-5e88-4484-99c5-add6c0cf91a3")
+	)
+	(fp_line
+		(start -10.155 3.615)
+		(end -10.155 -3.615)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eb344e51-041f-4c7b-886b-661ca6133d57")
+	)
+	(fp_line
+		(start 10.155 -3.615)
+		(end 10.155 3.615)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "10910045-1b12-45ef-8d1b-640b573b0fa1")
+	)
+	(fp_line
+		(start 10.155 3.615)
+		(end -10.155 3.615)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3cc6b66a-73b3-4294-b92d-ffd8f0c11824")
+	)
+	(fp_line
+		(start -9.905 -3.365)
+		(end -9.905 3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "deb5e7fe-3086-4380-9058-00a43ac933a5")
+	)
+	(fp_line
+		(start -9.905 3.365)
+		(end 9.905 3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cbc94c41-752e-411a-af67-5075b3b636d6")
+	)
+	(fp_line
+		(start 9.905 -3.365)
+		(end -9.905 -3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "099cc30d-9a5e-47b1-87ae-dccbb0a5a446")
+	)
+	(fp_line
+		(start 9.905 3.365)
+		(end 9.905 -3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "644c59e2-c1ef-4afc-86d3-9822c202711d")
+	)
+	(pad "1_1" thru_hole circle
+		(at -6.735 -1.7)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "81027398-f442-4c28-85f4-a2b8879c52f9")
+	)
+	(pad "1_2" thru_hole circle
+		(at -6.735 1.7)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "6f71f934-af50-4165-be06-73a9635944b2")
+	)
+	(pad "2_1" thru_hole circle
+		(at 6.735 -1.7)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "03c8f3b4-ddc8-4a41-acb0-2da57d02fc5c")
+	)
+	(pad "2_2" thru_hole circle
+		(at 6.735 1.7)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "9645df47-75ed-41f8-956a-a4d7eb11dfba")
+	)
+	(embedded_fonts no)
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/3557-15.step"
+		(offset
+			(xyz -0.4 0.15 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
