@@ -3029,12 +3029,6 @@
 		(color 0 0 0 0)
 		(uuid "e3eb2a9f-3442-46d8-9ee5-794da640ae28")
 	)
-	(junction
-		(at 260.35 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea4a6b20-acc1-4fc0-9653-c819a2f196f0")
-	)
 	(no_connect
 		(at 209.55 158.75)
 		(uuid "015a6991-53b7-482a-adeb-d9979b68eab6")
@@ -3649,7 +3643,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 132.08) (xy 260.35 132.08)
+			(xy 256.54 132.08) (xy 264.16 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3696,16 +3690,6 @@
 			(type default)
 		)
 		(uuid "8ae616ff-9d62-4098-9188-46f870523a5c")
-	)
-	(wire
-		(pts
-			(xy 260.35 144.78) (xy 260.35 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f92c269-c4f4-4de7-9d12-aeb78ab83f4a")
 	)
 	(wire
 		(pts
@@ -3786,16 +3770,6 @@
 			(type default)
 		)
 		(uuid "ac15b060-4550-41a3-b53a-a52c7af24b8d")
-	)
-	(wire
-		(pts
-			(xy 256.54 132.08) (xy 260.35 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0a3430c-367d-4ab4-a6b2-fcfdef77d88a")
 	)
 	(wire
 		(pts
@@ -3896,16 +3870,6 @@
 			(type default)
 		)
 		(uuid "d00e4e40-2e0d-4f71-9d5e-62e47f42b0eb")
-	)
-	(wire
-		(pts
-			(xy 260.35 134.62) (xy 260.35 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d54005ad-5c8a-4d56-b008-515e95bb8d5a")
 	)
 	(wire
 		(pts
@@ -4604,72 +4568,6 @@
 			(project "Motor_Controller_Carrier_Board"
 				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 260.35 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c0ab22d-76ef-46b2-a5ce-06c7481d5eb5")
-		(property "Reference" "#PWR016"
-			(at 260.35 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 260.35 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2274d36-11d1-4fcd-b977-c95e7b0f2128")
-		)
-		(instances
-			(project "Stepper_Motor_Controller_Carrier_Board"
-				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6842,85 +6740,6 @@
 			(project ""
 				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 260.35 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e41df36f-6c14-4aa7-a765-19a9204b2ce7")
-		(property "Reference" "C6"
-			(at 264.16 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 264.16 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Motor_Controller_Carrier_Board:CAP_UBY_18X20_NCH"
-			(at 261.3152 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-urz.pdf"
-			(at 260.35 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 260.35 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "493-15942-ND"
-			(at 260.35 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "723b0850-6eee-43da-a6f0-34a715dcf0fd")
-		)
-		(pin "1"
-			(uuid "22665b9d-1f83-4e7f-86b5-f319f911052e")
-		)
-		(instances
-			(project "Stepper_Motor_Controller_Carrier_Board"
-				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
-					(reference "C6")
 					(unit 1)
 				)
 			)
