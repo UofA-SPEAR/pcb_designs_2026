@@ -1,0 +1,102 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f3c97344-c35a-4a43-a333-44ea37de3455")
+	(paper "A4")
+	(title_block
+		(title "Motor Controller Carrier Board")
+		(company "SPEAR")
+	)
+	(lib_symbols)
+	(sheet
+		(at 156.21 73.66)
+		(size 48.26 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6cd18985-609b-4890-b60e-301ebf5a4f1a")
+		(property "Sheetname" "Board-to-Board Connectors"
+			(at 156.21 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "board_connectors.kicad_sch"
+			(at 156.21 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motor_Controller_Carrier_Board"
+				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 73.66)
+		(size 48.26 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8e110934-84f0-49b8-afcb-71c9a138826c")
+		(property "Sheetname" "Schematic"
+			(at 95.25 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematic.kicad_sch"
+			(at 95.25 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motor_Controller_Carrier_Board"
+				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
