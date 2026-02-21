@@ -4919,7 +4919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 189.738 137.16 90)
 			(effects
 				(font
@@ -4928,7 +4928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/PTF562K0000BYEB/2273678"
 			(at 187.96 137.16 0)
 			(effects
 				(font
@@ -4937,7 +4937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor (moodel # PTF562K0000BYEB)"
 			(at 187.96 137.16 0)
 			(effects
 				(font
