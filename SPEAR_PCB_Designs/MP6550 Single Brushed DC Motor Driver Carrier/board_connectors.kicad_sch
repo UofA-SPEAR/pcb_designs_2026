@@ -2634,7 +2634,7 @@
 		(uuid "57726227-d031-4cc5-85f0-8fe0981fdb1e")
 	)
 	(junction
-		(at 217.17 100.33)
+		(at 217.17 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d57b707-2821-4bc3-9f14-6c7b610a6bb9")
@@ -2659,7 +2659,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 90.17) (xy 218.44 90.17)
+			(xy 215.9 88.9) (xy 218.44 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2759,7 +2759,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 95.25) (xy 218.44 95.25)
+			(xy 215.9 93.98) (xy 218.44 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2809,7 +2809,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 100.33) (xy 218.44 100.33)
+			(xy 217.17 99.06) (xy 218.44 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3139,7 +3139,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 100.33) (xy 217.17 100.33)
+			(xy 215.9 99.06) (xy 217.17 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3257,7 +3257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c6af339-0d83-4d50-807a-8f6db987fdfd")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG?"
 			(at 71.12 75.565 0)
 			(effects
 				(font
@@ -3322,15 +3322,15 @@
 	)
 	(symbol
 		(lib_id "Motor_Controller_Carrier_Board:Conn_01x01_Socket_Flipped")
-		(at 218.44 100.33 180)
+		(at 218.44 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1b9ba0af-5ce6-426c-a1c6-724026efbd69")
-		(property "Reference" "J11"
-			(at 225.806 100.33 0)
+		(property "Reference" "J?"
+			(at 225.806 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3338,7 +3338,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 239.776 100.33 0)
+			(at 239.776 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,7 +3346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 100.33 0)
+			(at 218.44 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3355,7 +3355,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/pin-receptacle/receptacle-with-standard-tail/0301/0301-1-15-15-47-27-10-0"
-			(at 218.44 100.33 0)
+			(at 218.44 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,7 +3364,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 100.33 0)
+			(at 218.44 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +3373,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "ED1009-ND"
-			(at 218.44 100.33 0)
+			(at 218.44 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,7 +3409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f46d611-4d39-4655-a074-4d3c3352d522")
-		(property "Reference" "MDB2"
+		(property "Reference" "MDB?"
 			(at 203.2 77.47 0)
 			(effects
 				(font
@@ -3514,7 +3514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58bfcb3c-e0a8-45d3-9eac-d9c2fa53cf25")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG?"
 			(at 71.12 70.485 0)
 			(effects
 				(font
@@ -3579,15 +3579,15 @@
 	)
 	(symbol
 		(lib_id "Motor_Controller_Carrier_Board:Conn_01x01_Socket_Flipped")
-		(at 218.44 90.17 180)
+		(at 218.44 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5c79feab-fe52-43bb-8586-4e0c56e542e9")
-		(property "Reference" "J9"
-			(at 225.806 90.17 0)
+		(property "Reference" "J?"
+			(at 225.806 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,7 +3595,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 239.776 90.17 0)
+			(at 239.776 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,7 +3603,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 90.17 0)
+			(at 218.44 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3612,7 +3612,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/pin-receptacle/receptacle-with-standard-tail/0301/0301-1-15-15-47-27-10-0"
-			(at 218.44 90.17 0)
+			(at 218.44 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3621,7 +3621,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 90.17 0)
+			(at 218.44 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +3630,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "ED1009-ND"
-			(at 218.44 90.17 0)
+			(at 218.44 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +3666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "655898fc-0702-4947-9f07-3ae3a48188f7")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG?"
 			(at 189.23 81.915 0)
 			(effects
 				(font
@@ -3738,7 +3738,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69182e7a-b6a5-4991-9b37-3d5cf04b7169")
-		(property "Reference" "J5"
+		(property "Reference" "J?"
 			(at 54.61 89.154 0)
 			(effects
 				(font
@@ -3875,7 +3875,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74b8425c-2ec1-44c5-91dd-363d2c577c46")
-		(property "Reference" "J6"
+		(property "Reference" "J?"
 			(at 133.35 89.154 0)
 			(effects
 				(font
@@ -4012,7 +4012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9307e02c-4344-4f3b-907d-c7f08be1f43a")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG?"
 			(at 71.12 73.025 0)
 			(effects
 				(font
@@ -4085,7 +4085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9408d8ff-7b90-454c-88c1-e5982267ee52")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG?"
 			(at 217.17 83.185 0)
 			(effects
 				(font
@@ -4157,7 +4157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d393b17-1680-4dd2-8f4d-a1a75af14ebc")
-		(property "Reference" "J8"
+		(property "Reference" "J?"
 			(at 225.806 85.09 0)
 			(effects
 				(font
@@ -4236,7 +4236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1de0bfc-be26-4caa-9d8c-1eb5b68593b0")
-		(property "Reference" "J7"
+		(property "Reference" "J?"
 			(at 171.196 89.662 0)
 			(effects
 				(font
@@ -4337,7 +4337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a492a752-9b0c-488b-baa0-bdedbd1e0fb1")
-		(property "Reference" "MCB2"
+		(property "Reference" "MCB?"
 			(at 93.98 63.5 0)
 			(effects
 				(font
@@ -4526,7 +4526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7d9b087-d5e1-492a-a056-d342451a17cc")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG?"
 			(at 71.12 67.945 0)
 			(effects
 				(font
@@ -4591,15 +4591,15 @@
 	)
 	(symbol
 		(lib_id "Motor_Controller_Carrier_Board:Conn_01x01_Socket_Flipped")
-		(at 218.44 95.25 180)
+		(at 218.44 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e1a540d2-021d-46ba-ba15-37c1401be2e2")
-		(property "Reference" "J10"
-			(at 225.806 95.25 0)
+		(property "Reference" "J?"
+			(at 225.806 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4607,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 239.776 95.25 0)
+			(at 239.776 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +4615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 95.25 0)
+			(at 218.44 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,7 +4624,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mill-max.com/products/pin-receptacle/receptacle-with-standard-tail/0301/0301-1-15-15-47-27-10-0"
-			(at 218.44 95.25 0)
+			(at 218.44 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,7 +4633,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 95.25 0)
+			(at 218.44 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4642,7 +4642,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "ED1009-ND"
-			(at 218.44 95.25 0)
+			(at 218.44 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +4670,7 @@
 	)
 	(symbol
 		(lib_id "Motor_Controller_Carrier_Board:PWR_FLAG_Inline")
-		(at 217.17 100.33 0)
+		(at 217.17 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4678,8 +4678,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fba694b1-2eed-46b7-8b40-76ca7c737364")
-		(property "Reference" "#FLG010"
-			(at 217.17 98.425 0)
+		(property "Reference" "#FLG?"
+			(at 217.17 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,7 +4688,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG_Inline"
-			(at 217.17 96.52 0)
+			(at 217.17 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4697,7 +4697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 100.33 0)
+			(at 217.17 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4706,7 +4706,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 100.33 0)
+			(at 217.17 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4715,7 +4715,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 217.17 100.33 0)
+			(at 217.17 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
