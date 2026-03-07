@@ -1,0 +1,251 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6af343d7-7346-4b6a-90ee-eb113982f4e5")
+	(paper "A4")
+	(title_block
+		(title "SPEAR Development Board")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 57.15 48.26) (xy 71.12 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365f55ec-2817-4c24-9cc9-fc92a6d7d5a8")
+	)
+	(wire
+		(pts
+			(xy 57.15 52.07) (xy 71.12 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d350947-ce08-4fbf-9bb2-f859af6ba809")
+	)
+	(wire
+		(pts
+			(xy 57.15 63.5) (xy 71.12 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8b1572-b62b-4abf-84e1-1229733bed6f")
+	)
+	(wire
+		(pts
+			(xy 57.15 55.88) (xy 71.12 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba6594d1-aa77-4b1c-9e4c-a8b5814fc44c")
+	)
+	(wire
+		(pts
+			(xy 57.15 59.69) (xy 71.12 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2674fc2-1572-4623-a98f-8061c4188382")
+	)
+	(sheet
+		(at 29.21 45.72)
+		(size 27.94 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad078953-06c7-4dc0-a658-e8fb86486200")
+		(property "Sheetname" "STM32F446RC"
+			(at 29.21 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32f446rc.kicad_sch"
+			(at 29.21 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPI1_MISO" input
+			(at 57.15 52.07 0)
+			(uuid "a2f94564-3982-458c-8a2a-c85d0c75c845")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MOSI" output
+			(at 57.15 48.26 0)
+			(uuid "2ed1308f-bd08-4ee2-9db0-929027c49f4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_SCK" output
+			(at 57.15 55.88 0)
+			(uuid "a1a2d8c7-9581-40c8-ab16-8e68a74abbf0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_CS" output
+			(at 57.15 59.69 0)
+			(uuid "c6c5de79-8571-4ccc-80c9-f4edec005f45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IRQ" input
+			(at 57.15 63.5 0)
+			(uuid "9fb572cf-c5b4-4905-a5a0-b86b470075f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SPEAR_V1"
+				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 45.72)
+		(size 27.94 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d630782a-bbb8-450e-a52a-35375a587c4e")
+		(property "Sheetname" "LAN9252"
+			(at 71.12 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lan9252.kicad_sch"
+			(at 71.12 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MISO" output
+			(at 71.12 52.07 180)
+			(uuid "4c5fe171-e639-4e15-a7e1-eebd3d13c837")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 71.12 48.26 180)
+			(uuid "0b238b6e-0499-4a81-98ef-fa60542a9f7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 71.12 55.88 180)
+			(uuid "c87a702d-23cd-4f3b-97e8-e4b9f1e0d0e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS" input
+			(at 71.12 59.69 180)
+			(uuid "a16fb189-2405-4409-9953-82d0c8c2d112")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IRQ" output
+			(at 71.12 63.5 180)
+			(uuid "e153b420-30ce-4676-8341-d3827f42b649")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SPEAR_V1"
+				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

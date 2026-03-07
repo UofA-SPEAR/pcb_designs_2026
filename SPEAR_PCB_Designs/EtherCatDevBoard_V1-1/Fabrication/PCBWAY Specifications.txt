@@ -1,0 +1,51 @@
+# Instructions:
+Upload the zip file to the PCB Instant Quote online service of PCBWay. Then change the following and leave everything else as defaults:
+
+# Changes to Specifications from Defaults after Zip Upload
+
+## PCB Specification Selection
+
+Quantity: 25 pcs
+Surface finish: Immersion gold(ENIG)
+Remove product No.: Yes (extra+$ 1.5)
+
+## SMD-Stencil
+
+Stencil type: Non-framework
+Quantity: 2
+
+# Full Specifications
+
+## PCB Specification Selection
+
+Board Type: Single pieces
+Different design in panel: 1
+Size (single): 44 × 55 mm
+Quantity (single): 25 pcs
+Layers: 4 Layers
+
+Material: FR-4
+FR4-TG: S1000H TG150
+Thickness: 1.6 mm
+Min Track/spacing: 4/4mil
+Min hole size: 0.25mm
+Solder mask: Green
+Silkscreen: White
+UV printing Multi-color: None
+Edge connector: No
+Surface finish: Immersion gold(ENIG)
+Thickness of Immersion Gold: 1U"
+Via process: Tenting vias
+Finished copper: 1 oz Cu
+Inner Copper: 1 oz
+Remove product No: Yes (extra+$ 1.5)
+
+## SMD-Stencil
+
+Stencil type: Non-framework
+Multi-level/Step stencil: No
+Size (mm): Custom Size (Valid area 190×290mm)
+Quantity: 2
+Thickness: 0.12mm
+Existing fiducials: None
+Electropolishing: No
