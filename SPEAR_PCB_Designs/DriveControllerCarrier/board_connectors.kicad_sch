@@ -5,7 +5,7 @@
 	(uuid "ec96b06f-9d05-43e1-814e-760095a07b8c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Motor_Controller_Carrier_Board:Conn_01x01_Socket_Flipped"
+		(symbol "DriveControllerCarrier:Conn_01x01_Socket_Flipped"
 			(pin_numbers
 				(hide yes)
 			)
@@ -123,7 +123,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Motor_Controller_Carrier_Board:Conn_01x08_Socket_Flipped"
+		(symbol "DriveControllerCarrier:Conn_01x08_Socket_Flipped"
 			(pin_numbers
 				(hide yes)
 			)
@@ -535,7 +535,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Motor_Controller_Carrier_Board:Conn_01x20_Socket_Flipped"
+		(symbol "DriveControllerCarrier:Conn_01x20_Socket_Flipped"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1451,7 +1451,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Motor_Controller_Carrier_Board:PWR_FLAG_Inline"
+		(symbol "DriveControllerCarrier:PWR_FLAG_Inline"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -3323,7 +3323,7 @@
 		(uuid "f86b3d49-ce56-472c-ace2-15a69b5bcb76")
 	)
 	(symbol
-		(lib_id "Motor_Controller_Carrier_Board:PWR_FLAG_Inline")
+		(lib_id "DriveControllerCarrier:PWR_FLAG_Inline")
 		(at 71.12 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3390,7 +3390,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor_Controller_Carrier_Board:Conn_01x01_Socket_Flipped")
+		(lib_id "DriveControllerCarrier:Conn_01x01_Socket_Flipped")
 		(at 218.44 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3574,7 +3574,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor_Controller_Carrier_Board:PWR_FLAG_Inline")
+		(lib_id "DriveControllerCarrier:PWR_FLAG_Inline")
 		(at 71.12 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3641,7 +3641,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor_Controller_Carrier_Board:Conn_01x01_Socket_Flipped")
+		(lib_id "DriveControllerCarrier:Conn_01x01_Socket_Flipped")
 		(at 218.44 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3714,7 +3714,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor_Controller_Carrier_Board:PWR_FLAG_Inline")
+		(lib_id "DriveControllerCarrier:PWR_FLAG_Inline")
 		(at 189.23 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3781,7 +3781,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor_Controller_Carrier_Board:Conn_01x20_Socket_Flipped")
+		(lib_id "DriveControllerCarrier:Conn_01x20_Socket_Flipped")
 		(at 69.85 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3911,7 +3911,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor_Controller_Carrier_Board:Conn_01x20_Socket_Flipped")
+		(lib_id "DriveControllerCarrier:Conn_01x20_Socket_Flipped")
 		(at 118.11 92.71 0)
 		(mirror y)
 		(unit 1)
@@ -4042,7 +4042,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor_Controller_Carrier_Board:PWR_FLAG_Inline")
+		(lib_id "DriveControllerCarrier:PWR_FLAG_Inline")
 		(at 71.12 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4109,7 +4109,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor_Controller_Carrier_Board:PWR_FLAG_Inline")
+		(lib_id "DriveControllerCarrier:PWR_FLAG_Inline")
 		(at 217.17 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4176,7 +4176,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor_Controller_Carrier_Board:Conn_01x01_Socket_Flipped")
+		(lib_id "DriveControllerCarrier:Conn_01x01_Socket_Flipped")
 		(at 218.44 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4249,7 +4249,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor_Controller_Carrier_Board:Conn_01x08_Socket_Flipped")
+		(lib_id "DriveControllerCarrier:Conn_01x08_Socket_Flipped")
 		(at 187.96 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4526,7 +4526,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor_Controller_Carrier_Board:PWR_FLAG_Inline")
+		(lib_id "DriveControllerCarrier:PWR_FLAG_Inline")
 		(at 71.12 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4593,7 +4593,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor_Controller_Carrier_Board:Conn_01x01_Socket_Flipped")
+		(lib_id "DriveControllerCarrier:Conn_01x01_Socket_Flipped")
 		(at 218.44 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4666,7 +4666,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor_Controller_Carrier_Board:PWR_FLAG_Inline")
+		(lib_id "DriveControllerCarrier:PWR_FLAG_Inline")
 		(at 217.17 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)

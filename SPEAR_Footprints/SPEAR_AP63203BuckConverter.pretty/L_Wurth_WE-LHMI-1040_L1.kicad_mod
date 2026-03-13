@@ -236,7 +236,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/WE-LHMI_1040.stp"
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_MotorControllerCarrier/WE-LHMI_1040.stp"
 		(offset
 			(xyz 0 0 0)
 		)

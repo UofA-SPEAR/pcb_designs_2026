@@ -325,7 +325,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/CAP_CC1206_YAG.step"
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_MotorControllerCarrier/CAP_CC1206_YAG.step"
 		(offset
 			(xyz 0 0 0)
 		)

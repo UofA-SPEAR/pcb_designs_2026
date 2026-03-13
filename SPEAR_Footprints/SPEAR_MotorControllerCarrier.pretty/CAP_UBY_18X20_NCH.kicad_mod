@@ -224,7 +224,7 @@
 		(uuid "b18718a1-8e62-40be-a8a4-a1d996dfb577")
 	)
 	(embedded_fonts no)
-	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/CAP_UBY_18X20_NCH.step"
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_MotorControllerCarrier/CAP_UBY_18X20_NCH.step"
 		(offset
 			(xyz 0 0 0)
 		)

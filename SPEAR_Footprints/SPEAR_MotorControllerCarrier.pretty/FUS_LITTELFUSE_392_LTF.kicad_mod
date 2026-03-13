@@ -222,4 +222,15 @@
 		(uuid "50051965-3a6f-4ec7-aded-3d9290168be7")
 	)
 	(embedded_fonts no)
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_MotorControllerCarrier/FUS_LITTELFUSE_392_LTF.step"
+		(offset
+			(xyz 0.4 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

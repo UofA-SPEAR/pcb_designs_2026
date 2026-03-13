@@ -1,27 +1,27 @@
-(footprint "CAP_C3225X7R1C226M250AC"
+(footprint "CAPC3225X270N"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -0.418 -2.1564 0)
+		(at -1.11 -1.95 0)
 		(layer "F.SilkS")
-		(uuid "a2047a3e-08bc-4ccb-8719-3e8267b66c94")
+		(uuid "a578fc16-d81e-4db4-a287-972a8ce57d05")
 		(effects
 			(font
-				(size 0.64 0.64)
-				(thickness 0.15)
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
 			)
 		)
 	)
-	(property "Value" "CAP_C3225X7R1C226M250AC"
-		(at 6.8972 2.1564 0)
+	(property "Value" "CAPC3225X270N"
+		(at 0.89 1.95 0)
 		(layer "F.Fab")
-		(uuid "32098702-c344-4828-adb6-c8d514049b7f")
+		(uuid "34ecfc78-830f-4dad-82df-74885834ba84")
 		(effects
 			(font
-				(size 0.64 0.64)
-				(thickness 0.15)
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
 			)
 		)
 	)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5b454b90-f452-4d34-b8d2-14f88d363e27")
+		(uuid "898894f7-cf5e-434d-9f7c-69472e67fe87")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "12aa164b-83e2-4630-b6e9-25d17dff0353")
+		(uuid "9585e576-cb0b-4761-948a-764f4208a615")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49,11 +49,11 @@
 			)
 		)
 	)
-	(property "Link" "https://www.digikey.ca/short/43n87nfr"
+	(property "Link" "https://www.digikey.ca/short/34213573"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "fc93df39-5fad-4c30-90b4-e76cc4dbadf3")
+		(uuid "8220c8e0-6d6a-43e4-b6d4-5f08557a14e1")
 		(effects
 			(font
 				(size 1 1)
@@ -61,11 +61,11 @@
 			)
 		)
 	)
-	(property "DigiKey_Part_Number" "445-3955-1-ND"
+	(property "DigiKey_Part_Number" "490-14536-1-ND"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "71c63ec3-8088-4e7d-bbd5-f7bd2bd29056")
+		(uuid "5b5cc799-47a4-433d-8e87-af7d2aec0edf")
 		(effects
 			(font
 				(size 1 1)
@@ -75,123 +75,123 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.78 -1.25)
-		(end 0.78 -1.25)
+		(start -0.23 -1.35)
+		(end 0.23 -1.35)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a287f981-6a93-4d5a-8f46-9aac1a3cfa2f")
+		(uuid "f4fab6ff-6ffc-4966-9c07-fb9e1eeb0988")
 	)
 	(fp_line
-		(start -0.78 1.25)
-		(end 0.78 1.25)
+		(start -0.23 1.35)
+		(end 0.23 1.35)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "94459e1f-9e5c-4548-b156-84cd3d97c1f2")
+		(uuid "306ce52a-18c1-45a7-af90-c2f034a9c9c0")
 	)
 	(fp_line
-		(start -2.45 -1.5)
-		(end -2.45 1.5)
+		(start -2.355 -1.608)
+		(end 2.355 -1.608)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b5677bd1-2e66-4f93-b27e-eb1c63ace055")
+		(uuid "8925e397-2479-46a7-911e-18a03817cbef")
 	)
 	(fp_line
-		(start -2.45 1.5)
-		(end 2.45 1.5)
+		(start -2.355 1.608)
+		(end -2.355 -1.608)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a7218e37-16f5-4863-b055-0376b2576f75")
+		(uuid "50181451-0350-4507-999c-1c14f492e360")
 	)
 	(fp_line
-		(start 2.45 -1.5)
-		(end -2.45 -1.5)
+		(start -2.355 1.608)
+		(end 2.355 1.608)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "66f3a95b-feb5-4a4e-a33e-b8ef0ead5f77")
+		(uuid "218af45a-569a-446c-8571-08701e1704d2")
 	)
 	(fp_line
-		(start 2.45 1.5)
-		(end 2.45 -1.5)
+		(start 2.355 1.608)
+		(end 2.355 -1.608)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "cce824d7-26f9-4b83-a539-119a992a8d6a")
+		(uuid "bbb5dad7-ca3d-4fe3-9be5-62be5e7bdfc6")
 	)
 	(fp_line
-		(start -1.6 -1.25)
-		(end -1.6 1.25)
+		(start -1.75 1.35)
+		(end -1.75 -1.35)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "17dca792-02da-40e1-911a-3f49eb6f6300")
+		(uuid "d527cfda-4d27-4c12-8507-229059bed079")
 	)
 	(fp_line
-		(start -1.6 -1.25)
-		(end 1.6 -1.25)
+		(start 1.75 -1.35)
+		(end -1.75 -1.35)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3eacdca5-f47b-471f-b9e0-9e83df258e40")
+		(uuid "f1f00001-1577-41e9-8086-84888af09a29")
 	)
 	(fp_line
-		(start -1.6 1.25)
-		(end 1.6 1.25)
+		(start 1.75 1.35)
+		(end -1.75 1.35)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "97f80037-df1c-470f-825f-59e1414e5b2b")
+		(uuid "84ac2629-56dd-42a4-aff3-8141bee936e9")
 	)
 	(fp_line
-		(start 1.6 -1.25)
-		(end 1.6 1.25)
+		(start 1.75 1.35)
+		(end 1.75 -1.35)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "95ebef1a-8866-4ce6-aeb9-2ce39a2f6d1f")
+		(uuid "f27848a9-95ba-42ed-8a14-328c10d1bafc")
 	)
 	(pad "1" smd rect
-		(at -1.65 0)
-		(size 1.1 2.2)
+		(at -1.341 0)
+		(size 1.53 2.72)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "8a73b035-7810-4d1c-b72f-0a4251bee1fb")
+		(uuid "ec9b782e-ce0d-416b-a8d4-08b2a596cb3c")
 	)
 	(pad "2" smd rect
-		(at 1.65 0)
-		(size 1.1 2.2)
+		(at 1.341 0)
+		(size 1.53 2.72)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "aaab50d4-3960-4ba7-a4e1-f56bbce32306")
+		(uuid "4753646e-94f0-473a-928e-adee3b27a203")
 	)
 	(embedded_fonts no)
-	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_Motor_Controller_Carrier_Board/C3225X7R1C226M250AC.step"
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_MotorControllerCarrier/GCM32EC71H106KA03L.step"
 		(offset
-			(xyz 0 -1.4 1.25)
+			(xyz 0 -1.35 1.3)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -789,7 +789,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "MDB"
-			(at 16.51 3.048 0)
+			(at 12.7 3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -797,7 +797,7 @@
 			)
 		)
 		(property "Value" "Motor_Driver_Board_2973"
-			(at 16.51 1.27 0)
+			(at 12.7 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -805,7 +805,7 @@
 			)
 		)
 		(property "Footprint" "SPEAR_Boards:Motor_Driver_Board_2973"
-			(at 16.51 12.192 0)
+			(at 12.7 12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -814,7 +814,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.pololu.com/product/2973"
-			(at 16.51 8.89 0)
+			(at 12.7 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -834,7 +834,7 @@
 		(symbol "Motor_Driver_Board_2973_1_1"
 			(rectangle
 				(start 0 0)
-				(end 33.02 -35.56)
+				(end 25.4 -35.56)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1095,10 +1095,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 8.89 -38.1 90)
+			(pin power_in line
+				(at 27.94 -10.16 180)
 				(length 2.54)
-				(name "AGC0"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1113,10 +1113,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 11.43 -38.1 90)
+			(pin power_in line
+				(at 27.94 -12.7 180)
 				(length 2.54)
-				(name "AGC1"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1131,10 +1131,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 13.97 -38.1 90)
+			(pin power_in line
+				(at 27.94 -15.24 180)
 				(length 2.54)
-				(name "CLIM0"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1149,10 +1149,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 16.51 -38.1 90)
+			(pin power_out line
+				(at 27.94 -17.78 180)
 				(length 2.54)
-				(name "CLIM1"
+				(name "OUTB+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1167,10 +1167,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 19.05 -38.1 90)
+			(pin power_out line
+				(at 27.94 -20.32 180)
 				(length 2.54)
-				(name "FLIM"
+				(name "OUTB-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1185,10 +1185,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 21.59 -38.1 90)
+			(pin power_out line
+				(at 27.94 -22.86 180)
 				(length 2.54)
-				(name "BOOST"
+				(name "OUTA-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1203,134 +1203,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 24.13 -38.1 90)
-				(length 2.54)
-				(name "LTH"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 35.56 -10.16 180)
-				(length 2.54)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 35.56 -12.7 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 35.56 -15.24 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_out line
-				(at 35.56 -17.78 180)
-				(length 2.54)
-				(name "OUTB+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 35.56 -20.32 180)
-				(length 2.54)
-				(name "OUTB-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 35.56 -22.86 180)
-				(length 2.54)
-				(name "OUTA-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 35.56 -25.4 180)
+				(at 27.94 -25.4 180)
 				(length 2.54)
 				(name "OUTA+"
 					(effects
@@ -1339,7 +1213,7 @@
 						)
 					)
 				)
-				(number "28"
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
