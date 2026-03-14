@@ -4987,7 +4987,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 232.41 140.97 180)
+		(at 232.41 138.43 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4995,7 +4996,7 @@
 		(dnp no)
 		(uuid "386da483-e406-4e11-9470-37cb35c7fe92")
 		(property "Reference" "J3"
-			(at 233.68 138.4299 0)
+			(at 233.68 140.9701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,7 +5005,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 233.68 140.9699 0)
+			(at 233.68 138.4301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,8 +5013,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 232.41 140.97 0)
+		(property "Footprint" "SPEAR_Connectors:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal_1"
+			(at 232.41 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5022,7 +5023,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 140.97 0)
+			(at 232.41 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,7 +5032,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 232.41 140.97 0)
+			(at 232.41 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,7 +5041,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 232.41 140.97 0)
+			(at 232.41 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,7 +5056,7 @@
 			(uuid "f32879ad-1fbe-4b34-9a46-2ca31b436f08")
 		)
 		(instances
-			(project "Stepper_Motor_Controller_Carrier_Board"
+			(project "StepperControllerCarrier"
 				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
 					(reference "J3")
 					(unit 1)
@@ -5424,7 +5425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "SPEAR_Connectors:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal_1"
 			(at 57.15 165.1 0)
 			(effects
 				(font
@@ -6181,8 +6182,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 232.41 143.51 0)
-		(mirror y)
+		(at 232.41 146.05 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6190,7 +6190,7 @@
 		(dnp no)
 		(uuid "ca6b595d-928b-4ffc-8235-fe4add96b5fc")
 		(property "Reference" "J4"
-			(at 233.68 146.0501 0)
+			(at 233.68 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,7 +6199,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 233.68 143.5101 0)
+			(at 233.68 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6207,8 +6207,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 232.41 143.51 0)
+		(property "Footprint" "SPEAR_Connectors:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal_1"
+			(at 232.41 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,7 +6217,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 143.51 0)
+			(at 232.41 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6226,7 +6226,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 232.41 143.51 0)
+			(at 232.41 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,7 +6235,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 232.41 143.51 0)
+			(at 232.41 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6250,7 +6250,7 @@
 			(uuid "68f2bdaf-1ee5-4597-85e9-e93b6ea15248")
 		)
 		(instances
-			(project "Stepper_Motor_Controller_Carrier_Board"
+			(project "StepperControllerCarrier"
 				(path "/f3c97344-c35a-4a43-a333-44ea37de3455"
 					(reference "J4")
 					(unit 1)
@@ -6431,7 +6431,7 @@
 				)
 			)
 		)
-		(property "Value" "10 A"
+		(property "Value" "10A"
 			(at 92.71 158.75 0)
 			(effects
 				(font

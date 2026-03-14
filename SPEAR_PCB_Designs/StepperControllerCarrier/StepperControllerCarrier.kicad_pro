@@ -470,7 +470,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Stepper_Motor_Controller_Carrier_Board.kicad_pro",
+    "filename": "StepperControllerCarrier.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -509,7 +509,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../../Users/oschn/Downloads/StepperControllerCarrier.step",
       "svg": "",
       "vrml": ""
     },
