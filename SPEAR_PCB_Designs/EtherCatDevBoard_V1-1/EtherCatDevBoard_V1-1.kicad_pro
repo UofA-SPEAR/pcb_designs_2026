@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.0,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 0.33,
+          "height": 0.65,
+          "width": 0.65
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -128,7 +128,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
+        "min_clearance": 0.155,
         "min_connection": 0.15,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -144,7 +144,7 @@
         "min_track_width": 0.15,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.45,
-        "solder_mask_to_copper_clearance": 0.1,
+        "solder_mask_to_copper_clearance": 0.155,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -519,7 +519,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.15,
+        "clearance": 0.155,
         "name": "MDI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
@@ -546,11 +546,18 @@
         "wire_width": 6
       },
       {
+        "name": "PWR_SMALL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25
+      },
+      {
         "bus_width": 12,
         "line_style": 0,
         "name": "SWD",
         "pcb_color": "rgb(0, 109, 255)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(0, 109, 255)",
         "wire_width": 6
       },
@@ -559,7 +566,7 @@
         "line_style": 0,
         "name": "USB",
         "pcb_color": "rgb(23, 193, 0)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(23, 193, 0)",
         "wire_width": 6
       },
@@ -648,15 +655,15 @@
         "pattern": "/STM32F446RC/3.3V_Battery"
       },
       {
-        "netclass": "PWR",
+        "netclass": "PWR_SMALL",
         "pattern": "/LAN9252/VDD33TXRX2"
       },
       {
-        "netclass": "PWR",
+        "netclass": "PWR_SMALL",
         "pattern": "/LAN9252/VDD33TXRX1"
       },
       {
-        "netclass": "PWR",
+        "netclass": "PWR_SMALL",
         "pattern": "/LAN9252/VDD12TX1"
       }
     ]
@@ -669,7 +676,7 @@
       "plot": "Fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../Downloads/SPEAR_V1.stl",
+      "step": "../../../../../Downloads/SPEAR_V1.step",
       "svg": "",
       "vrml": ""
     },

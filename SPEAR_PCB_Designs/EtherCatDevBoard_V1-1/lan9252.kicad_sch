@@ -2598,6 +2598,10 @@
 		(uuid "098068c7-5bca-4638-9abe-70ff1dd7a403")
 	)
 	(no_connect
+		(at 85.09 115.57)
+		(uuid "0cf6e7b3-3ddc-4452-bd44-21704a464418")
+	)
+	(no_connect
 		(at 85.09 120.65)
 		(uuid "1c17f464-af0c-4d73-813f-98e2fe2bff88")
 	)
@@ -2644,10 +2648,6 @@
 	(no_connect
 		(at 156.21 125.73)
 		(uuid "951c86e8-83f3-4895-b22d-17061f42f946")
-	)
-	(no_connect
-		(at 156.21 118.11)
-		(uuid "9dca105e-8df5-47f9-b038-aa2359bf0cf4")
 	)
 	(no_connect
 		(at 156.21 123.19)
@@ -3214,16 +3214,6 @@
 			(type default)
 		)
 		(uuid "5812dbbc-13e1-45e7-9465-1533a124b4cd")
-	)
-	(wire
-		(pts
-			(xy 78.74 115.57) (xy 85.09 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58ad018d-4a8d-4179-ab74-e8455a28e55d")
 	)
 	(wire
 		(pts
@@ -4337,6 +4327,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 118.11) (xy 156.21 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec7985ec-efd5-4e2b-a5a6-e91fca71aadf")
+	)
+	(wire
+		(pts
 			(xy 60.96 99.06) (xy 49.53 99.06)
 		)
 		(stroke
@@ -4916,16 +4916,16 @@
 		)
 		(uuid "6166f80a-4ac2-4bf6-9f1c-82c7454114d8")
 	)
-	(hierarchical_label "CS"
+	(hierarchical_label "SCS"
 		(shape input)
-		(at 78.74 115.57 180)
+		(at 165.1 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "644e0899-6e4f-4f7e-8db4-47678816e41d")
+		(uuid "64db779c-f947-449f-b40a-ca70c7d6746a")
 	)
 	(hierarchical_label "IRQ"
 		(shape output)
@@ -9885,7 +9885,7 @@
 			)
 		)
 		(instances
-			(project "SPEAR_V1"
+			(project "EtherCatDevBoard_V1-1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5/d630782a-bbb8-450e-a52a-35375a587c4e"
 					(page "4")
 				)

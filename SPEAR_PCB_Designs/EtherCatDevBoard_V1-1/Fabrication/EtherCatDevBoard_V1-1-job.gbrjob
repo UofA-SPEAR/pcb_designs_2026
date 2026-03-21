@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "9.0.5"
     },
-    "CreationDate": "2026-01-25T18:06:21-07:00"
+    "CreationDate": "2026-03-15T20:25:34-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "SPEAR_V1",
-      "GUID": "53504541-525f-4563-912e-6b696361645f",
+      "Name": "EtherCatDevBoard_V1-1",
+      "GUID": "45746865-7243-4617-9444-6576426f6172",
       "Revision": "rev?"
     },
     "Size": {
@@ -19,13 +19,13 @@
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6,
-    "Finish": "HAL lead-free"
+    "Finish": "ENIG"
   },
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.15,
-      "PadToTrack": 0.15,
+      "PadToPad": 0.155,
+      "PadToTrack": 0.155,
       "TrackToTrack": -0.0,
       "MinLineWidth": 0.2
     },
@@ -34,64 +34,63 @@
       "PadToPad": 0.0,
       "PadToTrack": 0.0,
       "TrackToTrack": -0.0,
-      "MinLineWidth": 0.3,
-      "TrackToRegion": 0.25,
-      "RegionToRegion": 0.25
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "SPEAR_V1-F_Cu.gbr",
+      "Path": "EtherCatDevBoard_V1-1-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SPEAR_V1-In1_Cu.gbr",
+      "Path": "EtherCatDevBoard_V1-1-In1_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SPEAR_V1-In2_Cu.gbr",
+      "Path": "EtherCatDevBoard_V1-1-In2_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SPEAR_V1-B_Cu.gbr",
+      "Path": "EtherCatDevBoard_V1-1-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SPEAR_V1-F_Paste.gbr",
+      "Path": "EtherCatDevBoard_V1-1-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SPEAR_V1-B_Paste.gbr",
+      "Path": "EtherCatDevBoard_V1-1-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SPEAR_V1-F_Silkscreen.gbr",
+      "Path": "EtherCatDevBoard_V1-1-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SPEAR_V1-B_Silkscreen.gbr",
+      "Path": "EtherCatDevBoard_V1-1-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SPEAR_V1-F_Mask.gbr",
+      "Path": "EtherCatDevBoard_V1-1-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "SPEAR_V1-B_Mask.gbr",
+      "Path": "EtherCatDevBoard_V1-1-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "SPEAR_V1-Edge_Cuts.gbr",
+      "Path": "EtherCatDevBoard_V1-1-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

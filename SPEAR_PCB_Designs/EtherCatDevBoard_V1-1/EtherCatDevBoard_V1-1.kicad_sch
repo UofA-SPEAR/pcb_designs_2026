@@ -143,7 +143,7 @@
 			)
 		)
 		(instances
-			(project "SPEAR_V1"
+			(project "EtherCatDevBoard_V1-1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(page "2")
 				)
@@ -214,16 +214,6 @@
 				(justify left)
 			)
 		)
-		(pin "CS" input
-			(at 71.12 59.69 180)
-			(uuid "a16fb189-2405-4409-9953-82d0c8c2d112")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "IRQ" output
 			(at 71.12 63.5 180)
 			(uuid "e153b420-30ce-4676-8341-d3827f42b649")
@@ -234,8 +224,18 @@
 				(justify left)
 			)
 		)
+		(pin "SCS" input
+			(at 71.12 59.69 180)
+			(uuid "06fc4dfe-cc98-4566-a6cc-1e776c5d275c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
-			(project "SPEAR_V1"
+			(project "EtherCatDevBoard_V1-1"
 				(path "/6af343d7-7346-4b6a-90ee-eb113982f4e5"
 					(page "3")
 				)
