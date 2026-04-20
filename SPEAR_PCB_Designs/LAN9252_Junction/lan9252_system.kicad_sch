@@ -9,6 +9,169 @@
 		(company "Space Exploration Alberta Robotics")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1973,222 +2136,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_MEC_5E"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0.635 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_MEC_5E"
-				(at 0 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "MEC 5E single pole normally-open tactile switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW*MEC*5G*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_MEC_5E_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 3.81) (xy 2.286 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 0 5.588)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.778 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 2.54) (xy 2.286 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -2594,6 +2541,12 @@
 		(uuid "3e83b117-7736-4452-aa1d-1de33e83023a")
 	)
 	(junction
+		(at 83.82 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40e6b35a-ed36-4940-b80d-e02e799506e4")
+	)
+	(junction
 		(at 160.02 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2640,12 +2593,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a7c8f8f-880e-485a-8d67-e0828981b0f4")
-	)
-	(junction
-		(at 25.4 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b87d511-1062-4ef1-b375-fb1c6d5295cb")
 	)
 	(junction
 		(at 237.49 104.14)
@@ -2736,12 +2683,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2ee7c74-ca22-4fb8-a4e6-582987459269")
-	)
-	(junction
-		(at 41.91 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba0b7c1d-b990-4574-88cc-6c59e14c9d09")
 	)
 	(junction
 		(at 223.52 72.39)
@@ -2841,6 +2782,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 53.34) (xy 83.82 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03293a6d-e2ea-4091-aa18-fcebb69373e2")
+	)
+	(wire
+		(pts
 			(xy 237.49 99.06) (xy 237.49 104.14)
 		)
 		(stroke
@@ -2928,6 +2879,16 @@
 			(type default)
 		)
 		(uuid "0cf6f59c-1748-4551-b1bc-0d269342c0c4")
+	)
+	(wire
+		(pts
+			(xy 34.29 171.45) (xy 44.45 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f27644a-8f2f-4428-9a2e-a436f5de5dea")
 	)
 	(wire
 		(pts
@@ -3521,16 +3482,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 173.99) (xy 25.4 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ccc2f96-327f-476d-a1e8-6424967e6c49")
-	)
-	(wire
-		(pts
 			(xy 40.64 78.74) (xy 41.91 78.74)
 		)
 		(stroke
@@ -3821,6 +3772,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 55.88) (xy 85.09 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc84372-51a0-49d0-b996-08791ac829e9")
+	)
+	(wire
+		(pts
 			(xy 160.02 43.18) (xy 156.21 43.18)
 		)
 		(stroke
@@ -3838,16 +3799,6 @@
 			(type default)
 		)
 		(uuid "81410805-15da-4055-a568-f0dc57730e17")
-	)
-	(wire
-		(pts
-			(xy 25.4 173.99) (xy 25.4 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84436853-f21e-405f-96a4-47e6419ab13b")
 	)
 	(wire
 		(pts
@@ -3891,7 +3842,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 173.99) (xy 25.4 171.45)
+			(xy 25.4 171.45) (xy 25.4 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4141,7 +4092,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 171.45) (xy 25.4 171.45)
+			(xy 25.4 171.45) (xy 31.75 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4321,17 +4272,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 171.45) (xy 44.45 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce7544f6-9b69-4981-8f9e-9a818e0e6132")
-	)
-	(wire
-		(pts
-			(xy 80.01 55.88) (xy 85.09 55.88)
+			(xy 80.01 55.88) (xy 83.82 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4348,26 +4289,6 @@
 			(type default)
 		)
 		(uuid "d119e907-fee5-4281-8248-cbc1d89d7a87")
-	)
-	(wire
-		(pts
-			(xy 41.91 173.99) (xy 41.91 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2a803d2-26fe-4e44-9999-120e53354c55")
-	)
-	(wire
-		(pts
-			(xy 38.1 171.45) (xy 41.91 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3152f35-bf76-49d8-8e93-408b3af86a39")
 	)
 	(wire
 		(pts
@@ -4418,16 +4339,6 @@
 			(type default)
 		)
 		(uuid "e365b38d-80dc-411e-958e-4afd48c0a663")
-	)
-	(wire
-		(pts
-			(xy 38.1 173.99) (xy 41.91 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3b1e035-ecd8-4f9d-ac53-c5bebb0c2d36")
 	)
 	(wire
 		(pts
@@ -4639,7 +4550,7 @@
 		)
 		(uuid "09593842-9ad4-4369-ba4e-937bea6c35f1")
 	)
-	(label "TP1"
+	(label "RST"
 		(at 58.42 171.45 180)
 		(effects
 			(font
@@ -5058,6 +4969,16 @@
 			(justify left bottom)
 		)
 		(uuid "cf379945-57e8-4fe4-8a91-1b0528fa7340")
+	)
+	(label "RST"
+		(at 83.82 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d3a2e2cf-b030-4366-afc2-a0d5cd06b973")
 	)
 	(label "VDDCR"
 		(at 162.56 43.18 180)
@@ -9307,6 +9228,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 34.29 166.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d741cb99-f72c-4be6-88d8-b33af8511f11")
+		(property "Reference" "J8"
+			(at 35.56 165.7349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 26.67 163.576 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 34.29 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 34.29 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98d7504f-b00e-4aed-acd6-11ade9dcbda5")
+		)
+		(pin "2"
+			(uuid "943f318a-bdb9-46dc-a22c-92cee912ef03")
+		)
+		(instances
+			(project ""
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/51ada2c8-3854-4465-9d64-3e8aa0c5daf2"
+					(reference "J8")
+					(unit 1)
+				)
+				(path "/16d72164-3a84-4f74-a868-383d0ad57128/52e6a653-4436-4d7a-ae83-cfeea5b0a028"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 241.3 21.59 0)
 		(unit 1)
@@ -9659,84 +9653,6 @@
 				)
 				(path "/16d72164-3a84-4f74-a868-383d0ad57128/52e6a653-4436-4d7a-ae83-cfeea5b0a028"
 					(reference "#FLG013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 33.02 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e462f6ea-91bf-4eca-8f7a-0fe9368830e4")
-		(property "Reference" "SW1"
-			(at 33.02 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5E"
-			(at 33.02 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 33.02 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 33.02 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 33.02 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03f66031-439d-4fce-ac7a-4a9eec1b05e8")
-		)
-		(pin "3"
-			(uuid "e9381313-c8c7-4d3e-9647-52e225e09ad8")
-		)
-		(pin "4"
-			(uuid "71d8551b-9e83-463e-8eca-89f7f0e30cee")
-		)
-		(pin "2"
-			(uuid "ef367c2b-2ba6-40c1-b9d0-3714a391f914")
-		)
-		(instances
-			(project "LAN9252_Junction"
-				(path "/16d72164-3a84-4f74-a868-383d0ad57128/51ada2c8-3854-4465-9d64-3e8aa0c5daf2"
-					(reference "SW1")
-					(unit 1)
-				)
-				(path "/16d72164-3a84-4f74-a868-383d0ad57128/52e6a653-4436-4d7a-ae83-cfeea5b0a028"
-					(reference "SW2")
 					(unit 1)
 				)
 			)

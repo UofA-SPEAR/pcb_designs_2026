@@ -1,0 +1,7 @@
+(version 1)
+(rule MDI
+	(condition "A.hasNetclass('MDI') && B.hasNetclass('MDI') && !AB.isCoupledDiffPair()")
+	(constraint clearance (min 0.5mm)))
+(rule "Tighten Gap in BGA Area"
+    (condition "A.hasNetclass('MDI') && B.hasNetclass('MDI') && !AB.isCoupledDiffPair() && A.insideArea('Component')")
+    (constraint clearance (min 0.18mm)))
