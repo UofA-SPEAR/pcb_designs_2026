@@ -5,4 +5,5 @@
   (lib (name "SPEAR_MOTORCONTRLLER")(type "KiCad")(uri "C:/Users/sheeb/OneDrive/Documents/Actual spear boards/pcb_designs_2026/SPEAR_Footprints/SPEAR_MotorControllerCarrier.pretty")(options "")(descr ""))
   (lib (name "SPEAR_CONNECTORS")(type "KiCad")(uri "C:/Users/sheeb/OneDrive/Documents/Actual spear boards/pcb_designs_2026/SPEAR_Footprints/SPEAR_Connectors.pretty")(options "")(descr ""))
   (lib (name "SPEAR_POWERJUCTION")(type "KiCad")(uri "C:/Users/sheeb/OneDrive/Documents/Actual spear boards/pcb_designs_2026/SPEAR_Footprints/SPEAR_XT_Power_Junctions.pretty")(options "")(descr ""))
+  (lib (name "SPEAR_logos")(type "KiCad")(uri "C:/Users/sheeb/OneDrive/Documents/Actual spear boards/pcb_designs_2026/SPEAR_Footprints/SPEAR_logos.pretty")(options "")(descr ""))
 )
