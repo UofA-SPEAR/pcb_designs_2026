@@ -5485,6 +5485,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "490-3992-1-ND"
+			(at 176.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c28b2e1-23ec-4ca4-ae4c-9854b9b5366d")
 		)
@@ -6609,6 +6618,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "490-3992-1-ND"
+			(at 25.4 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ac19b0c-fd76-4a91-96c3-a6e9270f017d")
 		)
@@ -7056,6 +7074,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "4713-GMC02X5R104K35NTCT-ND"
+			(at 44.45 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc7dc73f-2bb4-4fb6-b156-5bcbbd32344d")
 		)
@@ -7334,6 +7361,15 @@
 		)
 		(property "Description" "Two pin crystal"
 			(at 54.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "732-830056463CT-ND"
+			(at 54.61 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7986,6 +8022,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "311-0.0JRCT-ND"
+			(at 71.12 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed1397ac-dcb6-4564-a7c9-e60383ae38a5")
 		)
@@ -8306,6 +8351,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "311-10KJRCT-ND"
+			(at 44.45 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70c44680-18a2-4428-ada7-a4dd124890d5")
 		)
@@ -8511,6 +8565,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 97.79 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "2019-RN73R1ETTP1420B50CT-ND"
+			(at 97.79 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9003,6 +9066,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "LAN9252I/ML-ND"
+			(at 120.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "34"
 			(uuid "e0a5570b-b8b0-4366-aeae-9071ecec4aa1")
 		)
@@ -9416,6 +9488,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "2057-PH1-02-UA-ND"
+			(at 34.29 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "98d7504f-b00e-4aed-acd6-11ade9dcbda5")
 		)
@@ -9480,6 +9561,15 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
+			(at 241.3 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "490-3992-1-ND"
 			(at 241.3 21.59 0)
 			(effects
 				(font
@@ -9711,6 +9801,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "311-12.1KLRCT-ND"
+			(at 76.2 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32f78efb-4abb-446f-91e0-c1d86f184dd1")
 		)
@@ -9848,6 +9947,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 97.79 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "2019-RN73R1ETTP1420B50CT-ND"
+			(at 97.79 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10043,7 +10151,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "BLM18EG221SN1D"
 			(at 27.432 51.562 0)
 			(effects
 				(font
@@ -10079,6 +10187,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "490-3992-1-ND"
+			(at 25.4 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b4e9345-6703-4d70-9a10-509a3f4289b2")
 		)
@@ -10092,7 +10209,7 @@
 					(unit 1)
 				)
 				(path "/16d72164-3a84-4f74-a868-383d0ad57128/52e6a653-4436-4d7a-ae83-cfeea5b0a028"
-					(reference "FB6")
+					(reference "FB2")
 					(unit 1)
 				)
 			)

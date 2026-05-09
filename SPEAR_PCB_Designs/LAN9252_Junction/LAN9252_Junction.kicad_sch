@@ -953,6 +953,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "311-4.7KJRCT-ND"
+			(at 127 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "165963e2-ba71-47a1-8f4b-ec6f68d62216")
 		)
@@ -1410,6 +1419,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 114.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "311-4.7KJRCT-ND"
+			(at 114.3 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
