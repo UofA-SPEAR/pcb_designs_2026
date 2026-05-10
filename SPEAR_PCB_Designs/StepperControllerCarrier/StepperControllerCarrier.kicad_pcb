@@ -117,7 +117,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "C:/Users/Ammar/Spear/Stepper_Motor_Controller_Carrier_Board/Fabrication/")
+			(outputdirectory "Fabrication")
 		)
 	)
 	(net 0 "")

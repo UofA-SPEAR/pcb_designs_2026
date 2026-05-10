@@ -506,7 +506,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Fabrication",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../../../Users/oschn/Downloads/StepperControllerCarrier.step",
