@@ -930,7 +930,7 @@
 			)
 		)
 		(property "Value" "Motor_Driver_Board_2973"
-			(at 12.7 17.8 0)
+			(at 12.7 19.82 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "576ea5df-bed4-4a27-ade6-871cd1eac794")
@@ -979,7 +979,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "54a52ed9-9357-40ab-ae6f-34785438527f")
+			(uuid "d749b0da-dc14-41bb-b9f4-5cea63ce9c5f")
 		)
 		(fp_line
 			(start 2.67 -0.13)
@@ -989,7 +989,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f656d785-2657-47ca-950c-ca78995031bf")
+			(uuid "70ca5c26-bcb9-4b4f-94a6-35ca5ce429c7")
 		)
 		(fp_line
 			(start 25.53 -0.13)
@@ -999,7 +999,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ad0f6a6a-953a-4d39-8e6e-6d50970a80a8")
+			(uuid "7bf8a43e-8c46-47f2-9a02-c3247b582c5f")
 		)
 		(fp_line
 			(start 25.53 35.73)
@@ -1009,7 +1009,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9dfb266d-100a-4ca6-abc0-da31e26e0d3b")
+			(uuid "3ea22d03-c30a-422c-bafd-c62000a7a4ef")
 		)
 		(fp_rect
 			(start -0.13 -0.34)
@@ -1020,7 +1020,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "d7a6a0a0-7332-4943-a070-667399ed076d")
+			(uuid "fedc4282-6824-4d67-826b-2af7573d328e")
 		)
 		(fp_rect
 			(start 22.735 7.245)
@@ -1031,7 +1031,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "23c03f3f-a50e-4e5d-abe8-65b4e322975c")
+			(uuid "70cde4d0-3bae-410e-8d0e-10e17e1c11ef")
 		)
 		(fp_rect
 			(start -0.225 -0.435)
@@ -1042,7 +1042,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "a10cbf01-31d7-436b-8ff8-80c06a0cf7e8")
+			(uuid "1154aebc-1288-4e24-808b-c61ae9497da2")
 		)
 		(fp_rect
 			(start 22.635 7.145)
@@ -1053,7 +1053,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "11c7dd10-03ea-4033-8ef0-fa8cd7f26fa6")
+			(uuid "e6b985bb-95bc-4e2b-a1d5-8f22bed6e64c")
 		)
 		(fp_line
 			(start 2.54 0)
@@ -1063,7 +1063,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7827dbc0-25f4-4e2d-86fe-6df70647a5ad")
+			(uuid "8bf0e8fb-5dd0-42d5-abf9-2801cec58dae")
 		)
 		(fp_line
 			(start 25.4 0)
@@ -1073,7 +1073,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "98a708c9-d3af-4aa1-aa39-b8ccc1b9952e")
+			(uuid "7b022a75-8df4-4410-bd95-375c975aad3a")
 		)
 		(fp_line
 			(start 25.4 35.6)
@@ -1083,7 +1083,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "012e989f-4732-4884-9089-48925a4dba07")
+			(uuid "58490d14-b56b-44cf-9f47-2ad2fc356df7")
 		)
 		(fp_rect
 			(start 0 -0.21)
@@ -1094,7 +1094,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "5a0f1c1f-187d-44fc-8cde-0652a60c6556")
+			(uuid "0c0df23a-9a7b-42db-b93e-c2fc299634e9")
 		)
 		(fp_rect
 			(start 22.86 7.37)
@@ -1105,21 +1105,21 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "eb6e45a5-3b56-450e-bd6a-e1bdac06f1f6")
+			(uuid "efbb1887-a0e9-411b-88c7-0d3fa87a0dd4")
 		)
 		(pad "" np_thru_hole circle
 			(at 22.9 2.5 90)
 			(size 2.18 2.18)
 			(drill 2.18)
 			(layers "*.Mask")
-			(uuid "61a4b731-ec2a-4bee-b351-130b068ba8ea")
+			(uuid "b51dfcb7-fe30-42a3-9c04-ee497c4e4263")
 		)
 		(pad "" np_thru_hole circle
 			(at 22.9 33.1 90)
 			(size 2.18 2.18)
 			(drill 2.18)
 			(layers "*.Mask")
-			(uuid "d1ece4a1-1f4e-4e70-aae2-dfbab0e92724")
+			(uuid "6f010ce5-369a-45f3-a265-bf32dbded9d4")
 		)
 		(pad "1" thru_hole circle
 			(at 1.27 1.31 90)
@@ -1373,6 +1373,17 @@
 			)
 			(rotate
 				(xyz -90 -0 90)
+			)
+		)
+		(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_MotorControllerCarrier/tb67s2x9ftg-stepper-motor-driver-carrier.step"
+			(offset
+				(xyz 0 -35.5 8.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -7078,6 +7089,17 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "2973"
+		(at 167 99 0)
+		(layer "F.SilkS")
+		(uuid "d0886917-a384-436a-b465-b049800981ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "MOTOR B"
 		(at 184.25 108.5 270)
 		(layer "F.SilkS")
@@ -7678,36 +7700,12 @@
 		(uuid "cc4e8827-f334-4895-a1bf-84ea24b5e96e")
 	)
 	(segment
-		(start 152 112.75)
-		(end 152 110.46)
+		(start 152.2 112.55)
+		(end 152.2 110.26)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 39)
-		(uuid "13b5b0f5-3ed9-4823-b241-20c672a163aa")
-	)
-	(segment
-		(start 139.175 114.295)
-		(end 150.455 114.295)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "ab1aefb3-db21-4fb3-abb7-003d9f2f90eb")
-	)
-	(segment
-		(start 152 110.46)
-		(end 154.57 107.89)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "c23ec6ce-b4fe-4f0f-be00-6da210a26b2f")
-	)
-	(segment
-		(start 150.455 114.295)
-		(end 152 112.75)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 39)
-		(uuid "cfbe8988-f717-44c0-8b14-5abed90f06a4")
+		(uuid "2539a089-cb17-4535-a2e7-b68c74261789")
 	)
 	(segment
 		(start 138.98 114.1)
@@ -7715,7 +7713,31 @@
 		(width 0.3)
 		(layer "F.Cu")
 		(net 39)
-		(uuid "d8f7f59d-41a8-4746-b866-ab640be62a7a")
+		(uuid "253d21e1-5956-4c6e-8179-1f6695563426")
+	)
+	(segment
+		(start 150.455 114.295)
+		(end 152.2 112.55)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 39)
+		(uuid "2a525eba-ad08-4069-aadd-74f2bca4b866")
+	)
+	(segment
+		(start 152.2 110.26)
+		(end 154.57 107.89)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 39)
+		(uuid "5a658852-0db1-47fb-9f43-8ee700981bbc")
+	)
+	(segment
+		(start 139.175 114.295)
+		(end 150.455 114.295)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 39)
+		(uuid "f9f1d9d0-ce1d-4e74-9731-46cf72239045")
 	)
 	(segment
 		(start 161.5 118.5)
@@ -8012,13 +8034,11 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 151.443039 105.519685) (xy 151.488794 105.572489) (xy 151.5 105.624) (xy 151.5 109.999819) (xy 151.480315 110.066858)
-				(xy 151.479103 110.068709) (xy 151.423534 110.151874) (xy 151.374499 110.270255) (xy 151.374497 110.270261)
-				(xy 151.3495 110.395928) (xy 151.3495 112.224138) (xy 151.329815 112.291177) (xy 151.313181 112.311819)
-				(xy 150.661319 112.963681) (xy 150.599996 112.997166) (xy 150.573638 113) (xy 145.034345 113) (xy 144.970548 112.982329)
-				(xy 142.591872 111.555123) (xy 142.544513 111.503752) (xy 142.532446 111.434932) (xy 142.541206 111.401105)
-				(xy 144.968205 105.576308) (xy 145.01216 105.521996) (xy 145.0785 105.50007) (xy 145.082667 105.5)
-				(xy 151.376 105.5)
+				(xy 151.443039 105.519685) (xy 151.488794 105.572489) (xy 151.5 105.624) (xy 151.5 112.073638) (xy 151.480315 112.140677)
+				(xy 151.463681 112.161319) (xy 150.661319 112.963681) (xy 150.599996 112.997166) (xy 150.573638 113)
+				(xy 145.034345 113) (xy 144.970548 112.982329) (xy 142.591872 111.555123) (xy 142.544513 111.503752)
+				(xy 142.532446 111.434932) (xy 142.541206 111.401105) (xy 144.968205 105.576308) (xy 145.01216 105.521996)
+				(xy 145.0785 105.50007) (xy 145.082667 105.5) (xy 151.376 105.5)
 			)
 		)
 	)

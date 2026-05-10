@@ -396,4 +396,15 @@
 			(xyz -90 -0 90)
 		)
 	)
+	(model "${SPEAR_PCB_2026_DIR}/SPEAR_3D_Models/SPEAR_MotorControllerCarrier/tb67s2x9ftg-stepper-motor-driver-carrier.step"
+		(offset
+			(xyz 0 -35.5 8.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
