@@ -1,4 +1,8 @@
 (fp_lib_table
   (version 7)
-  (lib (name "SPEAR_Boards")(type "KiCad")(uri "C:/Users/Ammar/Spear/pcb_designs_2026/SPEAR_Footprints/SPEAR_Boards.pretty")(options "")(descr ""))
+  (lib (name "SPEAR_Boards")(type "KiCad")(uri "${SPEAR_PCB_2026_DIR}/SPEAR_Footprints/SPEAR_Boards.pretty")(options "")(descr ""))
+  (lib (name "BMS footprints")(type "KiCad")(uri "${SPEAR_PCB_2026_DIR}/SPEAR_PCB_Designs/BMS_Carrier_Board/BMS footprints.pretty")(options "")(descr ""))
+  (lib (name "SPEAR_MotorControllerCarrier")(type "KiCad")(uri "${SPEAR_PCB_2026_DIR}/SPEAR_Footprints/SPEAR_MotorControllerCarrier.pretty")(options "")(descr ""))
+  (lib (name "SPEAR_AP63203BuckConverter")(type "KiCad")(uri "${SPEAR_PCB_2026_DIR}/SPEAR_Footprints/SPEAR_AP63203BuckConverter.pretty")(options "")(descr ""))
+  (lib (name "SPEAR_Connectors")(type "KiCad")(uri "${SPEAR_PCB_2026_DIR}/SPEAR_Footprints/SPEAR_Connectors.pretty")(options "")(descr ""))
 )
