@@ -572,7 +572,7 @@
       "plot": "Lan9252Junction",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "LAN9252_Junction.step",
       "svg": "",
       "vrml": ""
     },
