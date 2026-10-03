@@ -1,4 +1,4 @@
-26758005736706573
+26765167535810932
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -21,47 +21,54 @@ C1Q 1.5
 2
 2
 BMS footprints
-CONN_B2B-XH-A_JST
+CONN16_B16B-PHDSS_JST
 
-B2B-XH-A 
+B16B-PHDSS 
+0
+16
+16
+BMS footprints
+CONN_B2B-XH-A_JST
+JST XH series connector, B02B-XH-A, top entry type, through hole
+connector jst xh tht top vertical 2.50mm
 0
 2
 2
 BMS footprints
 CONN_B4B-XH-A_JST
-
-B4B-XH-A 
+JST XH series connector, B04B-XH-A, top entry type, through hole
+connector jst xh tht top vertical 2.50mm
 0
 4
 4
 BMS footprints
 CONN_B7B-XH-A_JST
-
-B7B-XH-A 
+JST XH series connector, B07B-XH-A, top entry type, through hole
+connector jst xh tht top vertical 2.50mm
 0
 7
 7
 BMS footprints
 CONN_B9B-XH-A_JST
-
-B9B-XH-A LFSN 
+JST XH series connector, B09B-XH-A, top entry type, through hole
+connector jst xh tht top vertical 2.50mm
 0
 9
 9
-BMS footprints
-CONN_B10B-XH-A_JST
-
-B10B-XH-A 
-0
-10
-10
 BMS footprints
 CONN_SM02B-GHS_JST
-
-SM02B-GHS-TB 
+JST GH series connector, SM02B-GHS-TB, side entry type
+connector jst GH SMT side horizontal entry 1.25mm pitch
 0
 4
-4
+2
+BMS footprints
+POT_CT-6EP103_NDC
+
+CT-6EP103 
+0
+3
+3
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -97370,6 +97377,20 @@ connector JST XH horizontal
 4
 4
 SPEAR_MotorControllerCarrier
+AP63203WU-7_DIO
+
+AP63203WU-7 
+0
+6
+6
+SPEAR_MotorControllerCarrier
+AP63203WU-7_DIO-L
+
+AP63203WU-7 
+0
+6
+6
+SPEAR_MotorControllerCarrier
 CAPC3225X270N
 
 
@@ -97394,6 +97415,13 @@ SPEAR_MotorControllerCarrier
 CAP_UBY_18X20_NCH
 
 URZ1H102MHD 
+0
+2
+2
+SPEAR_MotorControllerCarrier
+FUSE_36912000440
+
+
 0
 2
 2

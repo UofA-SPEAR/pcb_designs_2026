@@ -17,14 +17,16 @@
 		)
 	)
 	(property "Value" "C1_BEL"
-		(at 0 -2 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "2bd99c46-5e42-48ff-8434-0ea189efc7f7")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.3 0.3)
+				(thickness 0.05)
+				(bold yes)
 			)
 		)
 	)
@@ -245,14 +247,14 @@
 		(uuid "fef3a63a-67fe-4ccb-972c-5d09d61d94d5")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 3 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "aa5fd5b9-3c0d-456a-9cc1-ecdfd536aeb5")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.5 0.5)
+				(thickness 0.05)
 			)
 		)
 	)
