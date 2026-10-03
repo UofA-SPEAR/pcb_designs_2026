@@ -1542,7 +1542,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "C:/Users/sheeb/OneDrive/Documents/IGuessThisIsTheFinalBoard(s)/pcb_designs_2026/SPEAR_PCB_Designs/AP63203BuckConverter/AP63203BuckConverter.kicad_sch"
+		(property "Sheetfile" "../AP63203BuckConverter/AP63203BuckConverter.kicad_sch"
 			(at 201.93 116.1546 0)
 			(effects
 				(font
